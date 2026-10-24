@@ -32,6 +32,7 @@ var hover := -1
 var held := {}                # {uid, from: "grid"/槽名, grab: Vector2i}
 var drag_pos := Vector2.ZERO
 var _press_pos := Vector2.ZERO
+var _touch := -1              # 正在操作的那根手指；网页上 index 是浏览器的 touch.identifier，不一定从 0 起（#35）
 var cursor := {"area": "grid", "cell": Vector2i.ZERO, "slot": "weapon"}
 var cursor_on := false        # 用过手柄 / 键盘才显示光标
 var skill_cursor := 0
@@ -48,6 +49,7 @@ func open() -> void:
 	_flash = ""
 	held = {}
 	selected = -1
+	_touch = -1
 	show()
 	queue_redraw()
 
@@ -55,6 +57,7 @@ func open() -> void:
 func close() -> void:
 	if not held.is_empty():
 		held = {}
+	_touch = -1
 	hide()
 	closed.emit()
 
@@ -199,12 +202,18 @@ func _input(event: InputEvent) -> void:
 		tab = "skills" if tab == "items" else "items"
 		queue_redraw()
 		return
-	# 触屏（手机上不认模拟出来的鼠标事件）
-	if event is InputEventScreenTouch and event.index == 0:
-		_pointer(event.position, event.pressed, false)
-	elif event is InputEventScreenDrag and event.index == 0:
-		drag_pos = event.position
-		queue_redraw()
+	# 触屏（手机上不认模拟出来的鼠标事件）：只跟第一根按下的手指，别的手指忽略
+	if event is InputEventScreenTouch:
+		if event.pressed and _touch < 0:
+			_touch = event.index
+			_pointer(event.position, true, false)
+		elif not event.pressed and event.index == _touch:
+			_touch = -1
+			_pointer(event.position, false, false)
+	elif event is InputEventScreenDrag:
+		if event.index == _touch:
+			drag_pos = event.position
+			queue_redraw()
 	elif event is InputEventMouseButton and not mobile:
 		if event.button_index == MOUSE_BUTTON_LEFT:
 			_pointer(event.position, event.pressed, false)
@@ -224,6 +233,9 @@ func _pointer(p: Vector2, pressed: bool, _right: bool) -> void:
 	cursor_on = false
 	if pressed:
 		_press_pos = p
+		if _close_rect().has_point(p):
+			close()
+			return
 		for b in buttons:
 			if b.rect.has_point(p):
 				b.act.call()
@@ -349,8 +361,11 @@ func _draw() -> void:
 		_draw_items()
 	else:
 		_draw_skills()
-	var close_r := Rect2(panel.end - Vector2(116, 52), Vector2(96, 36))
-	_button(close_r, "关闭", close)
+	_button(_close_rect(), "关闭", close)
+
+
+func _close_rect() -> Rect2:
+	return Rect2(panel.end - Vector2(116, 52), Vector2(96, 36))
 
 
 func _button(r: Rect2, label: String, act: Callable) -> void:
