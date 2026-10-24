@@ -27,6 +27,8 @@ var markers: Array = []        # 开场教学：地上发光的目标点 {pos}
 var flash := 0.0               # 附身醒来的白光，按秒淡出
 var trainer_look := Color("#6B5A48")  # 开场引导人（教闪避的在场 NPC）的衣色
 var hitstop := 0.0             # 由关卡读走：命中停顿
+var hitstop_cd := 0.0          # 重击停顿的冷却：连打时不停了又停（#36），由关卡按世界时间扣
+const HITSTOP_CD := 0.3
 var _anim := {}                # fighter id -> {action, t}：帧动画的当前动作与已播时长
 var hints_muted := false       # 本局关闭合击提示：不画引导光路
 var guide_invites := 2         # AI 发的前两次合击邀请加强引导（规格书第四节：新手五分钟内自发打出第一次合击）
@@ -82,6 +84,14 @@ func _text(pos: Vector2, s: String, color: Color, big := false) -> void:
 	_fx("text", pos + Vector2(randf_range(-6, 6), -40), 0.9, {"s": s, "color": color, "big": big})
 
 
+## 命中停顿：重击在冷却内不再触发（连着几下重击不会停了又停）；major（打断、Boss 大招、弩车破甲）不受冷却限制
+func _stop(secs: float, major := false) -> void:
+	if not major and hitstop_cd > 0.0:
+		return
+	hitstop = maxf(hitstop, secs)
+	hitstop_cd = HITSTOP_CD
+
+
 func _sect_color(f: SimFighter) -> Color:
 	return UiKit.PURPLE if f and f.sect == "xiepai" else UiKit.QI
 
@@ -94,7 +104,7 @@ func _on_event(e: Dictionary) -> void:
 				"color": _sect_color(f), "heavy": e.combo == 3, "id": f.id})
 		"punch":
 			_fx("burst", f.pos + f.facing * 36.0, 0.18, {"vfx": "luohanquan", "color": UiKit.QI, "r": 10.0 + 4.0 * e.n})
-			hitstop = maxf(hitstop, 0.03)
+			# 罗汉拳是多段，原先每拳都停一下，一路顿下去（#36）：现在只放特效
 		"skill":
 			match e.skill:
 				"jiemai":
@@ -121,14 +131,16 @@ func _on_event(e: Dictionary) -> void:
 				_text(e.pos, ("-%d" % e.amount) + ("（架）" if e.guarded else ""), col, e.heavy)
 			if not e.dot:
 				_fx("spark", e.pos + Vector2(0, -16), 0.22, {"color": UiKit.GOLD_WHITE if e.heavy else UiKit.TEXT})
-				hitstop = maxf(hitstop, 0.1 if e.heavy else 0.05)
+				# 停顿冻的是整个画面（#36）：只给玩家打出或挨到的重击，轻击靠火花和震屏；队友和敌人之间的命中不停
+				if e.heavy and (e.get("src", -1) == me_id or e.id == me_id):
+					_stop(0.08)
 				shake = maxf(shake, 2.0 if e.heavy or hero else 1.0)
 		"evade":
 			_text(e.pos, "闪过", TEAL)
 		"interrupt":
 			_text(e.pos, "打断！", BLOOD_TEXT, true)
 			_fx("ring", e.pos + Vector2(0, -16), 0.35, {"color": Color("#BFE8FF"), "r": 28.0})
-			hitstop = maxf(hitstop, 0.12)
+			_stop(0.12, true)
 		"stagger":
 			_text(e.pos + Vector2(0, -16), "失衡！", UiKit.QI, true)
 		"kill":
@@ -170,7 +182,7 @@ func _on_event(e: Dictionary) -> void:
 		"heavy_release":
 			_fx("shock", e.pos, 0.6, {"vfx": "xc_heavy", "r": 300.0})
 			shake = maxf(shake, 4.0)
-			hitstop = maxf(hitstop, 0.15)
+			_stop(0.15, true)
 		"combo_burst":
 			_fx("formation" if e.get("kind", "") == "formation" else "combo", e.point, 0.8 if e.get("kind", "") == "formation" else 0.6,
 				{"vfx": "fumoquan_open" if e.get("kind", "") == "formation" else "moqi_lv%d" % (e.level + 1), "r": e.radius, "level": e.level})
@@ -182,13 +194,13 @@ func _on_event(e: Dictionary) -> void:
 		"quake":
 			_fx("shock", e.pos, 0.7, {"vfx": "quake", "r": 600.0})
 			shake = maxf(shake, 5.0)
-			hitstop = maxf(hitstop, 0.1)
+			_stop(0.1, true)
 		"bolt_fire":
 			shake = maxf(shake, 1.0 + e.tier)
 		"breach":
 			_fx("burst", e.pos + Vector2(0, -30), 0.5, {"vfx": "bolt_hit", "color": BREACH, "r": 18.0 + 8.0 * e.tier})
 			_text(e.pos + Vector2(0, -20), ["小裂口", "裂口", "大裂口"][e.tier], BREACH, e.tier == 2)
-			hitstop = maxf(hitstop, 0.08 + 0.04 * e.tier)
+			_stop(0.08 + 0.04 * e.tier, true)
 		"deflect":
 			_text(e.pos + Vector2(0, -30), "撞偏！", UiKit.QI, true)
 			_fx("ring", e.pos + Vector2(0, -30), 0.5, {"vfx": "deflect", "color": UiKit.GOLD_WHITE, "r": 60.0})

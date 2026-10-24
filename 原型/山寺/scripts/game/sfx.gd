@@ -93,6 +93,23 @@ static func apply_volumes(settings: Dictionary) -> void:
 		AudioServer.set_bus_mute(i, v <= 0.001)
 
 
+## 预热：每调一次合成一个还没缓存的音效，全部合成完返回 true。第一次播放时才现合成，
+## 网页上一个音效要几十到上百毫秒，正好卡在命中那一帧（#36）；开始界面起每帧预热一个，进战斗前就都备好了
+static func warm_next() -> bool:
+	if not _cache.has("_drone"):
+		_cache["_drone"] = _drone()
+		return false
+	for k in RECIPES:
+		if not _cache.has(k):
+			_cache[k] = synth(RECIPES[k], false)
+			return false
+	return true
+
+
+static func _drone() -> AudioStreamWAV:
+	return synth([["sine", 55, 55, 8.0, 0.14, 0.0], ["sine", 82.5, 82.5, 8.0, 0.08, 0.0], ["noise", 0, 0, 8.0, 0.015, 0.0]], true)
+
+
 static func stream(sound: String) -> AudioStreamWAV:
 	if not _cache.has(sound):
 		_cache[sound] = synth(RECIPES[sound], false)
@@ -172,7 +189,7 @@ func play_music() -> void:
 	_music = AudioStreamPlayer.new()
 	_music.bus = "Music"
 	if not _cache.has("_drone"):
-		_cache["_drone"] = synth([["sine", 55, 55, 8.0, 0.14, 0.0], ["sine", 82.5, 82.5, 8.0, 0.08, 0.0], ["noise", 0, 0, 8.0, 0.015, 0.0]], true)
+		_cache["_drone"] = _drone()
 	_music.stream = _cache["_drone"]
 	add_child(_music)
 	_music.play()

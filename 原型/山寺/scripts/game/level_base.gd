@@ -31,6 +31,7 @@ var _save_t := 0.0
 var _dirty := false
 var _skip_freeze := false   # 合击定格时点了屏幕：跳过定格
 var _swallow_t := 0.0     # 对话 / 物品栏刚关上：吞掉这一下按键，免得关对话的 E 顺手熄了火把
+var _held_cmd: SimCommand  # 命中停顿时按下 / 松开的键先攒着，停顿一过并进下一步（#36：停顿中按键会丢）
 var freeze_rect: TextureRect
 var pause_layer: Control
 var stage := "intro"
@@ -170,10 +171,22 @@ func _physics_process(dt: float) -> void:
 		return
 	if profile.tick_study(dt):
 		_dirty = true
+	view.hitstop_cd = maxf(0.0, view.hitstop_cd - dt)
 	if view.hitstop > 0.0:
 		view.hitstop -= dt
+		if not autoplay:
+			var held := player_command()
+			if _held_cmd == null:
+				_held_cmd = held
+			else:
+				_held_cmd.pressed.merge(held.pressed)
+				_held_cmd.released.merge(held.released)
 		return
 	var pc := player_command()
+	if _held_cmd != null:
+		pc.pressed.merge(_held_cmd.pressed)
+		pc.released.merge(_held_cmd.released)
+		_held_cmd = null
 	if _swallow_t > 0.0:
 		# 阻塞的对话 / 物品栏 / 暂停刚关：只吞关掉它的确认键（交谈、普攻），闪避和技能照常
 		_swallow_t -= dt
