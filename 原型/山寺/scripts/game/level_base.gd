@@ -8,6 +8,9 @@ signal quit_to_title
 
 const DT := 1.0 / 60.0
 const CAMERA_LEAD := 36.0   # 镜头朝瞄准方向的提前量（规格书第五节）
+## 电脑底部技能栏的高度：镜头允许往地图下沿外多走这么多，站在地图最下面时人、出口、敌人也能升到技能栏上方，
+## 不再被技能栏挡住（栏下露出的是地图外的底色，正好被技能栏盖着）。手机的按键在两角，另有避让（#28）
+const DESK_BAR_PAD := 112
 
 var sect := "shaolin"
 var origin := ""             # 出身（Story.ORIGINS 之一）：只影响开场、进寺对话与 Boss 一收尾，不改任何战斗数值
@@ -162,6 +165,7 @@ func _blocking_dialogue() -> bool:
 
 
 func _physics_process(dt: float) -> void:
+	dialogue.mobile = hud.mobile
 	freeze_rect.visible = world.freeze_t > 0.0 and profile.settings.get("freeze", true)
 	hud.visible = not _blocking_dialogue() and not inventory_ui.visible  # 阻塞对话、物品栏开着时收起战斗界面
 	_update_camera(dt)
@@ -288,6 +292,7 @@ func _update_camera(dt: float) -> void:
 	if me.state == "aim" or me.state == "charge":
 		lead = me.aim_dir
 	camera.position = me.pos + lead * CAMERA_LEAD + Vector2(0, -16)
+	camera.limit_bottom = int(map_size.y) + (0 if hud.mobile else DESK_BAR_PAD)
 	if view.shake > 0.0 and not profile.settings.get("shake", true):
 		view.shake = 0.0  # 设置里关了屏幕震动
 	if view.shake > 0.0:
@@ -359,6 +364,7 @@ func interact_hint(points: Array) -> Variant:
 		if p[0].distance_to(me.pos) < 48.0 and (best == null or p[0].distance_to(me.pos) < best[0].distance_to(me.pos)):
 			best = p
 	hud.can_talk = best != null
+	hud.talk_label = "" if best == null else String(best[1]).get_slice("（", 0)  # 手机键上写要做的事（熄灭火把、上弩车），不再一律写「交谈」
 	view.hint_text = "" if best == null else ("" if hud.mobile else "E ") + best[1]
 	if best != null:
 		view.hint_pos = best[0] + Vector2(0, -72)
@@ -435,7 +441,27 @@ func _make_settings() -> Control:
 	hints.text = "本局关闭合击提示"
 	hints.toggled.connect(set_combo_hints_muted)
 	panel.add_child(hints)
+	for b in [freeze, shake, hints]:
+		b.add_theme_icon_override("unchecked", _switch_off(b.get_theme_icon("checked").get_size()))
 	return panel
+
+
+## 开关「关」的图：默认主题的关状态是深色底上一个小圆点，墨底面板上只看得见圆点，像没有开关（这一项默认就是关的）。
+## 画一条看得见的灰色轨道、圆点在左，尺寸跟「开」的图一致
+static func _switch_off(size: Vector2) -> Texture2D:
+	var w := int(size.x)
+	var h := int(size.y)
+	var img := Image.create(w, h, false, Image.FORMAT_RGBA8)
+	var r := h * 0.4
+	var cy := h * 0.5
+	for y in h:
+		for x in w:
+			var dx := maxf(0.0, maxf(cy - x, x - (w - cy)))
+			if Vector2(dx, y - cy).length() <= r:
+				img.set_pixel(x, y, UiKit.MUTED)
+			if Vector2(x - cy, y - cy).length() <= r * 0.75:
+				img.set_pixel(x, y, UiKit.TEXT)
+	return ImageTexture.create_from_image(img)
 
 
 ## 本局关闭合击提示（接口在世界的 combo.muted，按英雄记；界面不再弹邀请框、不响提示音、不画引导）。

@@ -88,8 +88,10 @@ func test_title_and_origin_text_fit() -> void:
 		if c is Button and c.get_child_count() >= 3:
 			var desc: Label = c.get_child(c.get_child_count() - 2)
 			cards += 1
-			check(desc.size.x <= c.size.x - 24.0 + 0.5, "%s 的介绍宽 %d，超出卡片" % [desc.text.left(4), int(desc.size.x)])
+			check(desc.position.x + desc.size.x <= c.size.x - 4.0, "%s 的介绍宽 %d，超出卡片" % [desc.text.left(4), int(desc.size.x)])
 			check(desc.get_line_count() > 1, "%s 的介绍没有换行" % desc.text.left(4))
+			for line in desc.text.split("\n"):
+				check(not "，。、；：！？".contains(line.left(1)), "%s 的介绍有一行以标点开头：%s" % [desc.text.left(4), line])
 			check(desc.get_line_count() * 20 <= desc.size.y, "%s 的介绍放不下" % desc.text.left(4))
 	check_eq(cards, 4, "四张出身卡片")
 	m.free()
