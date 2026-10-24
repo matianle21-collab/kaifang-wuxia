@@ -1,0 +1,3617 @@
+[
+  {
+    "file": "assets/chr/chr_xiepai_atk1_down_v01.png",
+    "action": "atk1",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "loop": false,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2
+    ],
+    "head_embedded": true,
+    "weapon_embedded": "one Chinese dao",
+    "hold_frames": [],
+    "end_behavior": "return_to_idle_by_controller",
+    "phase": {
+      "windup": [
+        0
+      ],
+      "strike": [
+        1
+      ],
+      "recover": [
+        2
+      ]
+    },
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+        "source_row_col": [
+          0,
+          0
+        ],
+        "component": {
+          "id": 1,
+          "box": [
+            57,
+            62,
+            142,
+            221
+          ],
+          "centroid": [
+            117.9,
+            180.2
+          ]
+        },
+        "uniform_scale": 0.19902912621359223,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          28,
+          44
+        ],
+        "registered_offset": [
+          14,
+          17
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            2.0,
+            43
+          ],
+          [
+            18.5,
+            41
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.25,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+        "source_row_col": [
+          0,
+          1
+        ],
+        "component": {
+          "id": 5,
+          "box": [
+            271,
+            91,
+            114,
+            192
+          ],
+          "centroid": [
+            327.6,
+            194.3
+          ]
+        },
+        "uniform_scale": 0.19902912621359223,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          23,
+          38
+        ],
+        "registered_offset": [
+          8,
+          23
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            20.0,
+            37
+          ],
+          [
+            12.0,
+            36
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+        "source_row_col": [
+          0,
+          2
+        ],
+        "component": {
+          "id": 3,
+          "box": [
+            490,
+            90,
+            142,
+            190
+          ],
+          "centroid": [
+            550.2,
+            186.9
+          ]
+        },
+        "uniform_scale": 0.19902912621359223,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          28,
+          38
+        ],
+        "registered_offset": [
+          13,
+          23
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            19.5,
+            36
+          ],
+          [
+            2.0,
+            37
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          -0.25,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_atk2_down_v01.png",
+    "action": "atk2",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "loop": false,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2
+    ],
+    "head_embedded": true,
+    "weapon_embedded": "one Chinese dao",
+    "hold_frames": [],
+    "end_behavior": "return_to_idle_by_controller",
+    "phase": {
+      "windup": [
+        0
+      ],
+      "strike": [
+        1
+      ],
+      "recover": [
+        2
+      ]
+    },
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+        "source_row_col": [
+          0,
+          3
+        ],
+        "component": {
+          "id": 2,
+          "box": [
+            709,
+            75,
+            138,
+            208
+          ],
+          "centroid": [
+            781.9,
+            178.9
+          ]
+        },
+        "uniform_scale": 0.19902912621359223,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          27,
+          41
+        ],
+        "registered_offset": [
+          9,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            24.5,
+            40
+          ],
+          [
+            5.5,
+            38
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+        "source_row_col": [
+          0,
+          4
+        ],
+        "component": {
+          "id": 4,
+          "box": [
+            932,
+            90,
+            178,
+            193
+          ],
+          "centroid": [
+            999.5,
+            191.8
+          ]
+        },
+        "uniform_scale": 0.19902912621359223,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          35,
+          38
+        ],
+        "registered_offset": [
+          11,
+          23
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            24.5,
+            37
+          ],
+          [
+            2.0,
+            35
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.25,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+        "source_row_col": [
+          0,
+          5
+        ],
+        "component": {
+          "id": 6,
+          "box": [
+            1149,
+            110,
+            172,
+            173
+          ],
+          "centroid": [
+            1215.6,
+            208.7
+          ]
+        },
+        "uniform_scale": 0.19902912621359223,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          34,
+          34
+        ],
+        "registered_offset": [
+          11,
+          27
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            23.0,
+            33
+          ],
+          [
+            2.5,
+            31
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          -0.25,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_atk3_down_v01.png",
+    "action": "atk3",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "loop": false,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2
+    ],
+    "head_embedded": true,
+    "weapon_embedded": "one Chinese dao",
+    "hold_frames": [],
+    "end_behavior": "return_to_idle_by_controller",
+    "phase": {
+      "windup": [
+        0
+      ],
+      "strike": [
+        1
+      ],
+      "recover": [
+        2
+      ]
+    },
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+        "source_row_col": [
+          1,
+          0
+        ],
+        "component": {
+          "id": 10,
+          "box": [
+            41,
+            321,
+            128,
+            251
+          ],
+          "centroid": [
+            106.9,
+            472.4
+          ]
+        },
+        "uniform_scale": 0.19902912621359223,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          25,
+          50
+        ],
+        "registered_offset": [
+          12,
+          11
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            22.0,
+            49
+          ],
+          [
+            1.5,
+            49
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          -0.25,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+        "source_row_col": [
+          1,
+          1
+        ],
+        "component": {
+          "id": 11,
+          "box": [
+            270,
+            387,
+            117,
+            201
+          ],
+          "centroid": [
+            330.0,
+            492.6
+          ]
+        },
+        "uniform_scale": 0.19902912621359223,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          23,
+          40
+        ],
+        "registered_offset": [
+          13,
+          21
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            20.0,
+            37
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+        "source_row_col": [
+          1,
+          2
+        ],
+        "component": {
+          "id": 13,
+          "box": [
+            482,
+            417,
+            178,
+            167
+          ],
+          "centroid": [
+            552.4,
+            510.5
+          ]
+        },
+        "uniform_scale": 0.19902912621359223,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          35,
+          33
+        ],
+        "registered_offset": [
+          10,
+          28
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            23.0,
+            32
+          ],
+          [
+            4.5,
+            28
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          -0.25,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_hit_down_v01.png",
+    "action": "hit",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 2,
+    "fps": 12,
+    "loop": false,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1
+    ],
+    "head_embedded": true,
+    "weapon_embedded": "one Chinese dao",
+    "hold_frames": [],
+    "end_behavior": "return_to_idle_by_controller",
+    "phase": null,
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+        "source_row_col": [
+          1,
+          3
+        ],
+        "component": {
+          "id": 12,
+          "box": [
+            709,
+            391,
+            130,
+            192
+          ],
+          "centroid": [
+            765.7,
+            490.7
+          ]
+        },
+        "uniform_scale": 0.19902912621359223,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          26,
+          38
+        ],
+        "registered_offset": [
+          11,
+          23
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            3.5,
+            37
+          ],
+          [
+            23.0,
+            35
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.25,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+        "source_row_col": [
+          1,
+          4
+        ],
+        "component": {
+          "id": 14,
+          "box": [
+            921,
+            433,
+            159,
+            147
+          ],
+          "centroid": [
+            998.1,
+            510.1
+          ]
+        },
+        "uniform_scale": 0.19902912621359223,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          32,
+          29
+        ],
+        "registered_offset": [
+          8,
+          32
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            23.5,
+            28
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          -0.5,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_roll_down_v01.png",
+    "action": "roll",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "loop": false,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "head_embedded": true,
+    "weapon_embedded": "one Chinese dao",
+    "hold_frames": [],
+    "end_behavior": "return_to_idle_by_controller",
+    "phase": null,
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+        "source_row_col": [
+          2,
+          0
+        ],
+        "component": {
+          "id": 18,
+          "box": [
+            46,
+            749,
+            153,
+            124
+          ],
+          "centroid": [
+            115.5,
+            822.0
+          ]
+        },
+        "uniform_scale": 0.19902912621359223,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          30,
+          25
+        ],
+        "registered_offset": [
+          10,
+          36
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            15.5,
+            24
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.5,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+        "source_row_col": [
+          2,
+          1
+        ],
+        "component": {
+          "id": 16,
+          "box": [
+            269,
+            712,
+            151,
+            164
+          ],
+          "centroid": [
+            333.1,
+            797.6
+          ]
+        },
+        "uniform_scale": 0.19902912621359223,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          30,
+          33
+        ],
+        "registered_offset": [
+          10,
+          28
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            13.0,
+            32
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.5,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+        "source_row_col": [
+          2,
+          2
+        ],
+        "component": {
+          "id": 17,
+          "box": [
+            464,
+            746,
+            176,
+            127
+          ],
+          "centroid": [
+            561.1,
+            816.3
+          ]
+        },
+        "uniform_scale": 0.19902912621359223,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          35,
+          25
+        ],
+        "registered_offset": [
+          5,
+          37
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            7.0,
+            23
+          ],
+          [
+            31.5,
+            22
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.25,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+        "source_row_col": [
+          2,
+          3
+        ],
+        "component": {
+          "id": 15,
+          "box": [
+            721,
+            667,
+            131,
+            206
+          ],
+          "centroid": [
+            775.1,
+            769.5
+          ]
+        },
+        "uniform_scale": 0.19902912621359223,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          26,
+          41
+        ],
+        "registered_offset": [
+          14,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            2.0,
+            40
+          ],
+          [
+            18.0,
+            37
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_down_down_v01.png",
+    "action": "down",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "loop": false,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "head_embedded": true,
+    "weapon_embedded": "one Chinese dao",
+    "hold_frames": [
+      3
+    ],
+    "end_behavior": "hold_last_until_state_change",
+    "phase": null,
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+        "source_row_col": [
+          3,
+          0
+        ],
+        "component": {
+          "id": 19,
+          "box": [
+            29,
+            1037,
+            164,
+            131
+          ],
+          "centroid": [
+            115.9,
+            1107.6
+          ]
+        },
+        "uniform_scale": 0.19902912621359223,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          33,
+          26
+        ],
+        "registered_offset": [
+          8,
+          35
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            16.142857142857142,
+            25
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+        "source_row_col": [
+          3,
+          1
+        ],
+        "component": {
+          "id": 20,
+          "box": [
+            239,
+            1072,
+            196,
+            89
+          ],
+          "centroid": [
+            332.4,
+            1121.5
+          ]
+        },
+        "uniform_scale": 0.19902912621359223,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          39,
+          18
+        ],
+        "registered_offset": [
+          5,
+          43
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            17.5,
+            17
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+        "source_row_col": [
+          3,
+          2
+        ],
+        "component": {
+          "id": 21,
+          "box": [
+            460,
+            1079,
+            192,
+            82
+          ],
+          "centroid": [
+            547.9,
+            1122.8
+          ]
+        },
+        "uniform_scale": 0.19902912621359223,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          38,
+          16
+        ],
+        "registered_offset": [
+          6,
+          45
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            23.0,
+            15
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.5,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+        "source_row_col": [
+          3,
+          3
+        ],
+        "component": {
+          "id": 22,
+          "box": [
+            675,
+            1080,
+            196,
+            85
+          ],
+          "centroid": [
+            765.6,
+            1125.6
+          ]
+        },
+        "uniform_scale": 0.19902912621359223,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          39,
+          17
+        ],
+        "registered_offset": [
+          5,
+          44
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            23.5,
+            16
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_atk1_left_v01.png",
+    "action": "atk1",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "loop": false,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2
+    ],
+    "head_embedded": true,
+    "weapon_embedded": "one Chinese dao",
+    "hold_frames": [],
+    "end_behavior": "return_to_idle_by_controller",
+    "phase": {
+      "windup": [
+        0
+      ],
+      "strike": [
+        1
+      ],
+      "recover": [
+        2
+      ]
+    },
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_combat_left_source_v01.png",
+        "source_row_col": [
+          0,
+          0
+        ],
+        "component": {
+          "id": 2,
+          "box": [
+            28,
+            92,
+            173,
+            201
+          ],
+          "centroid": [
+            113.7,
+            197.5
+          ]
+        },
+        "uniform_scale": 0.21025641025641026,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          36,
+          42
+        ],
+        "registered_offset": [
+          6,
+          19
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            6.5,
+            41
+          ],
+          [
+            28.5,
+            41
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          -0.5,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_combat_four_compact_source_v01.png",
+        "source_row_col": [
+          0,
+          0
+        ],
+        "component": {
+          "id": 1,
+          "box": [
+            132,
+            157,
+            356,
+            411
+          ],
+          "centroid": [
+            308.3,
+            385.7
+          ]
+        },
+        "uniform_scale": 0.09975669099756691,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          36,
+          41
+        ],
+        "registered_offset": [
+          4,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            32.5,
+            40
+          ],
+          [
+            7.5,
+            40
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_combat_four_compact_source_v01.png",
+        "source_row_col": [
+          0,
+          1
+        ],
+        "component": {
+          "id": 2,
+          "box": [
+            692,
+            157,
+            328,
+            411
+          ],
+          "centroid": [
+            847.6,
+            384.5
+          ]
+        },
+        "uniform_scale": 0.09975669099756691,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          33,
+          41
+        ],
+        "registered_offset": [
+          7,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            29.5,
+            40
+          ],
+          [
+            4.0,
+            40
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          -0.25,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_atk2_left_v01.png",
+    "action": "atk2",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "loop": false,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2
+    ],
+    "head_embedded": true,
+    "weapon_embedded": "one Chinese dao",
+    "hold_frames": [],
+    "end_behavior": "return_to_idle_by_controller",
+    "phase": {
+      "windup": [
+        0
+      ],
+      "strike": [
+        1
+      ],
+      "recover": [
+        2
+      ]
+    },
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_combat_left_source_v01.png",
+        "source_row_col": [
+          0,
+          3
+        ],
+        "component": {
+          "id": 1,
+          "box": [
+            695,
+            59,
+            154,
+            234
+          ],
+          "centroid": [
+            769.9,
+            193.9
+          ]
+        },
+        "uniform_scale": 0.21025641025641026,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          32,
+          49
+        ],
+        "registered_offset": [
+          10,
+          12
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            3.0,
+            48
+          ],
+          [
+            25.0,
+            48
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_combat_left_source_v01.png",
+        "source_row_col": [
+          0,
+          4
+        ],
+        "component": {
+          "id": 5,
+          "box": [
+            896,
+            105,
+            183,
+            188
+          ],
+          "centroid": [
+            980.1,
+            208.7
+          ]
+        },
+        "uniform_scale": 0.21025641025641026,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          38,
+          40
+        ],
+        "registered_offset": [
+          4,
+          21
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            34.0,
+            39
+          ],
+          [
+            5.0,
+            39
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          -0.5,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_combat_left_source_v01.png",
+        "source_row_col": [
+          0,
+          5
+        ],
+        "component": {
+          "id": 6,
+          "box": [
+            1118,
+            105,
+            200,
+            188
+          ],
+          "centroid": [
+            1222.4,
+            211.2
+          ]
+        },
+        "uniform_scale": 0.21025641025641026,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          42,
+          40
+        ],
+        "registered_offset": [
+          1,
+          21
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            35.5,
+            39
+          ],
+          [
+            11.0,
+            39
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.25,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_atk3_left_v01.png",
+    "action": "atk3",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "loop": false,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2
+    ],
+    "head_embedded": true,
+    "weapon_embedded": "one Chinese dao",
+    "hold_frames": [],
+    "end_behavior": "return_to_idle_by_controller",
+    "phase": {
+      "windup": [
+        0
+      ],
+      "strike": [
+        1
+      ],
+      "recover": [
+        2
+      ]
+    },
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_combat_left_source_v01.png",
+        "source_row_col": [
+          1,
+          0
+        ],
+        "component": {
+          "id": 8,
+          "box": [
+            42,
+            335,
+            148,
+            273
+          ],
+          "centroid": [
+            105.9,
+            496.4
+          ]
+        },
+        "uniform_scale": 0.21025641025641026,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          31,
+          57
+        ],
+        "registered_offset": [
+          10,
+          4
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            27.5,
+            56
+          ],
+          [
+            1.5,
+            56
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.5,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_combat_left_weaponfix_source_v01.png",
+        "source_row_col": [
+          1,
+          1
+        ],
+        "component": {
+          "id": 10,
+          "box": [
+            242,
+            437,
+            184,
+            174
+          ],
+          "centroid": [
+            329.2,
+            533.0
+          ]
+        },
+        "uniform_scale": 0.20812182741116753,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          38,
+          36
+        ],
+        "registered_offset": [
+          4,
+          25
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            6.0,
+            34
+          ],
+          [
+            34.5,
+            35
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.25,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_combat_left_source_v01.png",
+        "source_row_col": [
+          1,
+          2
+        ],
+        "component": {
+          "id": 12,
+          "box": [
+            445,
+            451,
+            216,
+            158
+          ],
+          "centroid": [
+            564.1,
+            545.1
+          ]
+        },
+        "uniform_scale": 0.21025641025641026,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          45,
+          33
+        ],
+        "registered_offset": [
+          2,
+          28
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            39.833333333333336,
+            32
+          ],
+          [
+            2.5,
+            31
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          -1,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          -0.8333333333333321,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_hit_left_v01.png",
+    "action": "hit",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 2,
+    "fps": 12,
+    "loop": false,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1
+    ],
+    "head_embedded": true,
+    "weapon_embedded": "one Chinese dao",
+    "hold_frames": [],
+    "end_behavior": "return_to_idle_by_controller",
+    "phase": null,
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_combat_left_source_v01.png",
+        "source_row_col": [
+          1,
+          3
+        ],
+        "component": {
+          "id": 10,
+          "box": [
+            679,
+            429,
+            183,
+            174
+          ],
+          "centroid": [
+            782.3,
+            518.2
+          ]
+        },
+        "uniform_scale": 0.21025641025641026,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          38,
+          37
+        ],
+        "registered_offset": [
+          1,
+          24
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            13.0,
+            36
+          ],
+          [
+            35.0,
+            36
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          1,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          1.0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_combat_four_compact_source_v01.png",
+        "source_row_col": [
+          0,
+          2
+        ],
+        "component": {
+          "id": 3,
+          "box": [
+            1167,
+            192,
+            395,
+            357
+          ],
+          "centroid": [
+            1348.5,
+            387.9
+          ]
+        },
+        "uniform_scale": 0.09975669099756691,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          39,
+          36
+        ],
+        "registered_offset": [
+          1,
+          25
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            36.0,
+            35
+          ],
+          [
+            14.0,
+            35
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          2,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          2.0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_roll_left_v01.png",
+    "action": "roll",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "loop": false,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "head_embedded": true,
+    "weapon_embedded": "one Chinese dao",
+    "hold_frames": [],
+    "end_behavior": "return_to_idle_by_controller",
+    "phase": null,
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_combat_left_source_v01.png",
+        "source_row_col": [
+          2,
+          0
+        ],
+        "component": {
+          "id": 16,
+          "box": [
+            25,
+            765,
+            182,
+            128
+          ],
+          "centroid": [
+            128.8,
+            833.3
+          ]
+        },
+        "uniform_scale": 0.21025641025641026,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          38,
+          27
+        ],
+        "registered_offset": [
+          6,
+          34
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            23.0,
+            26
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.5,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_combat_left_source_v01.png",
+        "source_row_col": [
+          2,
+          1
+        ],
+        "component": {
+          "id": 14,
+          "box": [
+            262,
+            721,
+            154,
+            162
+          ],
+          "centroid": [
+            337.5,
+            811.5
+          ]
+        },
+        "uniform_scale": 0.21025641025641026,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          32,
+          34
+        ],
+        "registered_offset": [
+          8,
+          27
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            16.5,
+            33
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          -0.5,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_combat_left_source_v01.png",
+        "source_row_col": [
+          2,
+          2
+        ],
+        "component": {
+          "id": 15,
+          "box": [
+            451,
+            753,
+            208,
+            140
+          ],
+          "centroid": [
+            547.9,
+            836.9
+          ]
+        },
+        "uniform_scale": 0.21025641025641026,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          44,
+          29
+        ],
+        "registered_offset": [
+          2,
+          32
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            25.428571428571427,
+            28
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          -0.5,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source": "assets/ref/ref_chr_xiepai_combat_left_source_v01.png",
+        "source_row_col": [
+          2,
+          3
+        ],
+        "component": {
+          "id": 13,
+          "box": [
+            686,
+            698,
+            185,
+            195
+          ],
+          "centroid": [
+            788.8,
+            801.9
+          ]
+        },
+        "uniform_scale": 0.21025641025641026,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          39,
+          41
+        ],
+        "registered_offset": [
+          2,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            11.0,
+            40
+          ],
+          [
+            33.0,
+            40
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_down_left_v01.png",
+    "action": "down",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "loop": false,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "head_embedded": true,
+    "weapon_embedded": "one Chinese dao",
+    "hold_frames": [
+      3
+    ],
+    "end_behavior": "hold_last_until_state_change",
+    "phase": null,
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_combat_left_source_v01.png",
+        "source_row_col": [
+          3,
+          0
+        ],
+        "component": {
+          "id": 17,
+          "box": [
+            25,
+            998,
+            170,
+            162
+          ],
+          "centroid": [
+            108.1,
+            1084.2
+          ]
+        },
+        "uniform_scale": 0.21025641025641026,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          36,
+          34
+        ],
+        "registered_offset": [
+          2,
+          27
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            32.0,
+            33
+          ],
+          [
+            11.5,
+            33
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          -0.25,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_combat_left_source_v01.png",
+        "source_row_col": [
+          3,
+          1
+        ],
+        "component": {
+          "id": 18,
+          "box": [
+            218,
+            1049,
+            218,
+            111
+          ],
+          "centroid": [
+            315.7,
+            1112.2
+          ]
+        },
+        "uniform_scale": 0.21025641025641026,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          46,
+          23
+        ],
+        "registered_offset": [
+          1,
+          38
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            24.153846153846153,
+            22
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          -1,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          -0.5,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_combat_left_source_v01.png",
+        "source_row_col": [
+          3,
+          2
+        ],
+        "component": {
+          "id": 19,
+          "box": [
+            452,
+            1083,
+            204,
+            77
+          ],
+          "centroid": [
+            543.3,
+            1124.1
+          ]
+        },
+        "uniform_scale": 0.21025641025641026,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          43,
+          16
+        ],
+        "registered_offset": [
+          3,
+          45
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            15.0,
+            15
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source": "assets/ref/ref_chr_xiepai_combat_left_source_v01.png",
+        "source_row_col": [
+          3,
+          3
+        ],
+        "component": {
+          "id": 20,
+          "box": [
+            672,
+            1083,
+            222,
+            77
+          ],
+          "centroid": [
+            771.5,
+            1126.7
+          ]
+        },
+        "uniform_scale": 0.21025641025641026,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          47,
+          16
+        ],
+        "registered_offset": [
+          1,
+          45
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            18.0,
+            15
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_atk1_up_v01.png",
+    "action": "atk1",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "loop": false,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2
+    ],
+    "head_embedded": true,
+    "weapon_embedded": "one Chinese dao",
+    "hold_frames": [],
+    "end_behavior": "return_to_idle_by_controller",
+    "phase": {
+      "windup": [
+        0
+      ],
+      "strike": [
+        1
+      ],
+      "recover": [
+        2
+      ]
+    },
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_combat_up_weaponfix_source_v01.png",
+        "source_row_col": [
+          0,
+          0
+        ],
+        "component": {
+          "id": 2,
+          "box": [
+            32,
+            66,
+            158,
+            220
+          ],
+          "centroid": [
+            111.0,
+            182.9
+          ]
+        },
+        "uniform_scale": 0.19806763285024154,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          31,
+          44
+        ],
+        "registered_offset": [
+          10,
+          17
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            7.0,
+            43
+          ],
+          [
+            22.0,
+            41
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.5,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_combat_up_weaponfix_source_v01.png",
+        "source_row_col": [
+          0,
+          1
+        ],
+        "component": {
+          "id": 1,
+          "box": [
+            301,
+            28,
+            107,
+            252
+          ],
+          "centroid": [
+            350.7,
+            169.7
+          ]
+        },
+        "uniform_scale": 0.19806763285024154,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          21,
+          50
+        ],
+        "registered_offset": [
+          16,
+          11
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            3.0,
+            49
+          ],
+          [
+            12.0,
+            45
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          -0.5,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_combat_up_weaponfix_source_v01.png",
+        "source_row_col": [
+          0,
+          2
+        ],
+        "component": {
+          "id": 3,
+          "box": [
+            503,
+            89,
+            154,
+            196
+          ],
+          "centroid": [
+            561.4,
+            184.3
+          ]
+        },
+        "uniform_scale": 0.19806763285024154,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          31,
+          39
+        ],
+        "registered_offset": [
+          14,
+          22
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            18.0,
+            38
+          ],
+          [
+            3.0,
+            34
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.5,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_atk2_up_v01.png",
+    "action": "atk2",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "loop": false,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2
+    ],
+    "head_embedded": true,
+    "weapon_embedded": "one Chinese dao",
+    "hold_frames": [],
+    "end_behavior": "return_to_idle_by_controller",
+    "phase": {
+      "windup": [
+        0
+      ],
+      "strike": [
+        1
+      ],
+      "recover": [
+        2
+      ]
+    },
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_combat_up_weaponfix_source_v01.png",
+        "source_row_col": [
+          0,
+          3
+        ],
+        "component": {
+          "id": 4,
+          "box": [
+            698,
+            89,
+            162,
+            198
+          ],
+          "centroid": [
+            769.5,
+            191.3
+          ]
+        },
+        "uniform_scale": 0.19806763285024154,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          32,
+          39
+        ],
+        "registered_offset": [
+          12,
+          22
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            2.5,
+            38
+          ],
+          [
+            20.5,
+            36
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          -0.5,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_combat_up_cutfix_source_v01.png",
+        "source_row_col": [
+          0,
+          0
+        ],
+        "component": {
+          "id": 1,
+          "box": [
+            420,
+            265,
+            533,
+            638
+          ],
+          "centroid": [
+            667.2,
+            620.3
+          ]
+        },
+        "uniform_scale": 0.05956112852664577,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          32,
+          38
+        ],
+        "registered_offset": [
+          11,
+          23
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            2.5,
+            37
+          ],
+          [
+            23.0,
+            37
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          -0.25,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_combat_up_weaponfix_source_v01.png",
+        "source_row_col": [
+          0,
+          5
+        ],
+        "component": {
+          "id": 6,
+          "box": [
+            1132,
+            128,
+            158,
+            158
+          ],
+          "centroid": [
+            1214.3,
+            220.7
+          ]
+        },
+        "uniform_scale": 0.19806763285024154,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          31,
+          31
+        ],
+        "registered_offset": [
+          9,
+          30
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            15.5,
+            30
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_atk3_up_v01.png",
+    "action": "atk3",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "loop": false,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2
+    ],
+    "head_embedded": true,
+    "weapon_embedded": "one Chinese dao",
+    "hold_frames": [],
+    "end_behavior": "return_to_idle_by_controller",
+    "phase": {
+      "windup": [
+        0
+      ],
+      "strike": [
+        1
+      ],
+      "recover": [
+        2
+      ]
+    },
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_combat_up_weaponfix_source_v01.png",
+        "source_row_col": [
+          1,
+          0
+        ],
+        "component": {
+          "id": 7,
+          "box": [
+            46,
+            323,
+            123,
+            266
+          ],
+          "centroid": [
+            110.4,
+            480.6
+          ]
+        },
+        "uniform_scale": 0.19806763285024154,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          24,
+          53
+        ],
+        "registered_offset": [
+          13,
+          8
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            20.5,
+            52
+          ],
+          [
+            2.0,
+            52
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.25,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_combat_up_weaponfix_source_v01.png",
+        "source_row_col": [
+          1,
+          1
+        ],
+        "component": {
+          "id": 9,
+          "box": [
+            254,
+            419,
+            179,
+            166
+          ],
+          "centroid": [
+            336.5,
+            512.1
+          ]
+        },
+        "uniform_scale": 0.19806763285024154,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          35,
+          33
+        ],
+        "registered_offset": [
+          10,
+          28
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            2.5,
+            32
+          ],
+          [
+            26.0,
+            31
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.25,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_combat_up_weaponfix_source_v01.png",
+        "source_row_col": [
+          1,
+          2
+        ],
+        "component": {
+          "id": 11,
+          "box": [
+            466,
+            446,
+            171,
+            139
+          ],
+          "centroid": [
+            556.3,
+            528.5
+          ]
+        },
+        "uniform_scale": 0.19806763285024154,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          34,
+          28
+        ],
+        "registered_offset": [
+          8,
+          33
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            17.307692307692307,
+            27
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.5,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_hit_up_v01.png",
+    "action": "hit",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 2,
+    "fps": 12,
+    "loop": false,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1
+    ],
+    "head_embedded": true,
+    "weapon_embedded": "one Chinese dao",
+    "hold_frames": [],
+    "end_behavior": "return_to_idle_by_controller",
+    "phase": null,
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_combat_up_weaponfix_source_v01.png",
+        "source_row_col": [
+          1,
+          3
+        ],
+        "component": {
+          "id": 10,
+          "box": [
+            707,
+            441,
+            180,
+            144
+          ],
+          "centroid": [
+            779.0,
+            511.5
+          ]
+        },
+        "uniform_scale": 0.19806763285024154,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          36,
+          29
+        ],
+        "registered_offset": [
+          5,
+          32
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            12.5,
+            28
+          ],
+          [
+            25.5,
+            27
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_combat_up_weaponfix_source_v01.png",
+        "source_row_col": [
+          1,
+          4
+        ],
+        "component": {
+          "id": 8,
+          "box": [
+            905,
+            384,
+            161,
+            205
+          ],
+          "centroid": [
+            988.7,
+            486.8
+          ]
+        },
+        "uniform_scale": 0.19806763285024154,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          32,
+          41
+        ],
+        "registered_offset": [
+          8,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            17.5,
+            40
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          -0.5,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_roll_up_v01.png",
+    "action": "roll",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "loop": false,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "head_embedded": true,
+    "weapon_embedded": "one Chinese dao",
+    "hold_frames": [],
+    "end_behavior": "return_to_idle_by_controller",
+    "phase": null,
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_combat_up_weaponfix_source_v01.png",
+        "source_row_col": [
+          2,
+          0
+        ],
+        "component": {
+          "id": 14,
+          "box": [
+            33,
+            738,
+            183,
+            139
+          ],
+          "centroid": [
+            100.5,
+            820.5
+          ]
+        },
+        "uniform_scale": 0.19806763285024154,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          36,
+          28
+        ],
+        "registered_offset": [
+          5,
+          33
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            5.5,
+            27
+          ],
+          [
+            32.5,
+            25
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_combat_up_weaponfix_source_v01.png",
+        "source_row_col": [
+          2,
+          1
+        ],
+        "component": {
+          "id": 13,
+          "box": [
+            269,
+            706,
+            130,
+            168
+          ],
+          "centroid": [
+            333.0,
+            789.7
+          ]
+        },
+        "uniform_scale": 0.19806763285024154,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          26,
+          33
+        ],
+        "registered_offset": [
+          12,
+          28
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            14.0,
+            32
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.5,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_combat_four_compact_source_v01.png",
+        "source_row_col": [
+          0,
+          3
+        ],
+        "component": {
+          "id": 4,
+          "box": [
+            1761,
+            262,
+            348,
+            269
+          ],
+          "centroid": [
+            1916.7,
+            414.9
+          ]
+        },
+        "uniform_scale": 0.09975669099756691,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          35,
+          27
+        ],
+        "registered_offset": [
+          7,
+          34
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            15.863636363636363,
+            26
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source": "assets/ref/ref_chr_xiepai_combat_up_weaponfix_source_v01.png",
+        "source_row_col": [
+          2,
+          3
+        ],
+        "component": {
+          "id": 12,
+          "box": [
+            713,
+            668,
+            148,
+            207
+          ],
+          "centroid": [
+            773.9,
+            771.4
+          ]
+        },
+        "uniform_scale": 0.19806763285024154,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          29,
+          41
+        ],
+        "registered_offset": [
+          12,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            18.0,
+            39
+          ],
+          [
+            5.0,
+            40
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          -0.5,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_down_up_v01.png",
+    "action": "down",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "loop": false,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "head_embedded": true,
+    "weapon_embedded": "one Chinese dao",
+    "hold_frames": [
+      3
+    ],
+    "end_behavior": "hold_last_until_state_change",
+    "phase": null,
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_combat_up_weaponfix_source_v01.png",
+        "source_row_col": [
+          3,
+          0
+        ],
+        "component": {
+          "id": 16,
+          "box": [
+            20,
+            1020,
+            171,
+            147
+          ],
+          "centroid": [
+            111.8,
+            1094.8
+          ]
+        },
+        "uniform_scale": 0.19806763285024154,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          34,
+          29
+        ],
+        "registered_offset": [
+          3,
+          32
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            11.5,
+            28
+          ],
+          [
+            30.5,
+            27
+          ]
+        ],
+        "registration_method": "projected center between visible shoe components; steel excluded from foot detection",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_combat_up_weaponfix_source_v01.png",
+        "source_row_col": [
+          3,
+          1
+        ],
+        "component": {
+          "id": 17,
+          "box": [
+            229,
+            1057,
+            205,
+            110
+          ],
+          "centroid": [
+            320.6,
+            1115.6
+          ]
+        },
+        "uniform_scale": 0.19806763285024154,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          41,
+          22
+        ],
+        "registered_offset": [
+          4,
+          39
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            6.0,
+            21
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_combat_up_weaponfix_source_v01.png",
+        "source_row_col": [
+          3,
+          2
+        ],
+        "component": {
+          "id": 18,
+          "box": [
+            445,
+            1087,
+            217,
+            80
+          ],
+          "centroid": [
+            550.8,
+            1125.8
+          ]
+        },
+        "uniform_scale": 0.19806763285024154,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          43,
+          16
+        ],
+        "registered_offset": [
+          3,
+          45
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            39.5,
+            15
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "source": "assets/ref/ref_chr_xiepai_combat_up_weaponfix_source_v01.png",
+        "source_row_col": [
+          3,
+          3
+        ],
+        "component": {
+          "id": 19,
+          "box": [
+            666,
+            1103,
+            216,
+            59
+          ],
+          "centroid": [
+            765.8,
+            1135.5
+          ]
+        },
+        "uniform_scale": 0.19806763285024154,
+        "scale_reference": "原稿按同方向roll末帧恢复站姿41px整方向等比；独立4姿态以首帧站姿41px校准，4张同比例；背面横切独立单帧按原相同蹲势38px校准",
+        "scaled_size": [
+          43,
+          12
+        ],
+        "registered_offset": [
+          3,
+          49
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_candidates": [
+          [
+            15.0,
+            11
+          ],
+          [
+            32.5,
+            10
+          ]
+        ],
+        "registration_method": "rotated/prone projected body ground center",
+        "integer_margin_registration": [
+          0,
+          0
+        ],
+        "projected_ground_rounding_error": [
+          0.0,
+          0
+        ]
+      }
+    ]
+  }
+]

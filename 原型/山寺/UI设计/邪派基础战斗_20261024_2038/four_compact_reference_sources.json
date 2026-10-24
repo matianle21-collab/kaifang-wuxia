@@ -1,0 +1,66 @@
+[
+  {
+    "source": "output/art-xiepai-combat-20261024-2038/source/xiepai_combat_left_generated.png",
+    "component": {
+      "id": 4,
+      "box": [
+        202,
+        98,
+        213,
+        195
+      ],
+      "centroid": [
+        323.8,
+        204.1
+      ]
+    }
+  },
+  {
+    "source": "output/art-xiepai-combat-20261024-2038/source/xiepai_combat_left_generated.png",
+    "component": {
+      "id": 3,
+      "box": [
+        441,
+        96,
+        198,
+        197
+      ],
+      "centroid": [
+        554.6,
+        203.3
+      ]
+    }
+  },
+  {
+    "source": "output/art-xiepai-combat-20261024-2038/source/xiepai_combat_left_generated.png",
+    "component": {
+      "id": 11,
+      "box": [
+        888,
+        436,
+        208,
+        167
+      ],
+      "centroid": [
+        995.7,
+        527.5
+      ]
+    }
+  },
+  {
+    "source": "output/art-xiepai-combat-20261024-2038/source/xiepai_combat_up_weaponfix_generated.png",
+    "component": {
+      "id": 15,
+      "box": [
+        466,
+        754,
+        191,
+        123
+      ],
+      "centroid": [
+        561.3,
+        825.0
+      ]
+    }
+  }
+]

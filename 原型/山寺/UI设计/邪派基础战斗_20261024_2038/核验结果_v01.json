@@ -1,0 +1,611 @@
+{
+  "status": "passed",
+  "new_strips": 18,
+  "new_frames": 57,
+  "base_strips": 24,
+  "base_frames": 87,
+  "new_colors": 16,
+  "combined_colors": 16,
+  "source_images": 7,
+  "derived_reference_images": 9,
+  "alpha": [
+    0,
+    255
+  ],
+  "frame_size": [
+    48,
+    64
+  ],
+  "anchor": [
+    24,
+    60
+  ],
+  "fps": 12,
+  "margin_registration": [
+    {
+      "direction": "left",
+      "action": "atk3",
+      "frame": 2,
+      "registration": [
+        -1,
+        0
+      ]
+    },
+    {
+      "direction": "left",
+      "action": "hit",
+      "frame": 0,
+      "registration": [
+        1,
+        0
+      ]
+    },
+    {
+      "direction": "left",
+      "action": "hit",
+      "frame": 1,
+      "registration": [
+        2,
+        0
+      ]
+    },
+    {
+      "direction": "left",
+      "action": "down",
+      "frame": 1,
+      "registration": [
+        -1,
+        0
+      ]
+    }
+  ],
+  "pixels_below60": [
+    {
+      "direction": "down",
+      "action": "roll",
+      "frame": 2,
+      "pixels_below60": [
+        [
+          6,
+          61
+        ],
+        [
+          7,
+          61
+        ],
+        [
+          8,
+          61
+        ],
+        [
+          9,
+          61
+        ]
+      ]
+    }
+  ],
+  "independent_runtime_test": false,
+  "visual_review": "3 complete direction sheets, roll inversion, prone ending and static1:1 scene inspected before upload",
+  "notes": [
+    "Only base combat completed; dushazhang/huagongsan/shehunshu still pending; row10/11 remain partial.",
+    "Four poses from standalone compact correction, one rear slash contact from standalone correction; geometry is AI artwork, no body drawing by code.",
+    "Four left poses have1–2px horizontal margin registration; left final prone width47px uses full edge and remains uncut.",
+    "GIF ends600ms for review and loops; game12fps with down frame3 held by controller.",
+    "Original movement PNGs unchanged; head and dao embedded; no separate head runtime assets."
+  ],
+  "checks": [
+    {
+      "file": "assets/chr/chr_xiepai_atk1_down_v01.png",
+      "size": [
+        144,
+        64
+      ],
+      "frames": 3,
+      "colors": 15,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "source_uncut": true,
+      "canvas_loses_no_opaque_pixels": true,
+      "distinct_frames": 3,
+      "nearest6x": true,
+      "gif_frames": 3,
+      "gif_durations_ms": [
+        80,
+        80,
+        600
+      ],
+      "hold_frames": []
+    },
+    {
+      "file": "assets/chr/chr_xiepai_atk2_down_v01.png",
+      "size": [
+        144,
+        64
+      ],
+      "frames": 3,
+      "colors": 15,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "source_uncut": true,
+      "canvas_loses_no_opaque_pixels": true,
+      "distinct_frames": 3,
+      "nearest6x": true,
+      "gif_frames": 3,
+      "gif_durations_ms": [
+        80,
+        80,
+        600
+      ],
+      "hold_frames": []
+    },
+    {
+      "file": "assets/chr/chr_xiepai_atk3_down_v01.png",
+      "size": [
+        144,
+        64
+      ],
+      "frames": 3,
+      "colors": 15,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "source_uncut": true,
+      "canvas_loses_no_opaque_pixels": true,
+      "distinct_frames": 3,
+      "nearest6x": true,
+      "gif_frames": 3,
+      "gif_durations_ms": [
+        80,
+        80,
+        600
+      ],
+      "hold_frames": []
+    },
+    {
+      "file": "assets/chr/chr_xiepai_hit_down_v01.png",
+      "size": [
+        96,
+        64
+      ],
+      "frames": 2,
+      "colors": 15,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "source_uncut": true,
+      "canvas_loses_no_opaque_pixels": true,
+      "distinct_frames": 2,
+      "nearest6x": true,
+      "gif_frames": 2,
+      "gif_durations_ms": [
+        80,
+        600
+      ],
+      "hold_frames": []
+    },
+    {
+      "file": "assets/chr/chr_xiepai_roll_down_v01.png",
+      "size": [
+        192,
+        64
+      ],
+      "frames": 4,
+      "colors": 15,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "source_uncut": true,
+      "canvas_loses_no_opaque_pixels": true,
+      "distinct_frames": 4,
+      "nearest6x": true,
+      "gif_frames": 4,
+      "gif_durations_ms": [
+        80,
+        80,
+        90,
+        600
+      ],
+      "hold_frames": []
+    },
+    {
+      "file": "assets/chr/chr_xiepai_down_down_v01.png",
+      "size": [
+        192,
+        64
+      ],
+      "frames": 4,
+      "colors": 15,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "source_uncut": true,
+      "canvas_loses_no_opaque_pixels": true,
+      "distinct_frames": 4,
+      "nearest6x": true,
+      "gif_frames": 4,
+      "gif_durations_ms": [
+        80,
+        80,
+        90,
+        600
+      ],
+      "hold_frames": [
+        3
+      ]
+    },
+    {
+      "file": "assets/chr/chr_xiepai_atk1_left_v01.png",
+      "size": [
+        144,
+        64
+      ],
+      "frames": 3,
+      "colors": 15,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "source_uncut": true,
+      "canvas_loses_no_opaque_pixels": true,
+      "distinct_frames": 3,
+      "nearest6x": true,
+      "gif_frames": 3,
+      "gif_durations_ms": [
+        80,
+        80,
+        600
+      ],
+      "hold_frames": []
+    },
+    {
+      "file": "assets/chr/chr_xiepai_atk2_left_v01.png",
+      "size": [
+        144,
+        64
+      ],
+      "frames": 3,
+      "colors": 15,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "source_uncut": true,
+      "canvas_loses_no_opaque_pixels": true,
+      "distinct_frames": 3,
+      "nearest6x": true,
+      "gif_frames": 3,
+      "gif_durations_ms": [
+        80,
+        80,
+        600
+      ],
+      "hold_frames": []
+    },
+    {
+      "file": "assets/chr/chr_xiepai_atk3_left_v01.png",
+      "size": [
+        144,
+        64
+      ],
+      "frames": 3,
+      "colors": 15,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "source_uncut": true,
+      "canvas_loses_no_opaque_pixels": true,
+      "distinct_frames": 3,
+      "nearest6x": true,
+      "gif_frames": 3,
+      "gif_durations_ms": [
+        80,
+        80,
+        600
+      ],
+      "hold_frames": []
+    },
+    {
+      "file": "assets/chr/chr_xiepai_hit_left_v01.png",
+      "size": [
+        96,
+        64
+      ],
+      "frames": 2,
+      "colors": 15,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "source_uncut": true,
+      "canvas_loses_no_opaque_pixels": true,
+      "distinct_frames": 2,
+      "nearest6x": true,
+      "gif_frames": 2,
+      "gif_durations_ms": [
+        80,
+        600
+      ],
+      "hold_frames": []
+    },
+    {
+      "file": "assets/chr/chr_xiepai_roll_left_v01.png",
+      "size": [
+        192,
+        64
+      ],
+      "frames": 4,
+      "colors": 15,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "source_uncut": true,
+      "canvas_loses_no_opaque_pixels": true,
+      "distinct_frames": 4,
+      "nearest6x": true,
+      "gif_frames": 4,
+      "gif_durations_ms": [
+        80,
+        80,
+        90,
+        600
+      ],
+      "hold_frames": []
+    },
+    {
+      "file": "assets/chr/chr_xiepai_down_left_v01.png",
+      "size": [
+        192,
+        64
+      ],
+      "frames": 4,
+      "colors": 15,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "source_uncut": true,
+      "canvas_loses_no_opaque_pixels": true,
+      "distinct_frames": 4,
+      "nearest6x": true,
+      "gif_frames": 4,
+      "gif_durations_ms": [
+        80,
+        80,
+        90,
+        600
+      ],
+      "hold_frames": [
+        3
+      ]
+    },
+    {
+      "file": "assets/chr/chr_xiepai_atk1_up_v01.png",
+      "size": [
+        144,
+        64
+      ],
+      "frames": 3,
+      "colors": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "source_uncut": true,
+      "canvas_loses_no_opaque_pixels": true,
+      "distinct_frames": 3,
+      "nearest6x": true,
+      "gif_frames": 3,
+      "gif_durations_ms": [
+        80,
+        80,
+        600
+      ],
+      "hold_frames": []
+    },
+    {
+      "file": "assets/chr/chr_xiepai_atk2_up_v01.png",
+      "size": [
+        144,
+        64
+      ],
+      "frames": 3,
+      "colors": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "source_uncut": true,
+      "canvas_loses_no_opaque_pixels": true,
+      "distinct_frames": 3,
+      "nearest6x": true,
+      "gif_frames": 3,
+      "gif_durations_ms": [
+        80,
+        80,
+        600
+      ],
+      "hold_frames": []
+    },
+    {
+      "file": "assets/chr/chr_xiepai_atk3_up_v01.png",
+      "size": [
+        144,
+        64
+      ],
+      "frames": 3,
+      "colors": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "source_uncut": true,
+      "canvas_loses_no_opaque_pixels": true,
+      "distinct_frames": 3,
+      "nearest6x": true,
+      "gif_frames": 3,
+      "gif_durations_ms": [
+        80,
+        80,
+        600
+      ],
+      "hold_frames": []
+    },
+    {
+      "file": "assets/chr/chr_xiepai_hit_up_v01.png",
+      "size": [
+        96,
+        64
+      ],
+      "frames": 2,
+      "colors": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "source_uncut": true,
+      "canvas_loses_no_opaque_pixels": true,
+      "distinct_frames": 2,
+      "nearest6x": true,
+      "gif_frames": 2,
+      "gif_durations_ms": [
+        80,
+        600
+      ],
+      "hold_frames": []
+    },
+    {
+      "file": "assets/chr/chr_xiepai_roll_up_v01.png",
+      "size": [
+        192,
+        64
+      ],
+      "frames": 4,
+      "colors": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "source_uncut": true,
+      "canvas_loses_no_opaque_pixels": true,
+      "distinct_frames": 4,
+      "nearest6x": true,
+      "gif_frames": 4,
+      "gif_durations_ms": [
+        80,
+        80,
+        90,
+        600
+      ],
+      "hold_frames": []
+    },
+    {
+      "file": "assets/chr/chr_xiepai_down_up_v01.png",
+      "size": [
+        192,
+        64
+      ],
+      "frames": 4,
+      "colors": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "source_uncut": true,
+      "canvas_loses_no_opaque_pixels": true,
+      "distinct_frames": 4,
+      "nearest6x": true,
+      "gif_frames": 4,
+      "gif_durations_ms": [
+        80,
+        80,
+        90,
+        600
+      ],
+      "hold_frames": [
+        3
+      ]
+    }
+  ]
+}

@@ -149,12 +149,15 @@
    "atk1"
   ],
   "dushazhang": [
+   "atk3",
    "atk"
   ],
   "huagongsan": [
+   "atk2",
    "atk"
   ],
   "shehunshu": [
+   "atk1",
    "atk"
   ],
   "tiyunzong": [
@@ -164,6 +167,7 @@
    "idle"
   ],
   "jiemai": [
+   "atk1",
    "atk"
   ],
   "sweep": [
