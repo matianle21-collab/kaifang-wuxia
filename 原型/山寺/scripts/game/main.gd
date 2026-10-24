@@ -115,7 +115,12 @@ var _fps_t := 0.0
 var _fps_min := 999.0
 
 
+var _sfx_warm := false
+
+
 func _process(dt: float) -> void:
+	if not _sfx_warm:
+		_sfx_warm = Sfx.warm_next()
 	if dev.has("fps"):
 		var real_dt := dt / maxf(Engine.time_scale, 0.001)
 		_fps_t += real_dt
