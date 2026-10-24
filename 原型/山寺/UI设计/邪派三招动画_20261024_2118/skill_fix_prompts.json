@@ -1,0 +1,18 @@
+[
+  {
+    "direction": "down",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-skills-20261024-2118/source/xiepai_skills_down_generated.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Fix only the attack direction of the existing same youth pixel-art skill atlas; preserve the 3-row/6-column layout, 15 figures, scale, same head, coat, dao on back and transparent background. Row0 has4 figures,row1 has5,row2 has6, remaining cells empty. Character direction is DOWN toward camera, face visible. Edit ONLY row0 columns1 and2, row1 columns2 and3, row2 column4 (all zero based): currently the straight casting hand goes sideways; change it to a compact, strongly foreshortened casting arm toward the viewer/lower center of screen, open palm faces viewer, hand just in front of chest silhouette. NOT pointing screen right or left. In row0col1 open palm thrust; row0col2 finger flick followthrough; row1col2 toss androw1col3 followthrough; row2col4 openpalm release. Keep each pose different. Do not alter faces, feet, clothing details or other cells. No magic FX or detached objects, no shadow or grid. Genuine transparent alpha. Same chunky pixels and restricted palette."
+  },
+  {
+    "direction": "up",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-skills-20261024-2118/source/xiepai_skills_up_generated.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Fix only the attack direction of the existing same youth pixel-art skill atlas; preserve the 3-row/6-column layout, 15 figures, scale, same head, coat, dao on back and transparent background. Row0 has4 figures,row1 has5,row2 has6, remaining cells empty. Character direction is UP away from camera, only back visible. Edit ONLY row0 columns1 and2, row1 columns2 and3, row2 column4 (all zero based): currently the straight casting hand goes sideways; change it to a compact, strongly foreshortened casting arm AWAY from viewer INTO screen depth, elbow bent/upward on same side of back; fingertips peek above shoulder or side of head, only back of hand visible. No sideward long arm pointing screen right or left. In row0col1 open palm thrust; row0col2 finger flick followthrough; row1col2 toss androw1col3 followthrough; row2col4 openpalm release. Keep each pose different. Do not alter faces, feet, clothing details or other cells. No magic FX or detached objects, no shadow or grid. Genuine transparent alpha. Same chunky pixels and restricted palette."
+  }
+]

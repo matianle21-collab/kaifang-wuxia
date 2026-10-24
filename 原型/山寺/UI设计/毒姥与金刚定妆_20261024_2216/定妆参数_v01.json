@@ -1,0 +1,98 @@
+[
+  {
+    "role": "dulao",
+    "name": "毒姥",
+    "row": 61,
+    "file": "assets/ref/ref_boss_dulao_down_v01.png",
+    "frame_size": [
+      64,
+      80
+    ],
+    "anchor": [
+      32,
+      76
+    ],
+    "source": "assets/ref/ref_boss_dulao_standing_source_v01.png",
+    "source_component": {
+      "id": 1,
+      "box": [
+        298,
+        373,
+        640,
+        851
+      ],
+      "area": 347401.0
+    },
+    "content_size": [
+      39,
+      52
+    ],
+    "registered_offset": [
+      17,
+      25
+    ],
+    "actual_opaque_foot_points": [
+      [
+        24,
+        76
+      ],
+      [
+        40,
+        76
+      ]
+    ],
+    "single_frame_reference": true,
+    "stage": "front_reference_delivered_await_own_approval_before_animation",
+    "source_crop_preserves_whole_figure": true,
+    "scale": "uniform nearest-neighbor height; width not independently stretched",
+    "staff_contact_not_counted_as_foot": true
+  },
+  {
+    "role": "jingang",
+    "name": "铁甲金刚",
+    "row": 66,
+    "file": "assets/ref/ref_boss_jingang_down_v01.png",
+    "frame_size": [
+      96,
+      112
+    ],
+    "anchor": [
+      48,
+      108
+    ],
+    "source": "assets/ref/ref_boss_jingang_standing_source_v01.png",
+    "source_component": {
+      "id": 1,
+      "box": [
+        95,
+        76,
+        1031,
+        1155
+      ],
+      "area": 752505.0
+    },
+    "content_size": [
+      76,
+      85
+    ],
+    "registered_offset": [
+      11,
+      24
+    ],
+    "actual_opaque_foot_points": [
+      [
+        30,
+        108
+      ],
+      [
+        66,
+        108
+      ]
+    ],
+    "single_frame_reference": true,
+    "stage": "front_reference_delivered_await_own_approval_before_animation",
+    "source_crop_preserves_whole_figure": true,
+    "scale": "uniform nearest-neighbor height; width not independently stretched",
+    "staff_contact_not_counted_as_foot": false
+  }
+]

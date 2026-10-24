@@ -1,0 +1,704 @@
+[
+  {
+    "file": "assets/chr/chr_shaolin_idle_down_v01.png",
+    "action": "idle",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1501",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_walk_down_v01.png",
+    "action": "walk",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 6,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1501",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_idle_left_v01.png",
+    "action": "idle",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1501",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_walk_left_v01.png",
+    "action": "walk",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 6,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1501",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_idle_up_v01.png",
+    "action": "idle",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1501",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_walk_up_v01.png",
+    "action": "walk",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 6,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1501",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_atk1_down_v01.png",
+    "action": "atk1",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1826",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_atk2_down_v01.png",
+    "action": "atk2",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1826",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_atk3_down_v01.png",
+    "action": "atk3",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1826",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_hit_down_v01.png",
+    "action": "hit",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 2,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1826",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_roll_down_v01.png",
+    "action": "roll",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1826",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_down_down_v01.png",
+    "action": "down",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1826",
+    "phase": null,
+    "hold_frames": [
+      3
+    ]
+  },
+  {
+    "file": "assets/chr/chr_shaolin_atk1_left_v01.png",
+    "action": "atk1",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1826",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_atk2_left_v01.png",
+    "action": "atk2",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1826",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_atk3_left_v01.png",
+    "action": "atk3",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1826",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_hit_left_v01.png",
+    "action": "hit",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 2,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1826",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_roll_left_v01.png",
+    "action": "roll",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1826",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_down_left_v01.png",
+    "action": "down",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1826",
+    "phase": null,
+    "hold_frames": [
+      3
+    ]
+  },
+  {
+    "file": "assets/chr/chr_shaolin_atk1_up_v01.png",
+    "action": "atk1",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1826",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_atk2_up_v01.png",
+    "action": "atk2",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1826",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_atk3_up_v01.png",
+    "action": "atk3",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1826",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_hit_up_v01.png",
+    "action": "hit",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 2,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1826",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_roll_up_v01.png",
+    "action": "roll",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1826",
+    "phase": null,
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_down_up_v01.png",
+    "action": "down",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-1826",
+    "phase": null,
+    "hold_frames": [
+      3
+    ]
+  },
+  {
+    "file": "assets/chr/chr_shaolin_luohanquan_down_v01.png",
+    "action": "luohanquan",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-2008",
+    "phase": {
+      "punch": [
+        0,
+        1,
+        2
+      ],
+      "recover": [
+        3
+      ]
+    },
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_jinzhongzhao_down_v01.png",
+    "action": "jinzhongzhao",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 6,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-2008",
+    "phase": {
+      "charge_loop": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "release": [
+        4,
+        5
+      ]
+    },
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_dalijingangzhang_down_v01.png",
+    "action": "dalijingangzhang",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 6,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-2008",
+    "phase": {
+      "aim": [
+        0,
+        1
+      ],
+      "aim_hold_frame": 1,
+      "push_recover": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "hold_frames": [
+      1
+    ]
+  },
+  {
+    "file": "assets/chr/chr_shaolin_luohanquan_left_v01.png",
+    "action": "luohanquan",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-2008",
+    "phase": {
+      "punch": [
+        0,
+        1,
+        2
+      ],
+      "recover": [
+        3
+      ]
+    },
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_jinzhongzhao_left_v01.png",
+    "action": "jinzhongzhao",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 6,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-2008",
+    "phase": {
+      "charge_loop": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "release": [
+        4,
+        5
+      ]
+    },
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_dalijingangzhang_left_v01.png",
+    "action": "dalijingangzhang",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 6,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-2008",
+    "phase": {
+      "aim": [
+        0,
+        1
+      ],
+      "aim_hold_frame": 1,
+      "push_recover": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "hold_frames": [
+      1
+    ]
+  },
+  {
+    "file": "assets/chr/chr_shaolin_luohanquan_up_v01.png",
+    "action": "luohanquan",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-2008",
+    "phase": {
+      "punch": [
+        0,
+        1,
+        2
+      ],
+      "recover": [
+        3
+      ]
+    },
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_jinzhongzhao_up_v01.png",
+    "action": "jinzhongzhao",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 6,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-2008",
+    "phase": {
+      "charge_loop": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "release": [
+        4,
+        5
+      ]
+    },
+    "hold_frames": []
+  },
+  {
+    "file": "assets/chr/chr_shaolin_dalijingangzhang_up_v01.png",
+    "action": "dalijingangzhang",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 6,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "delivery": "20261024-2008",
+    "phase": {
+      "aim": [
+        0,
+        1
+      ],
+      "aim_hold_frame": 1,
+      "push_recover": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "hold_frames": [
+      1
+    ]
+  }
+]

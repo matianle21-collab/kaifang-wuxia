@@ -1,0 +1,405 @@
+{
+  "status": "passed",
+  "new_strips": 9,
+  "new_frames": 45,
+  "combined_strips": 33,
+  "combined_frames": 132,
+  "new_colors": 16,
+  "combined_colors": 16,
+  "source_images": 5,
+  "derived_reference_images": 3,
+  "native_alpha": [
+    0,
+    255
+  ],
+  "frame_size": [
+    48,
+    64
+  ],
+  "anchor": [
+    24,
+    60
+  ],
+  "fps": 12,
+  "no_forced_margin_shifts": true,
+  "independent_runtime_test": false,
+  "visual_review": "all three direction sheets and static1:1 scene are inspected before upload",
+  "notes": [
+    "Single dao secured to back frees casting hands; independent FX27-29 not claimed.",
+    "Five generated sources (3 first drafts and 2 direction corrections), selected frames only.",
+    "All scale normalized per direction by41px first charging stance, no per-frame stretch or program drawing.",
+    "GIF charge0-3 twice then release4-5; aim frame1 held800ms, last600ms for review. Native12fps/controller.",
+    "Old base87PNG untouched; full132 index combines three deliveries."
+  ],
+  "checks": [
+    {
+      "file": "assets/chr/chr_xiepai_dushazhang_down_v01.png",
+      "frames": 4,
+      "colors": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "fixed_root": [
+        24,
+        60
+      ],
+      "projected_root_rounding_error_max": 0.5,
+      "source_uncut": true,
+      "no_pose_pixels_lost_in_canvas": true,
+      "forced_margin_shift": false,
+      "distinct_frames": 4,
+      "nearest6x": true,
+      "gif_playback_frames": 4,
+      "gif_durations_ms": [
+        80,
+        80,
+        90,
+        600
+      ],
+      "phase": {
+        "windup": [
+          0
+        ],
+        "palm": [
+          1
+        ],
+        "flick": [
+          2
+        ],
+        "recover": [
+          3
+        ]
+      }
+    },
+    {
+      "file": "assets/chr/chr_xiepai_huagongsan_down_v01.png",
+      "frames": 5,
+      "colors": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "fixed_root": [
+        24,
+        60
+      ],
+      "projected_root_rounding_error_max": 0.5,
+      "source_uncut": true,
+      "no_pose_pixels_lost_in_canvas": true,
+      "forced_margin_shift": false,
+      "distinct_frames": 5,
+      "nearest6x": true,
+      "gif_playback_frames": 5,
+      "gif_durations_ms": [
+        80,
+        800,
+        90,
+        80,
+        600
+      ],
+      "phase": {
+        "aim": [
+          0,
+          1
+        ],
+        "aim_hold_frame": 1,
+        "throw_recover": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "file": "assets/chr/chr_xiepai_shehunshu_down_v01.png",
+      "frames": 6,
+      "colors": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "fixed_root": [
+        24,
+        60
+      ],
+      "projected_root_rounding_error_max": 0.5,
+      "source_uncut": true,
+      "no_pose_pixels_lost_in_canvas": true,
+      "forced_margin_shift": false,
+      "distinct_frames": 6,
+      "nearest6x": true,
+      "gif_playback_frames": 10,
+      "gif_durations_ms": [
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        600
+      ],
+      "phase": {
+        "charge_loop": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "release": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "file": "assets/chr/chr_xiepai_dushazhang_left_v01.png",
+      "frames": 4,
+      "colors": 14,
+      "alpha": [
+        0,
+        255
+      ],
+      "fixed_root": [
+        24,
+        60
+      ],
+      "projected_root_rounding_error_max": 0.25,
+      "source_uncut": true,
+      "no_pose_pixels_lost_in_canvas": true,
+      "forced_margin_shift": false,
+      "distinct_frames": 4,
+      "nearest6x": true,
+      "gif_playback_frames": 4,
+      "gif_durations_ms": [
+        80,
+        80,
+        90,
+        600
+      ],
+      "phase": {
+        "windup": [
+          0
+        ],
+        "palm": [
+          1
+        ],
+        "flick": [
+          2
+        ],
+        "recover": [
+          3
+        ]
+      }
+    },
+    {
+      "file": "assets/chr/chr_xiepai_huagongsan_left_v01.png",
+      "frames": 5,
+      "colors": 15,
+      "alpha": [
+        0,
+        255
+      ],
+      "fixed_root": [
+        24,
+        60
+      ],
+      "projected_root_rounding_error_max": 0.25,
+      "source_uncut": true,
+      "no_pose_pixels_lost_in_canvas": true,
+      "forced_margin_shift": false,
+      "distinct_frames": 5,
+      "nearest6x": true,
+      "gif_playback_frames": 5,
+      "gif_durations_ms": [
+        80,
+        800,
+        90,
+        80,
+        600
+      ],
+      "phase": {
+        "aim": [
+          0,
+          1
+        ],
+        "aim_hold_frame": 1,
+        "throw_recover": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "file": "assets/chr/chr_xiepai_shehunshu_left_v01.png",
+      "frames": 6,
+      "colors": 15,
+      "alpha": [
+        0,
+        255
+      ],
+      "fixed_root": [
+        24,
+        60
+      ],
+      "projected_root_rounding_error_max": 0.5,
+      "source_uncut": true,
+      "no_pose_pixels_lost_in_canvas": true,
+      "forced_margin_shift": false,
+      "distinct_frames": 6,
+      "nearest6x": true,
+      "gif_playback_frames": 10,
+      "gif_durations_ms": [
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        600
+      ],
+      "phase": {
+        "charge_loop": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "release": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "file": "assets/chr/chr_xiepai_dushazhang_up_v01.png",
+      "frames": 4,
+      "colors": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "fixed_root": [
+        24,
+        60
+      ],
+      "projected_root_rounding_error_max": 0.5,
+      "source_uncut": true,
+      "no_pose_pixels_lost_in_canvas": true,
+      "forced_margin_shift": false,
+      "distinct_frames": 4,
+      "nearest6x": true,
+      "gif_playback_frames": 4,
+      "gif_durations_ms": [
+        80,
+        80,
+        90,
+        600
+      ],
+      "phase": {
+        "windup": [
+          0
+        ],
+        "palm": [
+          1
+        ],
+        "flick": [
+          2
+        ],
+        "recover": [
+          3
+        ]
+      }
+    },
+    {
+      "file": "assets/chr/chr_xiepai_huagongsan_up_v01.png",
+      "frames": 5,
+      "colors": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "fixed_root": [
+        24,
+        60
+      ],
+      "projected_root_rounding_error_max": 0.5,
+      "source_uncut": true,
+      "no_pose_pixels_lost_in_canvas": true,
+      "forced_margin_shift": false,
+      "distinct_frames": 5,
+      "nearest6x": true,
+      "gif_playback_frames": 5,
+      "gif_durations_ms": [
+        80,
+        800,
+        90,
+        80,
+        600
+      ],
+      "phase": {
+        "aim": [
+          0,
+          1
+        ],
+        "aim_hold_frame": 1,
+        "throw_recover": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "file": "assets/chr/chr_xiepai_shehunshu_up_v01.png",
+      "frames": 6,
+      "colors": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "fixed_root": [
+        24,
+        60
+      ],
+      "projected_root_rounding_error_max": 0.5,
+      "source_uncut": true,
+      "no_pose_pixels_lost_in_canvas": true,
+      "forced_margin_shift": false,
+      "distinct_frames": 6,
+      "nearest6x": true,
+      "gif_playback_frames": 10,
+      "gif_durations_ms": [
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        600
+      ],
+      "phase": {
+        "charge_loop": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "release": [
+          4,
+          5
+        ]
+      }
+    }
+  ]
+}

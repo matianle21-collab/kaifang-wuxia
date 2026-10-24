@@ -1,0 +1,47 @@
+[
+  {
+    "id": "fubo",
+    "name": "福伯",
+    "prompt": "Use case: identity-preserve. Asset type: Chinese wuxia ARPG dialogue portrait, will deliver96x96 pixels. Reference is the just-created standing character; make a head-and-shoulders 3/4 portrait of the SAME person, same age, face structure, hairstyle/cap, facial hair, collar and colors. Do not turn an elderly person young. Coarse low-resolution16-bit pixel art, flat solid <=16 colors, two hard shades/material, upper-left light, one-pixel material-dark outline, no smooth painting or photorealism. Single centered bust fills a square image but complete head/hat/hair stays within generous transparent margin and shoulders fit inside; shoulders end cleanly as portrait crop at lower edge. GENUINE transparent alpha, no background, panel, labels or text. Character: Elderly Chinese male household servant, about65, slim slightly stooped but able to walk, receding gray hair under simple charcoal cloth cap, short gray moustache and small pointed beard, lined worried face, plain modest gray long robe with overlapping collar and dark cloth belt, worn cloth shoes. Head slightly lowered, hands held together low inside sleeves. He serves the Shen merchant household; no noble crown or jewelry, no weapon, no walking cane. Worried deferential expression, lowered gaze and small gray moustache/beard.",
+    "referenced_image_paths": [
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/fubo_standing_generated.png"
+    ],
+    "transparent_background": true
+  },
+  {
+    "id": "liushen",
+    "name": "刘婶",
+    "prompt": "Use case: identity-preserve. Asset type: Chinese wuxia ARPG dialogue portrait, will deliver96x96 pixels. Reference is the just-created standing character; make a head-and-shoulders 3/4 portrait of the SAME person, same age, face structure, hairstyle/cap, facial hair, collar and colors. Do not turn an elderly person young. Coarse low-resolution16-bit pixel art, flat solid <=16 colors, two hard shades/material, upper-left light, one-pixel material-dark outline, no smooth painting or photorealism. Single centered bust fills a square image but complete head/hat/hair stays within generous transparent margin and shoulders fit inside; shoulders end cleanly as portrait crop at lower edge. GENUINE transparent alpha, no background, panel, labels or text. Character: Middle-aged Chinese neighborhood aunt, about50, ordinary sturdy body, warm round lined face with anxious concern, dark hair mixed gray tied into low practical bun with plain brown cloth wrap, no makeup or jewels. Coarse faded blue-gray short jacket over muted brown ankle skirt/trousers and simple dark cloth apron, practical cloth shoes, sleeves modestly rolled at wrists, empty hands naturally together near waist. Working-class blacksmith-shop neighbor, not a warrior or courtesan, no weapon. Anxious concerned brows, practical kind middle-aged face, no glamor makeup.",
+    "referenced_image_paths": [
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/liushen_standing_generated.png"
+    ],
+    "transparent_background": true
+  },
+  {
+    "id": "banzhu",
+    "name": "班主",
+    "prompt": "Use case: identity-preserve. Asset type: Chinese wuxia ARPG dialogue portrait, will deliver96x96 pixels. Reference is the just-created standing character; make a head-and-shoulders 3/4 portrait of the SAME person, same age, face structure, hairstyle/cap, facial hair, collar and colors. Do not turn an elderly person young. Coarse low-resolution16-bit pixel art, flat solid <=16 colors, two hard shades/material, upper-left light, one-pixel material-dark outline, no smooth painting or photorealism. Single centered bust fills a square image but complete head/hat/hair stays within generous transparent margin and shoulders fit inside; shoulders end cleanly as portrait crop at lower edge. GENUINE transparent alpha, no background, panel, labels or text. Character: Portly Chinese male opera-troupe manager about50, clearly ROUND FAT torso and thick cheeks, slightly oily ruddy face, small moustache, expressive raised brows and firm loud speaking mouth, dark hair under small soft dark cap. Muted maroon-brown long coat over dark trousers with broad dark sash, cloth shoes, one hand raised lightly near chest directing rehearsal, other at waist. NOT a stage performer: no opera makeup, no theatrical crown, no weapon. Speaking sternly as a loud troupe manager, mouth slightly open, recognizably fat rounded cheeks. No opera makeup.",
+    "referenced_image_paths": [
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/banzhu_standing_generated.png"
+    ],
+    "transparent_background": true
+  },
+  {
+    "id": "langzhong",
+    "name": "老郎中",
+    "prompt": "Use case: identity-preserve. Asset type: Chinese wuxia ARPG dialogue portrait, will deliver96x96 pixels. Reference is the just-created standing character; make a head-and-shoulders 3/4 portrait of the SAME person, same age, face structure, hairstyle/cap, facial hair, collar and colors. Do not turn an elderly person young. Coarse low-resolution16-bit pixel art, flat solid <=16 colors, two hard shades/material, upper-left light, one-pixel material-dark outline, no smooth painting or photorealism. Single centered bust fills a square image but complete head/hat/hair stays within generous transparent margin and shoulders fit inside; shoulders end cleanly as portrait crop at lower edge. GENUINE transparent alpha, no background, panel, labels or text. Character: Elderly Chinese male traveling physician about70, WHITE BEARD and white eyebrows, gray-white hair under humble cloth cap, thin thoughtful squinting eyes and restrained grave expression. Plain faded sage-gray robe, muted brown cloth medicine strap and small closed medicine satchel at side, dark cloth shoes. Holds a small dark earthen teacup at chest height as if his hand has stopped midair. No Taoist whisk, religious hat, martial staff or magic. Sober grave squint, the small earthen teacup and hand just at lower corner, not covering beard.",
+    "referenced_image_paths": [
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/langzhong_standing_generated.png"
+    ],
+    "transparent_background": true
+  },
+  {
+    "id": "aluo",
+    "name": "阿萝",
+    "prompt": "Use case: identity-preserve. Asset type: Chinese wuxia ARPG dialogue portrait, will deliver96x96 pixels. Reference is the just-created standing character; make a head-and-shoulders 3/4 portrait of the SAME person, same age, face structure, hairstyle/cap, facial hair, collar and colors. Do not turn an elderly person young. Coarse low-resolution16-bit pixel art, flat solid <=16 colors, two hard shades/material, upper-left light, one-pixel material-dark outline, no smooth painting or photorealism. Single centered bust fills a square image but complete head/hat/hair stays within generous transparent margin and shoulders fit inside; shoulders end cleanly as portrait crop at lower edge. GENUINE transparent alpha, no background, panel, labels or text. Character: Frail15-to16-year-old Chinese girl, notably thin narrow shoulders and delicate wrists, messy loose dark hair to shoulders, pale face faintly green-gray, muted purple lips, tired but BRIGHT attentive eyes, quiet obedient weakened posture with shoulders slightly drooped. Fully modest coarse old gray-brown long-sleeved dress/tunic and plain ankle-length lower garment, frayed cuffs, straw sandals, thin empty hands low together. NO blood, wounds, makeup, jewelry, glamorous beauty styling or exposed skin. Mouth CLOSED in small walking sprite; black tongue ONLY appears in the separate close-up dialogue portrait, not here. For the dialogue medical close-up ONLY: mouth slightly OPEN, a small dark violet-charcoal tongue visible naturally within mouth (not protruding/exaggerated), purple lips and pale gray-green sickly face, bright tired eyes. Fully covered coarse collar; no blood or wounds. This is a medical story symptom, not horror.",
+    "referenced_image_paths": [
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/aluo_standing_generated.png"
+    ],
+    "transparent_background": true
+  }
+]

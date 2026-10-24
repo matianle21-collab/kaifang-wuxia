@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "new_front_references": 2,
+  "generated_sources": 2,
+  "reference_inputs": 2,
+  "checks": [
+    {
+      "file": "assets/ref/ref_boss_dulao_down_v01.png",
+      "size": [
+        64,
+        80
+      ],
+      "colors": 13,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        32,
+        76
+      ],
+      "actual_opaque_foot_points": [
+        [
+          24,
+          76
+        ],
+        [
+          40,
+          76
+        ]
+      ],
+      "feet_exact_on_root_line": true,
+      "below_root_transparent": true,
+      "source_uncut": true,
+      "alpha_coverage": 0.6395463510848126,
+      "nearest6x_exact": true,
+      "single_frame_reference_only": true
+    },
+    {
+      "file": "assets/ref/ref_boss_jingang_down_v01.png",
+      "size": [
+        96,
+        112
+      ],
+      "colors": 15,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        48,
+        108
+      ],
+      "actual_opaque_foot_points": [
+        [
+          30,
+          108
+        ],
+        [
+          66,
+          108
+        ]
+      ],
+      "feet_exact_on_root_line": true,
+      "below_root_transparent": true,
+      "source_uncut": true,
+      "alpha_coverage": 0.6334365325077399,
+      "nearest6x_exact": true,
+      "single_frame_reference_only": true
+    }
+  ],
+  "native_frames": 1,
+  "animations_started": false,
+  "independent_runtime_test": false,
+  "visual_review": "both native references, exact6x, scale comparison and static1:1 scene inspected before upload",
+  "notes": [
+    "Latest jingang96x112 anchor48,108/rustgreen4E6B58/chest copper mirror overrides old128x160/purple core.",
+    "Dulao staff is inside same PNG; cane tip excluded from the two actual shoe-root points.",
+    "Both are front static references awaiting each own developer confirmation; no shield/breach/portrait or full animation claimed.",
+    "ImageMagick technical binaryalpha/crop/uniformnearest/fixed16palette/registration only; PIL read-only. No code-drawn character pixels or moved shoe fragments."
+  ]
+}

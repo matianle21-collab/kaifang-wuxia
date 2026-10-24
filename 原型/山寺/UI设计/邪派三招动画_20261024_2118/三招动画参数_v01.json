@@ -1,0 +1,2627 @@
+[
+  {
+    "file": "assets/chr/chr_xiepai_dushazhang_down_v01.png",
+    "action": "dushazhang",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "anchor": [
+      24,
+      60
+    ],
+    "fps": 12,
+    "loop": false,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "gap": 0,
+    "head_embedded": true,
+    "weapon": "one_dao_secured_diagonally_on_back_to_free_hands",
+    "phase": {
+      "windup": [
+        0
+      ],
+      "palm": [
+        1
+      ],
+      "flick": [
+        2
+      ],
+      "recover": [
+        3
+      ]
+    },
+    "hold_frames": [],
+    "end_behavior": "controller_returns_idle",
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_skills_down_source_v01.png",
+        "source_row_col": [
+          0,
+          0
+        ],
+        "component": {
+          "id": 4,
+          "box": [
+            74,
+            83,
+            154,
+            262
+          ],
+          "centroid": [
+            149.9,
+            226.3
+          ]
+        },
+        "uniform_scale": 0.15355805243445692,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          24,
+          40
+        ],
+        "registered_offset": [
+          13,
+          21
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            21.0,
+            39
+          ],
+          [
+            1.0,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": 0.0,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "windup"
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_skills_down_fix_source_v01.png",
+        "source_row_col": [
+          0,
+          1
+        ],
+        "component": {
+          "id": 1,
+          "box": [
+            332,
+            81,
+            144,
+            269
+          ],
+          "centroid": [
+            403.8,
+            223.3
+          ]
+        },
+        "uniform_scale": 0.15185185185185185,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          22,
+          41
+        ],
+        "registered_offset": [
+          14,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            19.5,
+            39
+          ],
+          [
+            1.5,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": 0.5,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "palm"
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_skills_down_fix_source_v01.png",
+        "source_row_col": [
+          0,
+          2
+        ],
+        "component": {
+          "id": 3,
+          "box": [
+            582,
+            82,
+            156,
+            268
+          ],
+          "centroid": [
+            659.5,
+            226.5
+          ]
+        },
+        "uniform_scale": 0.15185185185185185,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          24,
+          41
+        ],
+        "registered_offset": [
+          12,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            1.5,
+            40
+          ],
+          [
+            21.5,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": -0.5,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "flick"
+      },
+      {
+        "index": 3,
+        "source": "assets/ref/ref_chr_xiepai_skills_down_source_v01.png",
+        "source_row_col": [
+          0,
+          3
+        ],
+        "component": {
+          "id": 2,
+          "box": [
+            845,
+            79,
+            147,
+            269
+          ],
+          "centroid": [
+            915.9,
+            222.7
+          ]
+        },
+        "uniform_scale": 0.15355805243445692,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          23,
+          41
+        ],
+        "registered_offset": [
+          13,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            1.5,
+            40
+          ],
+          [
+            20.0,
+            38
+          ]
+        ],
+        "projected_root_x_error_px": -0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "recover"
+      }
+    ],
+    "gif_playback_frame_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_huagongsan_down_v01.png",
+    "action": "huagongsan",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 5,
+    "anchor": [
+      24,
+      60
+    ],
+    "fps": 12,
+    "loop": false,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "gap": 0,
+    "head_embedded": true,
+    "weapon": "one_dao_secured_diagonally_on_back_to_free_hands",
+    "phase": {
+      "aim": [
+        0,
+        1
+      ],
+      "aim_hold_frame": 1,
+      "throw_recover": [
+        2,
+        3,
+        4
+      ]
+    },
+    "hold_frames": [
+      1
+    ],
+    "end_behavior": "controller_returns_idle",
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_skills_down_source_v01.png",
+        "source_row_col": [
+          1,
+          0
+        ],
+        "component": {
+          "id": 8,
+          "box": [
+            78,
+            409,
+            147,
+            265
+          ],
+          "centroid": [
+            149.2,
+            549.7
+          ]
+        },
+        "uniform_scale": 0.15355805243445692,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          23,
+          41
+        ],
+        "registered_offset": [
+          13,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            1.5,
+            40
+          ],
+          [
+            20.5,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": 0.0,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "aim"
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_skills_down_source_v01.png",
+        "source_row_col": [
+          1,
+          1
+        ],
+        "component": {
+          "id": 5,
+          "box": [
+            336,
+            401,
+            154,
+            273
+          ],
+          "centroid": [
+            411.5,
+            542.7
+          ]
+        },
+        "uniform_scale": 0.15355805243445692,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          24,
+          42
+        ],
+        "registered_offset": [
+          12,
+          19
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            21.5,
+            40
+          ],
+          [
+            3.0,
+            41
+          ]
+        ],
+        "projected_root_x_error_px": 0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "aim"
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_skills_down_fix_source_v01.png",
+        "source_row_col": [
+          1,
+          2
+        ],
+        "component": {
+          "id": 6,
+          "box": [
+            589,
+            405,
+            148,
+            271
+          ],
+          "centroid": [
+            660.3,
+            548.1
+          ]
+        },
+        "uniform_scale": 0.15185185185185185,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          22,
+          41
+        ],
+        "registered_offset": [
+          14,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            1.5,
+            40
+          ],
+          [
+            19.0,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": 0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "throw_recover"
+      },
+      {
+        "index": 3,
+        "source": "assets/ref/ref_chr_xiepai_skills_down_fix_source_v01.png",
+        "source_row_col": [
+          1,
+          3
+        ],
+        "component": {
+          "id": 9,
+          "box": [
+            845,
+            413,
+            145,
+            263
+          ],
+          "centroid": [
+            915.7,
+            552.6
+          ]
+        },
+        "uniform_scale": 0.15185185185185185,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          22,
+          40
+        ],
+        "registered_offset": [
+          14,
+          21
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            1.5,
+            39
+          ],
+          [
+            19.5,
+            38
+          ]
+        ],
+        "projected_root_x_error_px": 0.5,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "throw_recover"
+      },
+      {
+        "index": 4,
+        "source": "assets/ref/ref_chr_xiepai_skills_down_source_v01.png",
+        "source_row_col": [
+          1,
+          4
+        ],
+        "component": {
+          "id": 7,
+          "box": [
+            1103,
+            406,
+            143,
+            268
+          ],
+          "centroid": [
+            1171.3,
+            549.4
+          ]
+        },
+        "uniform_scale": 0.15355805243445692,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          22,
+          41
+        ],
+        "registered_offset": [
+          14,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            1.5,
+            40
+          ],
+          [
+            19.5,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": 0.5,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "throw_recover"
+      }
+    ],
+    "gif_playback_frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_shehunshu_down_v01.png",
+    "action": "shehunshu",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 6,
+    "anchor": [
+      24,
+      60
+    ],
+    "fps": 12,
+    "loop": false,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "gap": 0,
+    "head_embedded": true,
+    "weapon": "one_dao_secured_diagonally_on_back_to_free_hands",
+    "phase": {
+      "charge_loop": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "release": [
+        4,
+        5
+      ]
+    },
+    "hold_frames": [],
+    "end_behavior": "controller_returns_idle",
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_skills_down_source_v01.png",
+        "source_row_col": [
+          2,
+          0
+        ],
+        "component": {
+          "id": 14,
+          "box": [
+            78,
+            727,
+            147,
+            267
+          ],
+          "centroid": [
+            149.4,
+            868.2
+          ]
+        },
+        "uniform_scale": 0.15355805243445692,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          23,
+          41
+        ],
+        "registered_offset": [
+          13,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            1.5,
+            40
+          ],
+          [
+            20.5,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": 0.0,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "charge"
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_skills_down_source_v01.png",
+        "source_row_col": [
+          2,
+          1
+        ],
+        "component": {
+          "id": 11,
+          "box": [
+            323,
+            724,
+            162,
+            270
+          ],
+          "centroid": [
+            402.0,
+            866.2
+          ]
+        },
+        "uniform_scale": 0.15355805243445692,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          25,
+          41
+        ],
+        "registered_offset": [
+          12,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            3.0,
+            40
+          ],
+          [
+            21.0,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": 0.0,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "charge"
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_skills_down_source_v01.png",
+        "source_row_col": [
+          2,
+          2
+        ],
+        "component": {
+          "id": 12,
+          "box": [
+            576,
+            724,
+            163,
+            270
+          ],
+          "centroid": [
+            656.6,
+            865.5
+          ]
+        },
+        "uniform_scale": 0.15355805243445692,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          25,
+          41
+        ],
+        "registered_offset": [
+          12,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            3.0,
+            40
+          ],
+          [
+            21.5,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": 0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "charge"
+      },
+      {
+        "index": 3,
+        "source": "assets/ref/ref_chr_xiepai_skills_down_source_v01.png",
+        "source_row_col": [
+          2,
+          3
+        ],
+        "component": {
+          "id": 15,
+          "box": [
+            834,
+            732,
+            146,
+            262
+          ],
+          "centroid": [
+            902.4,
+            870.2
+          ]
+        },
+        "uniform_scale": 0.15355805243445692,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          22,
+          40
+        ],
+        "registered_offset": [
+          14,
+          21
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            1.0,
+            39
+          ],
+          [
+            20.0,
+            38
+          ]
+        ],
+        "projected_root_x_error_px": 0.5,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "charge"
+      },
+      {
+        "index": 4,
+        "source": "assets/ref/ref_chr_xiepai_skills_down_fix_source_v01.png",
+        "source_row_col": [
+          2,
+          4
+        ],
+        "component": {
+          "id": 14,
+          "box": [
+            1097,
+            725,
+            148,
+            270
+          ],
+          "centroid": [
+            1167.2,
+            867.1
+          ]
+        },
+        "uniform_scale": 0.15185185185185185,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          22,
+          41
+        ],
+        "registered_offset": [
+          14,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            1.5,
+            40
+          ],
+          [
+            19.0,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": 0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "release"
+      },
+      {
+        "index": 5,
+        "source": "assets/ref/ref_chr_xiepai_skills_down_source_v01.png",
+        "source_row_col": [
+          2,
+          5
+        ],
+        "component": {
+          "id": 10,
+          "box": [
+            1331,
+            723,
+            152,
+            271
+          ],
+          "centroid": [
+            1405.8,
+            867.1
+          ]
+        },
+        "uniform_scale": 0.15355805243445692,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          23,
+          42
+        ],
+        "registered_offset": [
+          12,
+          19
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            3.0,
+            41
+          ],
+          [
+            20.5,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": -0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "release"
+      }
+    ],
+    "gif_playback_frame_order": [
+      0,
+      1,
+      2,
+      3,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_dushazhang_left_v01.png",
+    "action": "dushazhang",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "anchor": [
+      24,
+      60
+    ],
+    "fps": 12,
+    "loop": false,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "gap": 0,
+    "head_embedded": true,
+    "weapon": "one_dao_secured_diagonally_on_back_to_free_hands",
+    "phase": {
+      "windup": [
+        0
+      ],
+      "palm": [
+        1
+      ],
+      "flick": [
+        2
+      ],
+      "recover": [
+        3
+      ]
+    },
+    "hold_frames": [],
+    "end_behavior": "controller_returns_idle",
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_skills_left_source_v01.png",
+        "source_row_col": [
+          0,
+          0
+        ],
+        "component": {
+          "id": 1,
+          "box": [
+            74,
+            82,
+            178,
+            265
+          ],
+          "centroid": [
+            152.3,
+            226.1
+          ]
+        },
+        "uniform_scale": 0.155893536121673,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          28,
+          41
+        ],
+        "registered_offset": [
+          12,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            22.0,
+            40
+          ],
+          [
+            2.5,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": 0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "windup"
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_skills_left_source_v01.png",
+        "source_row_col": [
+          0,
+          1
+        ],
+        "component": {
+          "id": 2,
+          "box": [
+            293,
+            82,
+            217,
+            264
+          ],
+          "centroid": [
+            405.6,
+            222.7
+          ]
+        },
+        "uniform_scale": 0.155893536121673,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          34,
+          41
+        ],
+        "registered_offset": [
+          6,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            28.0,
+            40
+          ],
+          [
+            8.5,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": 0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "palm"
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_skills_left_source_v01.png",
+        "source_row_col": [
+          0,
+          2
+        ],
+        "component": {
+          "id": 3,
+          "box": [
+            543,
+            82,
+            233,
+            265
+          ],
+          "centroid": [
+            668.8,
+            222.6
+          ]
+        },
+        "uniform_scale": 0.155893536121673,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          36,
+          41
+        ],
+        "registered_offset": [
+          4,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            11.0,
+            40
+          ],
+          [
+            29.5,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": 0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "flick"
+      },
+      {
+        "index": 3,
+        "source": "assets/ref/ref_chr_xiepai_skills_left_source_v01.png",
+        "source_row_col": [
+          0,
+          3
+        ],
+        "component": {
+          "id": 4,
+          "box": [
+            840,
+            82,
+            178,
+            264
+          ],
+          "centroid": [
+            917.5,
+            224.4
+          ]
+        },
+        "uniform_scale": 0.155893536121673,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          28,
+          41
+        ],
+        "registered_offset": [
+          12,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            22.0,
+            40
+          ],
+          [
+            2.5,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": 0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "recover"
+      }
+    ],
+    "gif_playback_frame_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_huagongsan_left_v01.png",
+    "action": "huagongsan",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 5,
+    "anchor": [
+      24,
+      60
+    ],
+    "fps": 12,
+    "loop": false,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "gap": 0,
+    "head_embedded": true,
+    "weapon": "one_dao_secured_diagonally_on_back_to_free_hands",
+    "phase": {
+      "aim": [
+        0,
+        1
+      ],
+      "aim_hold_frame": 1,
+      "throw_recover": [
+        2,
+        3,
+        4
+      ]
+    },
+    "hold_frames": [
+      1
+    ],
+    "end_behavior": "controller_returns_idle",
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_skills_left_source_v01.png",
+        "source_row_col": [
+          1,
+          0
+        ],
+        "component": {
+          "id": 6,
+          "box": [
+            70,
+            408,
+            174,
+            264
+          ],
+          "centroid": [
+            148.4,
+            550.8
+          ]
+        },
+        "uniform_scale": 0.155893536121673,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          27,
+          41
+        ],
+        "registered_offset": [
+          12,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            21.0,
+            40
+          ],
+          [
+            2.5,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": -0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "aim"
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_skills_left_source_v01.png",
+        "source_row_col": [
+          1,
+          1
+        ],
+        "component": {
+          "id": 7,
+          "box": [
+            300,
+            408,
+            208,
+            264
+          ],
+          "centroid": [
+            399.1,
+            546.1
+          ]
+        },
+        "uniform_scale": 0.155893536121673,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          32,
+          41
+        ],
+        "registered_offset": [
+          7,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            26.0,
+            40
+          ],
+          [
+            7.5,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": -0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "aim"
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_skills_left_source_v01.png",
+        "source_row_col": [
+          1,
+          2
+        ],
+        "component": {
+          "id": 8,
+          "box": [
+            539,
+            408,
+            240,
+            264
+          ],
+          "centroid": [
+            669.5,
+            547.7
+          ]
+        },
+        "uniform_scale": 0.155893536121673,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          37,
+          41
+        ],
+        "registered_offset": [
+          3,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            11.0,
+            40
+          ],
+          [
+            31.0,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": 0.0,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "throw_recover"
+      },
+      {
+        "index": 3,
+        "source": "assets/ref/ref_chr_xiepai_skills_left_source_v01.png",
+        "source_row_col": [
+          1,
+          3
+        ],
+        "component": {
+          "id": 9,
+          "box": [
+            801,
+            408,
+            229,
+            264
+          ],
+          "centroid": [
+            922.1,
+            548.1
+          ]
+        },
+        "uniform_scale": 0.155893536121673,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          36,
+          41
+        ],
+        "registered_offset": [
+          4,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            10.0,
+            40
+          ],
+          [
+            30.0,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": 0.0,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "throw_recover"
+      },
+      {
+        "index": 4,
+        "source": "assets/ref/ref_chr_xiepai_skills_left_source_v01.png",
+        "source_row_col": [
+          1,
+          4
+        ],
+        "component": {
+          "id": 10,
+          "box": [
+            1104,
+            408,
+            179,
+            264
+          ],
+          "centroid": [
+            1182.0,
+            551.7
+          ]
+        },
+        "uniform_scale": 0.155893536121673,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          28,
+          41
+        ],
+        "registered_offset": [
+          12,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            22.0,
+            40
+          ],
+          [
+            2.5,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": 0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "throw_recover"
+      }
+    ],
+    "gif_playback_frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_shehunshu_left_v01.png",
+    "action": "shehunshu",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 6,
+    "anchor": [
+      24,
+      60
+    ],
+    "fps": 12,
+    "loop": false,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "gap": 0,
+    "head_embedded": true,
+    "weapon": "one_dao_secured_diagonally_on_back_to_free_hands",
+    "phase": {
+      "charge_loop": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "release": [
+        4,
+        5
+      ]
+    },
+    "hold_frames": [],
+    "end_behavior": "controller_returns_idle",
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_skills_left_source_v01.png",
+        "source_row_col": [
+          2,
+          0
+        ],
+        "component": {
+          "id": 16,
+          "box": [
+            70,
+            728,
+            175,
+            263
+          ],
+          "centroid": [
+            149.1,
+            870.7
+          ]
+        },
+        "uniform_scale": 0.155893536121673,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          27,
+          41
+        ],
+        "registered_offset": [
+          12,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            2.5,
+            40
+          ],
+          [
+            21.0,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": -0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "charge"
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_skills_left_source_v01.png",
+        "source_row_col": [
+          2,
+          1
+        ],
+        "component": {
+          "id": 17,
+          "box": [
+            325,
+            728,
+            177,
+            263
+          ],
+          "centroid": [
+            401.9,
+            869.8
+          ]
+        },
+        "uniform_scale": 0.155893536121673,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          28,
+          41
+        ],
+        "registered_offset": [
+          12,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            22.0,
+            40
+          ],
+          [
+            2.5,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": 0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "charge"
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_skills_left_source_v01.png",
+        "source_row_col": [
+          2,
+          2
+        ],
+        "component": {
+          "id": 18,
+          "box": [
+            544,
+            728,
+            208,
+            263
+          ],
+          "centroid": [
+            650.0,
+            867.7
+          ]
+        },
+        "uniform_scale": 0.155893536121673,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          32,
+          41
+        ],
+        "registered_offset": [
+          7,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            7.5,
+            40
+          ],
+          [
+            26.0,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": -0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "charge"
+      },
+      {
+        "index": 3,
+        "source": "assets/ref/ref_chr_xiepai_skills_left_source_v01.png",
+        "source_row_col": [
+          2,
+          3
+        ],
+        "component": {
+          "id": 19,
+          "box": [
+            818,
+            728,
+            181,
+            263
+          ],
+          "centroid": [
+            894.7,
+            870.0
+          ]
+        },
+        "uniform_scale": 0.155893536121673,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          28,
+          41
+        ],
+        "registered_offset": [
+          12,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            22.0,
+            40
+          ],
+          [
+            2.5,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": 0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "charge"
+      },
+      {
+        "index": 4,
+        "source": "assets/ref/ref_chr_xiepai_skills_left_source_v01.png",
+        "source_row_col": [
+          2,
+          4
+        ],
+        "component": {
+          "id": 20,
+          "box": [
+            1031,
+            728,
+            219,
+            263
+          ],
+          "centroid": [
+            1144.5,
+            868.1
+          ]
+        },
+        "uniform_scale": 0.155893536121673,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          34,
+          41
+        ],
+        "registered_offset": [
+          6,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            9.0,
+            40
+          ],
+          [
+            28.0,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": 0.5,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "release"
+      },
+      {
+        "index": 5,
+        "source": "assets/ref/ref_chr_xiepai_skills_left_source_v01.png",
+        "source_row_col": [
+          2,
+          5
+        ],
+        "component": {
+          "id": 21,
+          "box": [
+            1312,
+            728,
+            186,
+            263
+          ],
+          "centroid": [
+            1397.0,
+            872.5
+          ]
+        },
+        "uniform_scale": 0.155893536121673,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          29,
+          41
+        ],
+        "registered_offset": [
+          10,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            4.0,
+            40
+          ],
+          [
+            23.0,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": -0.5,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "release"
+      }
+    ],
+    "gif_playback_frame_order": [
+      0,
+      1,
+      2,
+      3,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_dushazhang_up_v01.png",
+    "action": "dushazhang",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "anchor": [
+      24,
+      60
+    ],
+    "fps": 12,
+    "loop": false,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "gap": 0,
+    "head_embedded": true,
+    "weapon": "one_dao_secured_diagonally_on_back_to_free_hands",
+    "phase": {
+      "windup": [
+        0
+      ],
+      "palm": [
+        1
+      ],
+      "flick": [
+        2
+      ],
+      "recover": [
+        3
+      ]
+    },
+    "hold_frames": [],
+    "end_behavior": "controller_returns_idle",
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_skills_up_source_v01.png",
+        "source_row_col": [
+          0,
+          0
+        ],
+        "component": {
+          "id": 2,
+          "box": [
+            75,
+            76,
+            153,
+            258
+          ],
+          "centroid": [
+            146.4,
+            215.2
+          ]
+        },
+        "uniform_scale": 0.16015625,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          25,
+          41
+        ],
+        "registered_offset": [
+          12,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            3.0,
+            40
+          ],
+          [
+            20.5,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": -0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "windup"
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_skills_up_fix_source_v01.png",
+        "source_row_col": [
+          0,
+          1
+        ],
+        "component": {
+          "id": 2,
+          "box": [
+            319,
+            75,
+            162,
+            258
+          ],
+          "centroid": [
+            401.6,
+            206.7
+          ]
+        },
+        "uniform_scale": 0.1583011583011583,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          26,
+          41
+        ],
+        "registered_offset": [
+          12,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            4.0,
+            40
+          ],
+          [
+            21.0,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": 0.5,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "palm"
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_skills_up_fix_source_v01.png",
+        "source_row_col": [
+          0,
+          2
+        ],
+        "component": {
+          "id": 3,
+          "box": [
+            589,
+            75,
+            160,
+            258
+          ],
+          "centroid": [
+            670.1,
+            208.2
+          ]
+        },
+        "uniform_scale": 0.1583011583011583,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          25,
+          41
+        ],
+        "registered_offset": [
+          12,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            3.0,
+            40
+          ],
+          [
+            20.0,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": -0.5,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "flick"
+      },
+      {
+        "index": 3,
+        "source": "assets/ref/ref_chr_xiepai_skills_up_source_v01.png",
+        "source_row_col": [
+          0,
+          3
+        ],
+        "component": {
+          "id": 4,
+          "box": [
+            879,
+            76,
+            145,
+            258
+          ],
+          "centroid": [
+            945.9,
+            212.4
+          ]
+        },
+        "uniform_scale": 0.16015625,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          23,
+          41
+        ],
+        "registered_offset": [
+          14,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            2.0,
+            40
+          ],
+          [
+            18.0,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": 0.0,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "recover"
+      }
+    ],
+    "gif_playback_frame_order": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_huagongsan_up_v01.png",
+    "action": "huagongsan",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 5,
+    "anchor": [
+      24,
+      60
+    ],
+    "fps": 12,
+    "loop": false,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "gap": 0,
+    "head_embedded": true,
+    "weapon": "one_dao_secured_diagonally_on_back_to_free_hands",
+    "phase": {
+      "aim": [
+        0,
+        1
+      ],
+      "aim_hold_frame": 1,
+      "throw_recover": [
+        2,
+        3,
+        4
+      ]
+    },
+    "hold_frames": [
+      1
+    ],
+    "end_behavior": "controller_returns_idle",
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_skills_up_source_v01.png",
+        "source_row_col": [
+          1,
+          0
+        ],
+        "component": {
+          "id": 5,
+          "box": [
+            81,
+            405,
+            148,
+            259
+          ],
+          "centroid": [
+            153.8,
+            542.7
+          ]
+        },
+        "uniform_scale": 0.16015625,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          24,
+          41
+        ],
+        "registered_offset": [
+          13,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            3.0,
+            40
+          ],
+          [
+            19.5,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": 0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "aim"
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_skills_up_source_v01.png",
+        "source_row_col": [
+          1,
+          1
+        ],
+        "component": {
+          "id": 6,
+          "box": [
+            325,
+            405,
+            172,
+            259
+          ],
+          "centroid": [
+            406.6,
+            537.1
+          ]
+        },
+        "uniform_scale": 0.16015625,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          28,
+          41
+        ],
+        "registered_offset": [
+          12,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            3.0,
+            40
+          ],
+          [
+            20.0,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": -0.5,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "aim"
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_skills_up_fix_source_v01.png",
+        "source_row_col": [
+          1,
+          2
+        ],
+        "component": {
+          "id": 8,
+          "box": [
+            570,
+            404,
+            167,
+            259
+          ],
+          "centroid": [
+            659.8,
+            534.9
+          ]
+        },
+        "uniform_scale": 0.1583011583011583,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          26,
+          41
+        ],
+        "registered_offset": [
+          11,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            21.5,
+            40
+          ],
+          [
+            5.0,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": 0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "throw_recover"
+      },
+      {
+        "index": 3,
+        "source": "assets/ref/ref_chr_xiepai_skills_up_fix_source_v01.png",
+        "source_row_col": [
+          1,
+          3
+        ],
+        "component": {
+          "id": 9,
+          "box": [
+            822,
+            404,
+            176,
+            259
+          ],
+          "centroid": [
+            910.5,
+            534.7
+          ]
+        },
+        "uniform_scale": 0.1583011583011583,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          28,
+          41
+        ],
+        "registered_offset": [
+          11,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            5.0,
+            40
+          ],
+          [
+            21.5,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": 0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "throw_recover"
+      },
+      {
+        "index": 4,
+        "source": "assets/ref/ref_chr_xiepai_skills_up_source_v01.png",
+        "source_row_col": [
+          1,
+          4
+        ],
+        "component": {
+          "id": 9,
+          "box": [
+            1097,
+            405,
+            149,
+            258
+          ],
+          "centroid": [
+            1168.0,
+            543.1
+          ]
+        },
+        "uniform_scale": 0.16015625,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          24,
+          41
+        ],
+        "registered_offset": [
+          14,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            2.5,
+            40
+          ],
+          [
+            18.0,
+            40
+          ]
+        ],
+        "projected_root_x_error_px": 0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "throw_recover"
+      }
+    ],
+    "gif_playback_frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "file": "assets/chr/chr_xiepai_shehunshu_up_v01.png",
+    "action": "shehunshu",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 6,
+    "anchor": [
+      24,
+      60
+    ],
+    "fps": 12,
+    "loop": false,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "gap": 0,
+    "head_embedded": true,
+    "weapon": "one_dao_secured_diagonally_on_back_to_free_hands",
+    "phase": {
+      "charge_loop": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "release": [
+        4,
+        5
+      ]
+    },
+    "hold_frames": [],
+    "end_behavior": "controller_returns_idle",
+    "frames": [
+      {
+        "index": 0,
+        "source": "assets/ref/ref_chr_xiepai_skills_up_source_v01.png",
+        "source_row_col": [
+          2,
+          0
+        ],
+        "component": {
+          "id": 10,
+          "box": [
+            71,
+            732,
+            150,
+            256
+          ],
+          "centroid": [
+            144.1,
+            868.3
+          ]
+        },
+        "uniform_scale": 0.16015625,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          24,
+          41
+        ],
+        "registered_offset": [
+          12,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            3.5,
+            40
+          ],
+          [
+            19.5,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": -0.5,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "charge"
+      },
+      {
+        "index": 1,
+        "source": "assets/ref/ref_chr_xiepai_skills_up_source_v01.png",
+        "source_row_col": [
+          2,
+          1
+        ],
+        "component": {
+          "id": 11,
+          "box": [
+            320,
+            732,
+            159,
+            254
+          ],
+          "centroid": [
+            397.8,
+            865.6
+          ]
+        },
+        "uniform_scale": 0.16015625,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          25,
+          41
+        ],
+        "registered_offset": [
+          13,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            3.0,
+            40
+          ],
+          [
+            19.0,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": 0.0,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "charge"
+      },
+      {
+        "index": 2,
+        "source": "assets/ref/ref_chr_xiepai_skills_up_source_v01.png",
+        "source_row_col": [
+          2,
+          2
+        ],
+        "component": {
+          "id": 14,
+          "box": [
+            560,
+            734,
+            169,
+            251
+          ],
+          "centroid": [
+            640.5,
+            865.2
+          ]
+        },
+        "uniform_scale": 0.16015625,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          27,
+          40
+        ],
+        "registered_offset": [
+          12,
+          21
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            4.0,
+            39
+          ],
+          [
+            20.0,
+            38
+          ]
+        ],
+        "projected_root_x_error_px": 0.0,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "charge"
+      },
+      {
+        "index": 3,
+        "source": "assets/ref/ref_chr_xiepai_skills_up_source_v01.png",
+        "source_row_col": [
+          2,
+          3
+        ],
+        "component": {
+          "id": 15,
+          "box": [
+            810,
+            734,
+            160,
+            255
+          ],
+          "centroid": [
+            890.1,
+            866.9
+          ]
+        },
+        "uniform_scale": 0.16015625,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          26,
+          41
+        ],
+        "registered_offset": [
+          12,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            4.0,
+            40
+          ],
+          [
+            20.5,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": 0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "charge"
+      },
+      {
+        "index": 4,
+        "source": "assets/ref/ref_chr_xiepai_skills_up_fix_source_v01.png",
+        "source_row_col": [
+          2,
+          4
+        ],
+        "component": {
+          "id": 14,
+          "box": [
+            1065,
+            729,
+            159,
+            259
+          ],
+          "centroid": [
+            1145.2,
+            861.5
+          ]
+        },
+        "uniform_scale": 0.1583011583011583,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          25,
+          41
+        ],
+        "registered_offset": [
+          12,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            4.0,
+            40
+          ],
+          [
+            20.5,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": 0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "release"
+      },
+      {
+        "index": 5,
+        "source": "assets/ref/ref_chr_xiepai_skills_up_source_v01.png",
+        "source_row_col": [
+          2,
+          5
+        ],
+        "component": {
+          "id": 13,
+          "box": [
+            1322,
+            732,
+            147,
+            256
+          ],
+          "centroid": [
+            1395.3,
+            868.4
+          ]
+        },
+        "uniform_scale": 0.16015625,
+        "scale_reference": "同源同方向摄魂术首帧站姿41px，全组统一等比，不逐帧拉高",
+        "scaled_size": [
+          24,
+          41
+        ],
+        "registered_offset": [
+          12,
+          20
+        ],
+        "anchor": [
+          24,
+          60
+        ],
+        "source_native_foot_points": [
+          [
+            5.0,
+            40
+          ],
+          [
+            19.5,
+            39
+          ]
+        ],
+        "projected_root_x_error_px": 0.25,
+        "integer_horizontal_margin_registration": 0,
+        "phase": "release"
+      }
+    ],
+    "gif_playback_frame_order": [
+      0,
+      1,
+      2,
+      3,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+]

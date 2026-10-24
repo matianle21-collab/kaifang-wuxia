@@ -1,0 +1,376 @@
+{
+  "delivery": "20261024-1935",
+  "rows": [
+    10,
+    11
+  ],
+  "status": "partial",
+  "native_strips": 6,
+  "native_frames": 30,
+  "generated_sources": 4,
+  "standalone_head_runtime_assets": 0,
+  "files": [
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/chr_xiepai_idle_down_6倍_v01.png",
+      "bytes": 5376,
+      "sha256": "2b12a8e1ca49cce56ef8f1aa17e76d3e19fa8d3cf211219cca5ea1c8eb1cbfed"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/chr_xiepai_idle_down_循环_v01.gif",
+      "bytes": 16599,
+      "sha256": "147daa4bb59c3c1cfdc843f9f93054e384899cb6c338e2935d29de49ebcd4887"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/chr_xiepai_idle_left_6倍_v01.png",
+      "bytes": 5494,
+      "sha256": "df9f3839df9f3dcb8cd6113c42c44f2e2f1f3804b5e6f4f49d29eb6ce45668e1"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/chr_xiepai_idle_left_循环_v01.gif",
+      "bytes": 16918,
+      "sha256": "3dd4a92412fc7e70da56470ea61fcc93bd44473c49cdf30c8f6c4d48a5c47ec8"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/chr_xiepai_idle_up_6倍_v01.png",
+      "bytes": 5261,
+      "sha256": "d6c960bee65ae4dfde5e215e201522111c72eb49f7ada04a0cc6110a77cda973"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/chr_xiepai_idle_up_循环_v01.gif",
+      "bytes": 14994,
+      "sha256": "1a4fb02b8581e8a85c901404ea4ad83e09ce4fc856ea893605b1d83483ab4b01"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/chr_xiepai_walk_down_6倍_v01.png",
+      "bytes": 7365,
+      "sha256": "fdb8cf6a8494afdf289f316d9aec7ad63636b4484a5f9bafae3897e2c39a670c"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/chr_xiepai_walk_down_循环_v01.gif",
+      "bytes": 22210,
+      "sha256": "d6ed5944a407cd5020b3ada40363060031de7af5d117dd894658748c480ed1b0"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/chr_xiepai_walk_left_6倍_v01.png",
+      "bytes": 8029,
+      "sha256": "961967703af2a40d37aec17b8f267fd49a41781a818b898398c8684ee94e3850"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/chr_xiepai_walk_left_循环_v01.gif",
+      "bytes": 25226,
+      "sha256": "e91d1e2bf024c960d76fd31f5d532d813cb10f9cc75c9f1a2128b3035f6615c6"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/chr_xiepai_walk_up_6倍_v01.png",
+      "bytes": 7375,
+      "sha256": "4c74a771e5e3dc53136038bf3d4cf10e8b382ee93d1e2c3be33e06e7f429377a"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/chr_xiepai_walk_up_循环_v01.gif",
+      "bytes": 21133,
+      "sha256": "5062484836cb6483101f1f93353ee0a4413a872b257e936ad8bfbbf1f1f9a767"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/finalize_move.py",
+      "bytes": 3982,
+      "sha256": "08761c722246bd9f65f079882fdf0c550f1d5b9bcd6cfebdcbbfdda605ea99c6"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/frame_registration.json",
+      "bytes": 56461,
+      "sha256": "f5971765d7d0cdb076b8598ad955b691769458cc59d2038dd36278b382891715"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/body/body_idle_down_v01.png",
+      "bytes": 1571,
+      "sha256": "46ebf00a18db6d923702c36e811d18374de2188a74b2c354c8c74531503eb85c"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/body/body_idle_left_v01.png",
+      "bytes": 1477,
+      "sha256": "081fadcb6bcc5beb18a3496eb9db94e956503a96c009d0bb2547e36c88355b9d"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/body/body_idle_up_v01.png",
+      "bytes": 1406,
+      "sha256": "813fd6d7b083cba43cc13b334b0b6caece26c3cbf9d98f0cb1c0fd96cc1d99ca"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/body/body_walk_down_v01.png",
+      "bytes": 1921,
+      "sha256": "642a5023e12a506c7c5bf71cd92b3bfc7968c7bf6db4cf82c806007087013ab4"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/body/body_walk_left_v01.png",
+      "bytes": 2086,
+      "sha256": "defbbfd5c5bd140c97c101d099856f3b846337a78371154b8a89fbd290e81ea5"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/body/body_walk_up_v01.png",
+      "bytes": 1667,
+      "sha256": "484ff51b9efc6fa8b8c7ac73d02785c71b4401a15ae1a177d45a6960959e2dbf"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/head/chr_head_default_idle_down_v01.png",
+      "bytes": 577,
+      "sha256": "e2a82ee7b7fcc5043d0aa11a37e34d08d451eba7634dce447e8c5ac96d98b483"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/head/chr_head_default_idle_left_v01.png",
+      "bytes": 568,
+      "sha256": "366af101bda2e03cb2a41f2114e88152965d4f129ca3637f91d088e4cbd29697"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/head/chr_head_default_idle_up_v01.png",
+      "bytes": 547,
+      "sha256": "74eee02620bcbafe26a7f46e7b9247eed34a4ffdeb2065d23f4646b7d7aa65ac"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/head/chr_head_default_walk_down_v01.png",
+      "bytes": 642,
+      "sha256": "a88de1d87dc396a18f3b5593cb22d64a8e648c0a7107584f49a305d4314eea60"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/head/chr_head_default_walk_left_v01.png",
+      "bytes": 638,
+      "sha256": "944821888be099762c342f23a220735b1a6db5e338344fa96742a797bd798461"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/head/chr_head_default_walk_up_v01.png",
+      "bytes": 614,
+      "sha256": "7636e85dee3a72a67d6f81055723487f55f88e9ffc915ac2fe51e9ede0e68965"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/shaolin_body/shaolin_body_idle_down_v01.png",
+      "bytes": 1529,
+      "sha256": "a029cab30451540b18cc8e8c3d192d6bc270261203cdb8ed5051b64cd9d266c9"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/shaolin_body/shaolin_body_idle_left_v01.png",
+      "bytes": 1385,
+      "sha256": "3db10d32d5daf128e4d0bba2bd0f54dd627f6b598a4246409096357bff9f1287"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/shaolin_body/shaolin_body_idle_up_v01.png",
+      "bytes": 1452,
+      "sha256": "0c50f1eeda318054f918c62ca7a8bf9b5cdc80eb148a54fa97a12da2d848e2a8"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/shaolin_body/shaolin_body_walk_down_v01.png",
+      "bytes": 1914,
+      "sha256": "99f967194567c138ed9d3a3f247a92a989634f0f957ca850580f5185924733b4"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/shaolin_body/shaolin_body_walk_left_v01.png",
+      "bytes": 1982,
+      "sha256": "2325823425ed9ff03178437ed04b8691bda258258f69923b43565b2712d19ad5"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/shaolin_body/shaolin_body_walk_up_v01.png",
+      "bytes": 1937,
+      "sha256": "07abbd5aa11c173e0b495f475da806e9a3e371591c0836b89a170866fd5e6d44"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/shaolin_normalized/shaolin_normalized_idle_down_v01.png",
+      "bytes": 1678,
+      "sha256": "a314aff992276a03b8322893c9857b21d253dc691672e08e790d6e9132d611f8"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/shaolin_normalized/shaolin_normalized_idle_left_v01.png",
+      "bytes": 1561,
+      "sha256": "a04efec2450f6dc6effd041c24c1e0fc292e7464d13cec8370dddd51758d0347"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/shaolin_normalized/shaolin_normalized_idle_up_v01.png",
+      "bytes": 1603,
+      "sha256": "f4f98606f171afc97dcf48883e30e572e07ff4467a1be43e8ed0546efd797e95"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/shaolin_normalized/shaolin_normalized_walk_down_v01.png",
+      "bytes": 2173,
+      "sha256": "d0f1d25f3a428c9ad67c9cb5cdb51a483d526204c06ddfdc058d9040650216de"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/shaolin_normalized/shaolin_normalized_walk_left_v01.png",
+      "bytes": 2225,
+      "sha256": "8d0bda1a74823179036c57056d4991465fa01296b05f94784a0450a7d41ec06b"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/layers/shaolin_normalized/shaolin_normalized_walk_up_v01.png",
+      "bytes": 2165,
+      "sha256": "0a9bf9b4d64d62d2aa0718962688c53dba368501ebc01ce6e8f686e189b70049"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/move_prompts.json",
+      "bytes": 6833,
+      "sha256": "47a2bb5cac2f10b8c686a1a51f751cf95f381e0bc13ac15779d9a120baf77422"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/process_move.py",
+      "bytes": 5905,
+      "sha256": "682b5e14e3ae444515b8188b32fb4e4e80b1bfb96bf59b2a99c0a9cda6b15823"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/register_lower_legs.py",
+      "bytes": 3135,
+      "sha256": "9f4639ce2c48d26132350be535610e946fd092f28eadbbc5f2eb3315a7c2fe06"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/source_inputs/shaolin_move_down_edit_reference.png",
+      "bytes": 12789,
+      "sha256": "89834dd5d8c60cfa123f65bcbf7e7e15b657b0c0ff324e6e0df035789f82a9d8"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/source_inputs/shaolin_move_left_edit_reference.png",
+      "bytes": 13146,
+      "sha256": "b5e78fbc8b10d7f1631b1239d36e4435d0c5d52fc1d7f7005230ad0f6f9e5c3e"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/source_inputs/shaolin_move_up_edit_reference.png",
+      "bytes": 12607,
+      "sha256": "4b448285f280a986d090d6d4b52d97e95bfed2533d0c92f0fcf69fd422ec09b5"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/source_inputs/邪派玩家已确认定妆_8倍_v01.png",
+      "bytes": 1755,
+      "sha256": "f8b39807e5f1bf08e00086dc31a5115d468e5e5c49259288868229a30ab2cdd3"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/up_fix_prompt.json",
+      "bytes": 875,
+      "sha256": "cf8d2ec4b3bd459782d438371a3afdbeebb8af3a74bc886d41c64661182d4193"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/validate_move.py",
+      "bytes": 4514,
+      "sha256": "f9504e71c030fd62d030ffa8c8cef8d9193737a96391d0a630bc09d346c84aab"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/交付说明_v01.md",
+      "bytes": 4654,
+      "sha256": "fb76828943ef5c4520a19b69f7262174a70da3b3894f02c72aa2faf37efbffad"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/动画参数_v01.json",
+      "bytes": 4136,
+      "sha256": "acc6b5052b01cfd67a6487c240e33460dbe4bfe3c6bd8907762d61a6888768c7"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/少林与邪派同帧_down_6倍_v01.png",
+      "bytes": 25016,
+      "sha256": "2f350fc5c2d3c55e0e1cdc4e8aefbca7e8e4aa5655c07c9a85bb779ef0dc377b"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/少林与邪派同帧_left_6倍_v01.png",
+      "bytes": 26262,
+      "sha256": "78210c6da68276768596ba97d596337207057e7de09ed4af2d69ca8962659a4f"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/少林与邪派同帧_up_6倍_v01.png",
+      "bytes": 24876,
+      "sha256": "377ad7f66cd172e7ba2c48744611f4717eafb638fe675556c36be750b4601e48"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/山门原比例对照_v01.png",
+      "bytes": 830657,
+      "sha256": "31b7986e30848f7f109434daa7a7691407564a5f79750d50e912e52722d69314"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/核验结果_v01.json",
+      "bytes": 4825,
+      "sha256": "b529038a948baf96172136e5bbaa25210da7306e6fee6e1e319aa2a436b3e0b8"
+    },
+    {
+      "path": "UI设计/邪派移动动画_20261024_1935/调色板_v01.json",
+      "bytes": 494,
+      "sha256": "8d2796fb3e8a03fc077592177b93323ab65a15df296b0e24d31ec50c31b29ddb"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_idle_down_v01.png",
+      "bytes": 1730,
+      "sha256": "a3f969cf854f8c0c96b073ca0b90ee4c24b33796e0815e509c37522500693730"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_idle_left_v01.png",
+      "bytes": 1640,
+      "sha256": "e478d043c5426b3e1ac4b573b3dd301aa60abebda4e218aa2ea87913fc42e2b2"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_idle_up_v01.png",
+      "bytes": 1553,
+      "sha256": "b5fa8d315624e18a8861bcbd050db2ef40cff33d5a4716ab1a492a4d49736a92"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_walk_down_v01.png",
+      "bytes": 2172,
+      "sha256": "a41a9538acbdf50e75a0c826d362dbb3ccf68cfc675f26772c07f6f3fcabb10d"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_walk_left_v01.png",
+      "bytes": 2327,
+      "sha256": "cef506a60057178a47493b28f825c68c0a42a5eb48c3e934607d3edaf3131173"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_walk_up_v01.png",
+      "bytes": 1891,
+      "sha256": "d74f04127ec1f5bc494f37553b60ea7ef2d67779f5af4f691652f57653d40bc7"
+    },
+    {
+      "path": "assets/ref/ref_chr_xiepai_move_down_v01_source.png",
+      "bytes": 572669,
+      "sha256": "fca5c40eb2551936220665ceb476f6ad70daae7ac5124b759f066b4e8c388283"
+    },
+    {
+      "path": "assets/ref/ref_chr_xiepai_move_left_v01_source.png",
+      "bytes": 616953,
+      "sha256": "7b73182662ec7ef21249da90ae87aca4fee02a204eb5975d5195de87b364620d"
+    },
+    {
+      "path": "assets/ref/ref_chr_xiepai_move_up_fix_v01_source.png",
+      "bytes": 523682,
+      "sha256": "7002104c11a94fc822e36df1df64bcd2df735c4948fcb33c9c0267c986335759"
+    },
+    {
+      "path": "assets/ref/ref_chr_xiepai_move_up_v01_source.png",
+      "bytes": 554756,
+      "sha256": "8cd0f7aaef6fafaaa2b02d2bab9d43da5fd74638b0d22779fab4fbb64f4562d5"
+    }
+  ],
+  "existing_dependencies": [
+    {
+      "path": "assets/chr/chr_shaolin_idle_down_v01.png",
+      "bytes": 4358,
+      "sha256": "cc1a94ed72048531b5a0ee87e5354291d3c603cbc39b0e83d2f56346d7e50231"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_idle_left_v01.png",
+      "bytes": 4274,
+      "sha256": "a22bf03e452c1d511cee88cf657a7b91f866ddfc7acb5300d66e9b8378345820"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_idle_up_v01.png",
+      "bytes": 4039,
+      "sha256": "aaf611495cf065fded813f994af07e2b4355ab913da31c8b54acbe584e22846c"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_walk_down_v01.png",
+      "bytes": 5677,
+      "sha256": "c8ecfc1c7afd3ca08cbf30fc4f4a27d9c446bf76831dc7c9e532aa5216193afd"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_walk_left_v01.png",
+      "bytes": 5608,
+      "sha256": "d1bd42620d25594c1f58897ee7dcd8f2d732710ebb644c511f42c9839cb64c37"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_walk_up_v01.png",
+      "bytes": 5647,
+      "sha256": "cb5a85160beb8b47ec2f7ce881cb6b77f302b8f275a90458330f05ecb2d77668"
+    },
+    {
+      "path": "assets/ref/ref_chr_xiepai_down_v01.png",
+      "bytes": 1546,
+      "sha256": "bf12414fb0e3cb0f702283be9ed6d75174abb9c088ffe97c37308d8ac192719b"
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "delivery": "20261024-2118",
+  "rows": [
+    10,
+    11
+  ],
+  "status": "character_actions_complete_delivered",
+  "new_strips": 9,
+  "new_frames": 45,
+  "combined_strips": 33,
+  "combined_frames": 132,
+  "generated_sources": 5,
+  "derived_references": 3,
+  "files": [
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/down_三招逐帧_v01.png",
+      "bytes": 19936,
+      "sha256": "9179d32affbf380aec2bffbc4f1fd25ec5c204396684f2a5d1927cc2f01eb33d"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/dushazhang_down_6倍_v01.png",
+      "bytes": 5531,
+      "sha256": "c3a2e80960504b6de5265ac7121c8fed36db113a31e69d8257888da243fd019e"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/dushazhang_down_相位预览_v01.gif",
+      "bytes": 14644,
+      "sha256": "4f45e954139763624020362e5da6158fe1f5017e284efa6a2194cb3ff1315fda"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/dushazhang_left_6倍_v01.png",
+      "bytes": 3969,
+      "sha256": "275b80a9f1c24bbd946f36f34ad1ad571c459eb19148b1c7db751d0368414d90"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/dushazhang_left_相位预览_v01.gif",
+      "bytes": 16309,
+      "sha256": "b54754b35bab00bd0b8536f08b037ee17efe4bc48882fc89d25c0fecbf319261"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/dushazhang_up_6倍_v01.png",
+      "bytes": 5315,
+      "sha256": "5346ee90341b77d641b0c01911fa6f728a79f8e88f149052700e27ecce64d8ea"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/dushazhang_up_相位预览_v01.gif",
+      "bytes": 14578,
+      "sha256": "c31916beee5d3e6c6064647c5092f66ca7101efc5b1cf31e0ccfc757195d1e92"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/finalize_and_validate.py",
+      "bytes": 6490,
+      "sha256": "e14531125f748f2869df2e3558869cc767b6f2f1e78c173b5f3fbbeb7ba2dc86"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/frame_registration.json",
+      "bytes": 40073,
+      "sha256": "3b369a78d5e869e7a05582b448127ed92ac4a595a312699af0595b3c6facbd76"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/huagongsan_down_6倍_v01.png",
+      "bytes": 6734,
+      "sha256": "7f0997df5de4ce9dc5d0893aa06fae1b60ec3cc38be69990379fbff209501ae3"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/huagongsan_down_相位预览_v01.gif",
+      "bytes": 19032,
+      "sha256": "ec13e788b47d922c32fae3ca6fb484f9c728cf66dae854d428ce9dfe51db5ffe"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/huagongsan_left_6倍_v01.png",
+      "bytes": 6628,
+      "sha256": "b0904e8856324696e489a89de4c8f5a522424aa60efe493ae1d6f282ebff3b68"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/huagongsan_left_相位预览_v01.gif",
+      "bytes": 20478,
+      "sha256": "7daa82aa97ca2ff338f794c07b35eebee9924e044df320aa37bd5784ff845eba"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/huagongsan_up_6倍_v01.png",
+      "bytes": 6769,
+      "sha256": "17e3541d04254fb7833e5fbbcc915238f667e77c7c1685e6a0bf8c1565a1639b"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/huagongsan_up_相位预览_v01.gif",
+      "bytes": 18886,
+      "sha256": "a51b2de3d64384911ba9a4d59e5d3bb35936f8454449adcb668a5a277687e66c"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/left_三招逐帧_v01.png",
+      "bytes": 19702,
+      "sha256": "406e7211bf5c13f51081984fa1ecca7307d54b793fb6484542e3c9163c187f0b"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/process_skills.py",
+      "bytes": 6129,
+      "sha256": "15fa821192565d4ca6398ec6dbac66558b37191384e321827ff622014f77b274"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/shehunshu_down_6倍_v01.png",
+      "bytes": 7998,
+      "sha256": "2ad5240e8fb1a0a3a9b41c1611d631319b8f5979f03439923f4767c43798f2bd"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/shehunshu_down_相位预览_v01.gif",
+      "bytes": 38235,
+      "sha256": "9523d7a5fe927f2341a4ea3156471a8cab859b92277d8d21fe939a06655e5211"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/shehunshu_left_6倍_v01.png",
+      "bytes": 7901,
+      "sha256": "2b94d041b40e72454d8d43e3a06b2422d5b755199fcd6f448f62b8474d476a60"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/shehunshu_left_相位预览_v01.gif",
+      "bytes": 40866,
+      "sha256": "6f0bf1d2ef3953121b5eda198f5c3d1247b1566a4e9b16d49ed00f65d9ca68b1"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/shehunshu_up_6倍_v01.png",
+      "bytes": 7874,
+      "sha256": "90bf5aecc0530dd164ed71f8903ef8e4bfc1a128ed0783f6735ad7a1124e3868"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/shehunshu_up_相位预览_v01.gif",
+      "bytes": 36245,
+      "sha256": "271ed538b4f189a57ef2c67f1f4fa9d1f95ef1c43e0c864dae70a5b5dfd82b5f"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/skill_fix_prompts.json",
+      "bytes": 2600,
+      "sha256": "fe1197b1af57f5e6e6f64baa9d6c2513017b0c148c3301d1234ec9b69203cedd"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/skill_prompts.json",
+      "bytes": 10566,
+      "sha256": "2d0af96f207fba3be6df2d61222cc082147911dc53ff71ea8e6e2552715504ba"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/source_inputs/approved_idle_down_reference.png",
+      "bytes": 5376,
+      "sha256": "2b12a8e1ca49cce56ef8f1aa17e76d3e19fa8d3cf211219cca5ea1c8eb1cbfed"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/source_inputs/approved_idle_left_reference.png",
+      "bytes": 5494,
+      "sha256": "df9f3839df9f3dcb8cd6113c42c44f2e2f1f3804b5e6f4f49d29eb6ce45668e1"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/source_inputs/approved_idle_up_reference.png",
+      "bytes": 5261,
+      "sha256": "d6c960bee65ae4dfde5e215e201522111c72eb49f7ada04a0cc6110a77cda973"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/up_三招逐帧_v01.png",
+      "bytes": 19595,
+      "sha256": "e4882c0553b96adea2050caa4b1cd3290ac68bbaa06f6d67a98651cb8558d832"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/三招动画参数_v01.json",
+      "bytes": 53516,
+      "sha256": "fbaee744a6a66f54134704859e55e9de2e3ea857889f5fae9cf46f71951f90ac"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/交付说明_v01.md",
+      "bytes": 4360,
+      "sha256": "68735ebadf96d8d3be1557a32fb95ef079b13a98d344d248f0758e3b3b646fa3"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/山门原比例三招_v01.png",
+      "bytes": 831517,
+      "sha256": "c81eed4a5e032802e6b2b7a575b946ffc836b4ce0c576966201f05cf0c51b8f2"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/核验结果_v01.json",
+      "bytes": 7815,
+      "sha256": "71f4dd796110239d85dc64ffddca4449a8f313c7a7bf4566ad52647d66a1ffa8"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/调色板_v01.json",
+      "bytes": 194,
+      "sha256": "3cb9121e15ad99329e866463e84a8ed0f52a60e4926933c8bc7cdb33f2cb7560"
+    },
+    {
+      "path": "UI设计/邪派三招动画_20261024_2118/邪派完整132帧索引_v01.json",
+      "bytes": 12630,
+      "sha256": "c41fad411c10238fa250c8e6a4a196fd2c79f243a311bf324da2b3b04883fe65"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_dushazhang_down_v01.png",
+      "bytes": 4321,
+      "sha256": "ded01fea4a4ea88754a46ea251d99c22d0fb8e8ce7c405fe615015c001a914f7"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_dushazhang_left_v01.png",
+      "bytes": 4511,
+      "sha256": "bfab4815528ae271d4fda06eb4a58003edfbdfed3cf74468d7237c9f90cf9968"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_dushazhang_up_v01.png",
+      "bytes": 3789,
+      "sha256": "51a5dce959ddf0862c80b7c2706f4185118f83d4e27459fec0cfbfcfbadb3e7e"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_huagongsan_down_v01.png",
+      "bytes": 5372,
+      "sha256": "ebf63209602b2772c7e0a369c712d491f78e8e9537673834027229ef50915c46"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_huagongsan_left_v01.png",
+      "bytes": 5480,
+      "sha256": "18243325440f8ecd3a2ab442151be0bc9edfa969c19999d90628b7f909916f74"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_huagongsan_up_v01.png",
+      "bytes": 4713,
+      "sha256": "439d46b527ebd62871edf8305548dd10c244ebaeffc5b23504901d4aef9e0458"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_shehunshu_down_v01.png",
+      "bytes": 5932,
+      "sha256": "02ff0412fe2c2e60c57edbb18c78b3471d4664defaa55984550fbec53e381fb7"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_shehunshu_left_v01.png",
+      "bytes": 6170,
+      "sha256": "ba393db364780892ce5f5be1853d676ecb9fbdb79a4b9e502d6a1fa0e1964587"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_shehunshu_up_v01.png",
+      "bytes": 5269,
+      "sha256": "b73d2894103f0b9692250312b32ec8bcca7ce283123aff8331bb90881cd23dbe"
+    },
+    {
+      "path": "assets/ref/ref_chr_xiepai_skills_down_fix_source_v01.png",
+      "bytes": 1739133,
+      "sha256": "208e5391c9d9cb6d3a72cb938b46ab70dcc09dd31e82f691a9c9ece1978a5a4c"
+    },
+    {
+      "path": "assets/ref/ref_chr_xiepai_skills_down_source_v01.png",
+      "bytes": 1761378,
+      "sha256": "4592bf76f20057d92a0e91bd25ba564b741876db4308b7fedaf50f1523ce0795"
+    },
+    {
+      "path": "assets/ref/ref_chr_xiepai_skills_left_source_v01.png",
+      "bytes": 1715735,
+      "sha256": "214b33b8c49187f7b62c1507ecc50b5e5eddbb95f57f275c9fed64e87b208e65"
+    },
+    {
+      "path": "assets/ref/ref_chr_xiepai_skills_up_fix_source_v01.png",
+      "bytes": 1648012,
+      "sha256": "a566bcd97c351860b63151b60493a7fb06e0462d3569dc0a724cdfd6fd6d407e"
+    },
+    {
+      "path": "assets/ref/ref_chr_xiepai_skills_up_source_v01.png",
+      "bytes": 1596408,
+      "sha256": "3c1230e78b9b9eaa661923882f023df286f10e829189bff3430fff0399b12e56"
+    }
+  ],
+  "existing_dependencies": [
+    {
+      "path": "assets/chr/chr_xiepai_idle_down_v01.png",
+      "bytes": 1730,
+      "sha256": "a3f969cf854f8c0c96b073ca0b90ee4c24b33796e0815e509c37522500693730"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_idle_left_v01.png",
+      "bytes": 1640,
+      "sha256": "e478d043c5426b3e1ac4b573b3dd301aa60abebda4e218aa2ea87913fc42e2b2"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_idle_up_v01.png",
+      "bytes": 1553,
+      "sha256": "b5fa8d315624e18a8861bcbd050db2ef40cff33d5a4716ab1a492a4d49736a92"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_walk_down_v01.png",
+      "bytes": 2172,
+      "sha256": "a41a9538acbdf50e75a0c826d362dbb3ccf68cfc675f26772c07f6f3fcabb10d"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_walk_left_v01.png",
+      "bytes": 2327,
+      "sha256": "cef506a60057178a47493b28f825c68c0a42a5eb48c3e934607d3edaf3131173"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_walk_up_v01.png",
+      "bytes": 1891,
+      "sha256": "d74f04127ec1f5bc494f37553b60ea7ef2d67779f5af4f691652f57653d40bc7"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_atk1_down_v01.png",
+      "bytes": 3754,
+      "sha256": "664c198d08e1147c32ad42d2344a3d51dfcd76aa34478c92b63f02ac2f7e1ae8"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_atk1_left_v01.png",
+      "bytes": 3931,
+      "sha256": "bbe0513a44ff2ebe0a2ce60f1731b3240723a6f804eab326d3b07ceb8a7ed942"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_atk1_up_v01.png",
+      "bytes": 3030,
+      "sha256": "d9528715cd3c336d14ddb2c9afa3adf0ec29af0d6dfe4dcd4d4ca5e305de4823"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_atk2_down_v01.png",
+      "bytes": 3620,
+      "sha256": "376a408a0bcd15bd24b81af420e5bb76b1e8da405d19ed46a0002d1fef4aea38"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_atk2_left_v01.png",
+      "bytes": 4214,
+      "sha256": "9e7d8f4409446df108943b3998d9751ffc59340ea4f1a2394119059a88781b8a"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_atk2_up_v01.png",
+      "bytes": 2814,
+      "sha256": "a3c619965d9ecf7dd1928010fe8f6b2e694df1a04f1604fe341f9144337aa9f1"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_atk3_down_v01.png",
+      "bytes": 3697,
+      "sha256": "dce1bd8f05b9f0c1cccbff2e804000ea28d1aab41afabb1261d3c8dbc1931193"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_atk3_left_v01.png",
+      "bytes": 4057,
+      "sha256": "a95bd8b65f71af37192ab2a520124830cbb0f10f1fd2a2c1bfbe3f1124471c4d"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_atk3_up_v01.png",
+      "bytes": 2980,
+      "sha256": "648295187317a96a0756e6ffc7c1a826cb3649431e99bee6bcfc9f9d48974b99"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_down_down_v01.png",
+      "bytes": 3657,
+      "sha256": "0acbce717ba61fa724aa42306a3c6ac44d710288469da0046cf5c8db3c30ac82"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_down_left_v01.png",
+      "bytes": 3957,
+      "sha256": "7b0dd1415c4e4fe942549aa190145b3eb741934e61b62961b8545d84e311d71a"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_down_up_v01.png",
+      "bytes": 3228,
+      "sha256": "21338452d5a774979bdfa8641cfc984d0eff6824644abecd92d043d60b425ba4"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_hit_down_v01.png",
+      "bytes": 2748,
+      "sha256": "98bb7bc98df03383180eed4b18cdf66b9ae584889c0d95192140e3447165301f"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_hit_left_v01.png",
+      "bytes": 2918,
+      "sha256": "fe1a56fe2f49bb05e6bb04cda7bf23364bcb8a8c9d4af7656c714f9312f98707"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_hit_up_v01.png",
+      "bytes": 2341,
+      "sha256": "1bb0087a725c3d70ecba30ec8fbf9d17eef7b5b87f3e7e94b0f05beed706d556"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_roll_down_v01.png",
+      "bytes": 4129,
+      "sha256": "019e6ec7d274722023b932eae20a7062eb031a917efdf4f41838fb61523412e0"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_roll_left_v01.png",
+      "bytes": 4573,
+      "sha256": "af759e95212c952cf7252169789070b23c7d86c1f58c784a3055f530c3d1d8e5"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_roll_up_v01.png",
+      "bytes": 3890,
+      "sha256": "b8fddbc98e831db45807857c4d0dc8097a3ad4d7b5dcce422b74e4bd3e859847"
+    },
+    {
+      "path": "assets/ref/ref_chr_xiepai_down_v01.png",
+      "bytes": 1546,
+      "sha256": "bf12414fb0e3cb0f702283be9ed6d75174abb9c088ffe97c37308d8ac192719b"
+    }
+  ]
+}

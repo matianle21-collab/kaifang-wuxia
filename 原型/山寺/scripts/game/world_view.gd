@@ -702,6 +702,10 @@ func _prop(f: SimFighter, at: Vector2, tint: Color) -> void:
 func _npc(n: Dictionary) -> void:
 	var at: Vector2 = n.pos
 	_ellipse(at, 12, Color(0, 0, 0, 0.35), 0.45)
+	if SpriteLib.draw_still(self, SpriteLib.NPC_BY_NAME.get(n.name, ""), at, world.time if world else 0.0):
+		var nw := UiKit.text_width(n.name)
+		UiKit.text(self, at + Vector2(-nw / 2.0, -54), n.name, 12, UiKit.TEXT)
+		return
 	draw_rect(Rect2(at + Vector2(-7, -24), Vector2(14, 24)), n.robe)
 	draw_circle(at + Vector2(0, -29), 6.0, Color("#E0C8B0"))
 	draw_rect(Rect2(at + Vector2(-6, -35), Vector2(12, 6)), n.hair)

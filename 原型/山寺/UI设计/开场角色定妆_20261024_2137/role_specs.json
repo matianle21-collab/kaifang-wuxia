@@ -1,0 +1,106 @@
+[
+  {
+    "id": "fubo",
+    "name": "福伯",
+    "height": 41,
+    "portrait": true,
+    "design": "Elderly Chinese male household servant, about65, slim slightly stooped but able to walk, receding gray hair under simple charcoal cloth cap, short gray moustache and small pointed beard, lined worried face, plain modest gray long robe with overlapping collar and dark cloth belt, worn cloth shoes. Head slightly lowered, hands held together low inside sleeves. He serves the Shen merchant household; no noble crown or jewelry, no weapon, no walking cane.",
+    "prompt": "Use case: stylized-concept. Asset type: definitive front standing reference for a48x64 Chinese wuxia ARPG game sprite. Two reference images: first the approved low-resolution character gives PIXEL CLUSTER SIZE and head-body proportions; second the approved mountain-gate mother scene gives muted dusk material style. Create ONE NEW character specified below, NOT the monk in reference. Same 45-degree orthographic 3/4 top-down camera, facing camera DOWN, full body isolated, about1:3 head-body, compact readable silhouette suitable for actual40-pixel-tall native character. COARSE16-bit pixel art enlarged for inspection, no high-resolution details, flat limited colors and hard two-step shading, upper-left light, 1 native pixel dark OWN material outline (no pure-black tracing). Only16 solid colors. Two feet visible, flat same horizontal ground line, symmetrical enough for root halfway between shoes, fixed planted idle stance. Character centered with generous transparent margin, no ground shadow, scenery, text, panel or watermark. GENUINE TRANSPARENT BACKGROUND. No alternative views, pose sheet or duplicate. Preserve recognizability at native48x64.\nCharacter: Elderly Chinese male household servant, about65, slim slightly stooped but able to walk, receding gray hair under simple charcoal cloth cap, short gray moustache and small pointed beard, lined worried face, plain modest gray long robe with overlapping collar and dark cloth belt, worn cloth shoes. Head slightly lowered, hands held together low inside sleeves. He serves the Shen merchant household; no noble crown or jewelry, no weapon, no walking cane.",
+    "referenced_image_paths": [
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/style_character_reference.png",
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/style_master_reference.png"
+    ],
+    "transparent_background": true
+  },
+  {
+    "id": "liushen",
+    "name": "刘婶",
+    "height": 40,
+    "portrait": true,
+    "design": "Middle-aged Chinese neighborhood aunt, about50, ordinary sturdy body, warm round lined face with anxious concern, dark hair mixed gray tied into low practical bun with plain brown cloth wrap, no makeup or jewels. Coarse faded blue-gray short jacket over muted brown ankle skirt/trousers and simple dark cloth apron, practical cloth shoes, sleeves modestly rolled at wrists, empty hands naturally together near waist. Working-class blacksmith-shop neighbor, not a warrior or courtesan, no weapon.",
+    "prompt": "Use case: stylized-concept. Asset type: definitive front standing reference for a48x64 Chinese wuxia ARPG game sprite. Two reference images: first the approved low-resolution character gives PIXEL CLUSTER SIZE and head-body proportions; second the approved mountain-gate mother scene gives muted dusk material style. Create ONE NEW character specified below, NOT the monk in reference. Same 45-degree orthographic 3/4 top-down camera, facing camera DOWN, full body isolated, about1:3 head-body, compact readable silhouette suitable for actual40-pixel-tall native character. COARSE16-bit pixel art enlarged for inspection, no high-resolution details, flat limited colors and hard two-step shading, upper-left light, 1 native pixel dark OWN material outline (no pure-black tracing). Only16 solid colors. Two feet visible, flat same horizontal ground line, symmetrical enough for root halfway between shoes, fixed planted idle stance. Character centered with generous transparent margin, no ground shadow, scenery, text, panel or watermark. GENUINE TRANSPARENT BACKGROUND. No alternative views, pose sheet or duplicate. Preserve recognizability at native48x64.\nCharacter: Middle-aged Chinese neighborhood aunt, about50, ordinary sturdy body, warm round lined face with anxious concern, dark hair mixed gray tied into low practical bun with plain brown cloth wrap, no makeup or jewels. Coarse faded blue-gray short jacket over muted brown ankle skirt/trousers and simple dark cloth apron, practical cloth shoes, sleeves modestly rolled at wrists, empty hands naturally together near waist. Working-class blacksmith-shop neighbor, not a warrior or courtesan, no weapon.",
+    "referenced_image_paths": [
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/style_character_reference.png",
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/style_master_reference.png"
+    ],
+    "transparent_background": true
+  },
+  {
+    "id": "banzhu",
+    "name": "班主",
+    "height": 41,
+    "portrait": true,
+    "design": "Portly Chinese male opera-troupe manager about50, clearly ROUND FAT torso and thick cheeks, slightly oily ruddy face, small moustache, expressive raised brows and firm loud speaking mouth, dark hair under small soft dark cap. Muted maroon-brown long coat over dark trousers with broad dark sash, cloth shoes, one hand raised lightly near chest directing rehearsal, other at waist. NOT a stage performer: no opera makeup, no theatrical crown, no weapon.",
+    "prompt": "Use case: stylized-concept. Asset type: definitive front standing reference for a48x64 Chinese wuxia ARPG game sprite. Two reference images: first the approved low-resolution character gives PIXEL CLUSTER SIZE and head-body proportions; second the approved mountain-gate mother scene gives muted dusk material style. Create ONE NEW character specified below, NOT the monk in reference. Same 45-degree orthographic 3/4 top-down camera, facing camera DOWN, full body isolated, about1:3 head-body, compact readable silhouette suitable for actual40-pixel-tall native character. COARSE16-bit pixel art enlarged for inspection, no high-resolution details, flat limited colors and hard two-step shading, upper-left light, 1 native pixel dark OWN material outline (no pure-black tracing). Only16 solid colors. Two feet visible, flat same horizontal ground line, symmetrical enough for root halfway between shoes, fixed planted idle stance. Character centered with generous transparent margin, no ground shadow, scenery, text, panel or watermark. GENUINE TRANSPARENT BACKGROUND. No alternative views, pose sheet or duplicate. Preserve recognizability at native48x64.\nCharacter: Portly Chinese male opera-troupe manager about50, clearly ROUND FAT torso and thick cheeks, slightly oily ruddy face, small moustache, expressive raised brows and firm loud speaking mouth, dark hair under small soft dark cap. Muted maroon-brown long coat over dark trousers with broad dark sash, cloth shoes, one hand raised lightly near chest directing rehearsal, other at waist. NOT a stage performer: no opera makeup, no theatrical crown, no weapon.",
+    "referenced_image_paths": [
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/style_character_reference.png",
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/style_master_reference.png"
+    ],
+    "transparent_background": true
+  },
+  {
+    "id": "langzhong",
+    "name": "老郎中",
+    "height": 41,
+    "portrait": true,
+    "design": "Elderly Chinese male traveling physician about70, WHITE BEARD and white eyebrows, gray-white hair under humble cloth cap, thin thoughtful squinting eyes and restrained grave expression. Plain faded sage-gray robe, muted brown cloth medicine strap and small closed medicine satchel at side, dark cloth shoes. Holds a small dark earthen teacup at chest height as if his hand has stopped midair. No Taoist whisk, religious hat, martial staff or magic.",
+    "prompt": "Use case: stylized-concept. Asset type: definitive front standing reference for a48x64 Chinese wuxia ARPG game sprite. Two reference images: first the approved low-resolution character gives PIXEL CLUSTER SIZE and head-body proportions; second the approved mountain-gate mother scene gives muted dusk material style. Create ONE NEW character specified below, NOT the monk in reference. Same 45-degree orthographic 3/4 top-down camera, facing camera DOWN, full body isolated, about1:3 head-body, compact readable silhouette suitable for actual40-pixel-tall native character. COARSE16-bit pixel art enlarged for inspection, no high-resolution details, flat limited colors and hard two-step shading, upper-left light, 1 native pixel dark OWN material outline (no pure-black tracing). Only16 solid colors. Two feet visible, flat same horizontal ground line, symmetrical enough for root halfway between shoes, fixed planted idle stance. Character centered with generous transparent margin, no ground shadow, scenery, text, panel or watermark. GENUINE TRANSPARENT BACKGROUND. No alternative views, pose sheet or duplicate. Preserve recognizability at native48x64.\nCharacter: Elderly Chinese male traveling physician about70, WHITE BEARD and white eyebrows, gray-white hair under humble cloth cap, thin thoughtful squinting eyes and restrained grave expression. Plain faded sage-gray robe, muted brown cloth medicine strap and small closed medicine satchel at side, dark cloth shoes. Holds a small dark earthen teacup at chest height as if his hand has stopped midair. No Taoist whisk, religious hat, martial staff or magic.",
+    "referenced_image_paths": [
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/style_character_reference.png",
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/style_master_reference.png"
+    ],
+    "transparent_background": true
+  },
+  {
+    "id": "heiyi",
+    "name": "黑衣人",
+    "height": 42,
+    "portrait": false,
+    "design": "Silent adult Chinese black-clad escort about35, lean strong shoulders, broad dark traveling hat with low brim shading the eyes, lower stern human face partially visible, no mask or scarf hiding mouth. Plain ink-black short martial coat with desaturated slate inner layer and brown-black belt, cloth trousers, boots, one SHEATHED short Chinese dao at waist, hands lowered, watchful stern stance. No hood, no ninja gear, no purple-green faction embroidery, no exposed long blade.",
+    "prompt": "Use case: stylized-concept. Asset type: definitive front standing reference for a48x64 Chinese wuxia ARPG game sprite. Two reference images: first the approved low-resolution character gives PIXEL CLUSTER SIZE and head-body proportions; second the approved mountain-gate mother scene gives muted dusk material style. Create ONE NEW character specified below, NOT the monk in reference. Same 45-degree orthographic 3/4 top-down camera, facing camera DOWN, full body isolated, about1:3 head-body, compact readable silhouette suitable for actual40-pixel-tall native character. COARSE16-bit pixel art enlarged for inspection, no high-resolution details, flat limited colors and hard two-step shading, upper-left light, 1 native pixel dark OWN material outline (no pure-black tracing). Only16 solid colors. Two feet visible, flat same horizontal ground line, symmetrical enough for root halfway between shoes, fixed planted idle stance. Character centered with generous transparent margin, no ground shadow, scenery, text, panel or watermark. GENUINE TRANSPARENT BACKGROUND. No alternative views, pose sheet or duplicate. Preserve recognizability at native48x64.\nCharacter: Silent adult Chinese black-clad escort about35, lean strong shoulders, broad dark traveling hat with low brim shading the eyes, lower stern human face partially visible, no mask or scarf hiding mouth. Plain ink-black short martial coat with desaturated slate inner layer and brown-black belt, cloth trousers, boots, one SHEATHED short Chinese dao at waist, hands lowered, watchful stern stance. No hood, no ninja gear, no purple-green faction embroidery, no exposed long blade.",
+    "referenced_image_paths": [
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/style_character_reference.png",
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/style_master_reference.png"
+    ],
+    "transparent_background": true
+  },
+  {
+    "id": "zhikeseng",
+    "name": "知客僧",
+    "height": 41,
+    "portrait": false,
+    "design": "Adult Chinese male monastery reception monk about45, shaved round head without scars, composed polite ordinary face, lean average body. Plain faded warm gray full monk robe with a muted ochre-brown shoulder panel, brown cloth shoes, hands clasped in polite greeting. No weapon, no giant prayer beads, not the child novice Jingxin and not the black-robed boss.",
+    "prompt": "Use case: stylized-concept. Asset type: definitive front standing reference for a48x64 Chinese wuxia ARPG game sprite. Two reference images: first the approved low-resolution character gives PIXEL CLUSTER SIZE and head-body proportions; second the approved mountain-gate mother scene gives muted dusk material style. Create ONE NEW character specified below, NOT the monk in reference. Same 45-degree orthographic 3/4 top-down camera, facing camera DOWN, full body isolated, about1:3 head-body, compact readable silhouette suitable for actual40-pixel-tall native character. COARSE16-bit pixel art enlarged for inspection, no high-resolution details, flat limited colors and hard two-step shading, upper-left light, 1 native pixel dark OWN material outline (no pure-black tracing). Only16 solid colors. Two feet visible, flat same horizontal ground line, symmetrical enough for root halfway between shoes, fixed planted idle stance. Character centered with generous transparent margin, no ground shadow, scenery, text, panel or watermark. GENUINE TRANSPARENT BACKGROUND. No alternative views, pose sheet or duplicate. Preserve recognizability at native48x64.\nCharacter: Adult Chinese male monastery reception monk about45, shaved round head without scars, composed polite ordinary face, lean average body. Plain faded warm gray full monk robe with a muted ochre-brown shoulder panel, brown cloth shoes, hands clasped in polite greeting. No weapon, no giant prayer beads, not the child novice Jingxin and not the black-robed boss.",
+    "referenced_image_paths": [
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/style_character_reference.png",
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/style_master_reference.png"
+    ],
+    "transparent_background": true
+  },
+  {
+    "id": "guanshi",
+    "name": "邪派管事",
+    "height": 41,
+    "portrait": false,
+    "design": "Middle-aged Chinese male sect steward about45, narrow shrewd face, thin moustache, hair in modest dark cloth cap, unsmiling inspecting expression. Ink-charcoal long robe with restrained dull-purple collar and tiny dull-green edging, dark brown waist sash with a SMALL ring of brass keys at belt, brown cloth shoes. Hands behind back, authoritative noncombat standing pose, no drawn weapon, no hood or mask, ordinary steward not boss.",
+    "prompt": "Use case: stylized-concept. Asset type: definitive front standing reference for a48x64 Chinese wuxia ARPG game sprite. Two reference images: first the approved low-resolution character gives PIXEL CLUSTER SIZE and head-body proportions; second the approved mountain-gate mother scene gives muted dusk material style. Create ONE NEW character specified below, NOT the monk in reference. Same 45-degree orthographic 3/4 top-down camera, facing camera DOWN, full body isolated, about1:3 head-body, compact readable silhouette suitable for actual40-pixel-tall native character. COARSE16-bit pixel art enlarged for inspection, no high-resolution details, flat limited colors and hard two-step shading, upper-left light, 1 native pixel dark OWN material outline (no pure-black tracing). Only16 solid colors. Two feet visible, flat same horizontal ground line, symmetrical enough for root halfway between shoes, fixed planted idle stance. Character centered with generous transparent margin, no ground shadow, scenery, text, panel or watermark. GENUINE TRANSPARENT BACKGROUND. No alternative views, pose sheet or duplicate. Preserve recognizability at native48x64.\nCharacter: Middle-aged Chinese male sect steward about45, narrow shrewd face, thin moustache, hair in modest dark cloth cap, unsmiling inspecting expression. Ink-charcoal long robe with restrained dull-purple collar and tiny dull-green edging, dark brown waist sash with a SMALL ring of brass keys at belt, brown cloth shoes. Hands behind back, authoritative noncombat standing pose, no drawn weapon, no hood or mask, ordinary steward not boss.",
+    "referenced_image_paths": [
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/style_character_reference.png",
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/style_master_reference.png"
+    ],
+    "transparent_background": true
+  },
+  {
+    "id": "aluo",
+    "name": "阿萝",
+    "height": 39,
+    "portrait": true,
+    "design": "Frail15-to16-year-old Chinese girl, notably thin narrow shoulders and delicate wrists, messy loose dark hair to shoulders, pale face faintly green-gray, muted purple lips, tired but BRIGHT attentive eyes, quiet obedient weakened posture with shoulders slightly drooped. Fully modest coarse old gray-brown long-sleeved dress/tunic and plain ankle-length lower garment, frayed cuffs, straw sandals, thin empty hands low together. NO blood, wounds, makeup, jewelry, glamorous beauty styling or exposed skin. Mouth CLOSED in small walking sprite; black tongue ONLY appears in the separate close-up dialogue portrait, not here.",
+    "prompt": "Use case: stylized-concept. Asset type: definitive front standing reference for a48x64 Chinese wuxia ARPG game sprite. Two reference images: first the approved low-resolution character gives PIXEL CLUSTER SIZE and head-body proportions; second the approved mountain-gate mother scene gives muted dusk material style. Create ONE NEW character specified below, NOT the monk in reference. Same 45-degree orthographic 3/4 top-down camera, facing camera DOWN, full body isolated, about1:3 head-body, compact readable silhouette suitable for actual40-pixel-tall native character. COARSE16-bit pixel art enlarged for inspection, no high-resolution details, flat limited colors and hard two-step shading, upper-left light, 1 native pixel dark OWN material outline (no pure-black tracing). Only16 solid colors. Two feet visible, flat same horizontal ground line, symmetrical enough for root halfway between shoes, fixed planted idle stance. Character centered with generous transparent margin, no ground shadow, scenery, text, panel or watermark. GENUINE TRANSPARENT BACKGROUND. No alternative views, pose sheet or duplicate. Preserve recognizability at native48x64.\nCharacter: Frail15-to16-year-old Chinese girl, notably thin narrow shoulders and delicate wrists, messy loose dark hair to shoulders, pale face faintly green-gray, muted purple lips, tired but BRIGHT attentive eyes, quiet obedient weakened posture with shoulders slightly drooped. Fully modest coarse old gray-brown long-sleeved dress/tunic and plain ankle-length lower garment, frayed cuffs, straw sandals, thin empty hands low together. NO blood, wounds, makeup, jewelry, glamorous beauty styling or exposed skin. Mouth CLOSED in small walking sprite; black tongue ONLY appears in the separate close-up dialogue portrait, not here.",
+    "referenced_image_paths": [
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/style_character_reference.png",
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/style_master_reference.png"
+    ],
+    "transparent_background": true
+  }
+]

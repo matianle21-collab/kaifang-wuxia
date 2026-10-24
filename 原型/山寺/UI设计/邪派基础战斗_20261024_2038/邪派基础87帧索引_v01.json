@@ -1,0 +1,440 @@
+[
+  {
+    "file": "assets/chr/chr_xiepai_idle_down_v01.png",
+    "action": "idle",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": true,
+    "hold_frames": [],
+    "delivery": "20261024-1935"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_walk_down_v01.png",
+    "action": "walk",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 6,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": true,
+    "hold_frames": [],
+    "delivery": "20261024-1935"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_idle_left_v01.png",
+    "action": "idle",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": true,
+    "hold_frames": [],
+    "delivery": "20261024-1935"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_walk_left_v01.png",
+    "action": "walk",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 6,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": true,
+    "hold_frames": [],
+    "delivery": "20261024-1935"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_idle_up_v01.png",
+    "action": "idle",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": true,
+    "hold_frames": [],
+    "delivery": "20261024-1935"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_walk_up_v01.png",
+    "action": "walk",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 6,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": true,
+    "hold_frames": [],
+    "delivery": "20261024-1935"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_atk1_down_v01.png",
+    "action": "atk1",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": false,
+    "hold_frames": [],
+    "delivery": "20261024-2038"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_atk2_down_v01.png",
+    "action": "atk2",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": false,
+    "hold_frames": [],
+    "delivery": "20261024-2038"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_atk3_down_v01.png",
+    "action": "atk3",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": false,
+    "hold_frames": [],
+    "delivery": "20261024-2038"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_hit_down_v01.png",
+    "action": "hit",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 2,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": false,
+    "hold_frames": [],
+    "delivery": "20261024-2038"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_roll_down_v01.png",
+    "action": "roll",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": false,
+    "hold_frames": [],
+    "delivery": "20261024-2038"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_down_down_v01.png",
+    "action": "down",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": false,
+    "hold_frames": [
+      3
+    ],
+    "delivery": "20261024-2038"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_atk1_left_v01.png",
+    "action": "atk1",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": false,
+    "hold_frames": [],
+    "delivery": "20261024-2038"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_atk2_left_v01.png",
+    "action": "atk2",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": false,
+    "hold_frames": [],
+    "delivery": "20261024-2038"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_atk3_left_v01.png",
+    "action": "atk3",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": false,
+    "hold_frames": [],
+    "delivery": "20261024-2038"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_hit_left_v01.png",
+    "action": "hit",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 2,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": false,
+    "hold_frames": [],
+    "delivery": "20261024-2038"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_roll_left_v01.png",
+    "action": "roll",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": false,
+    "hold_frames": [],
+    "delivery": "20261024-2038"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_down_left_v01.png",
+    "action": "down",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": false,
+    "hold_frames": [
+      3
+    ],
+    "delivery": "20261024-2038"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_atk1_up_v01.png",
+    "action": "atk1",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": false,
+    "hold_frames": [],
+    "delivery": "20261024-2038"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_atk2_up_v01.png",
+    "action": "atk2",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": false,
+    "hold_frames": [],
+    "delivery": "20261024-2038"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_atk3_up_v01.png",
+    "action": "atk3",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 3,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": false,
+    "hold_frames": [],
+    "delivery": "20261024-2038"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_hit_up_v01.png",
+    "action": "hit",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 2,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": false,
+    "hold_frames": [],
+    "delivery": "20261024-2038"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_roll_up_v01.png",
+    "action": "roll",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": false,
+    "hold_frames": [],
+    "delivery": "20261024-2038"
+  },
+  {
+    "file": "assets/chr/chr_xiepai_down_up_v01.png",
+    "action": "down",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "anchor": [
+      24,
+      60
+    ],
+    "loop": false,
+    "hold_frames": [
+      3
+    ],
+    "delivery": "20261024-2038"
+  }
+]

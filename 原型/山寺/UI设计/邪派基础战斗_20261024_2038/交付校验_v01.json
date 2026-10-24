@@ -1,0 +1,503 @@
+{
+  "delivery": "20261024-2038",
+  "rows": [
+    10,
+    11
+  ],
+  "status": "partial",
+  "new_strips": 18,
+  "new_frames": 57,
+  "base_strips": 24,
+  "base_frames": 87,
+  "generated_sources": 7,
+  "derived_references": 9,
+  "files": [
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/atk1_down_6倍_v01.png",
+      "bytes": 4045,
+      "sha256": "6cf63cf594cb7a38d083dce9bf74d3a376c42068c669e0d843f824ec4ebd94d8"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/atk1_down_播放预览_v01.gif",
+      "bytes": 11589,
+      "sha256": "e6d643ae2a0b950c843ef19427a2c7d68fb89fbcb6f9281828e20ed39def484d"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/atk1_left_6倍_v01.png",
+      "bytes": 4302,
+      "sha256": "c40b394ac6148dbee4113b119cc0356ed046f63ae128fa77df709c46af9a2db7"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/atk1_left_播放预览_v01.gif",
+      "bytes": 12775,
+      "sha256": "2b3cade98c3271cb8bba292770d23aba37fe1ba10670e0f384003c9afc5e7515"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/atk1_up_6倍_v01.png",
+      "bytes": 4023,
+      "sha256": "9da6472ec6672fcc4989b8be01402ff93e3a42b712c061a3dad5a0e51b9837eb"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/atk1_up_播放预览_v01.gif",
+      "bytes": 10416,
+      "sha256": "2e3079f7cb17ea7e81ce018b3a3a3c22c5dfed1267d0e9a1087c619ac6dd844a"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/atk2_down_6倍_v01.png",
+      "bytes": 4111,
+      "sha256": "bf50e1d0e0b1554ee8f7cac8e88a1024dbecb9a99ed3b5bc8b6a76693f7798e6"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/atk2_down_播放预览_v01.gif",
+      "bytes": 11160,
+      "sha256": "67d35aea176a1cdbcc83432416b065580b155045fbca652f69085d8342a91ac0"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/atk2_left_6倍_v01.png",
+      "bytes": 4309,
+      "sha256": "e649fb2dcfbdbaf5561677e0098602fe9ff16a98d83d3b9495a25c84c419b0f6"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/atk2_left_播放预览_v01.gif",
+      "bytes": 13166,
+      "sha256": "6b5fb091165eead29410243dcc209f39edc4a8db74a15d7f4ba5de97a9268fa7"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/atk2_up_6倍_v01.png",
+      "bytes": 3736,
+      "sha256": "123d3cfadf37d9ae60c9cf268f4ceee4d67664e5ac94c97b97da5d2794704d83"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/atk2_up_播放预览_v01.gif",
+      "bytes": 9542,
+      "sha256": "c6e8bdb614e7e70d901f5ce5de787a04badb8dc8e5c833267cb127c5dbff8296"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/atk3_down_6倍_v01.png",
+      "bytes": 4177,
+      "sha256": "274993c9c4c5afcf795d0916ec061fcd5ecd5bd74818e46cba9b8c60c9a83ea2"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/atk3_down_播放预览_v01.gif",
+      "bytes": 11256,
+      "sha256": "4eaeed46c31a358e549705679fd52fae97fa57a894a63e95e2041c76452be43a"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/atk3_left_6倍_v01.png",
+      "bytes": 4404,
+      "sha256": "008be2a9262f71bc1dd8cd5db4a284fd429bd900762f1f8e821d7f6b820f566b"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/atk3_left_播放预览_v01.gif",
+      "bytes": 12509,
+      "sha256": "533064fcf315ba2d3a9388c78c977d2b78b5708b57ed6954c2dc069edac536f4"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/atk3_up_6倍_v01.png",
+      "bytes": 3906,
+      "sha256": "8cd3a634a565c11eca16023ade1d5176739482f56e7abba214f00e8da4be950b"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/atk3_up_播放预览_v01.gif",
+      "bytes": 10123,
+      "sha256": "5852b8569c88da679ede67b00103bad52e786a6d79322202359de36128befc77"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/combat_prompts.json",
+      "bytes": 8664,
+      "sha256": "5b6bd3ce6fdf5ee4cf91a1817849c35b060f6ce9eb3ad87ae799c10ece7e174f"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/down_down_6倍_v01.png",
+      "bytes": 3467,
+      "sha256": "74204919922b26978a9b3dfa9e752adff542ca2cd2f016145cecff210683a931"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/down_down_播放预览_v01.gif",
+      "bytes": 12183,
+      "sha256": "e1bfb42a2ed079801849e904995767c8d257d81be3c092a9a8d0265aa6c911c3"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/down_left_6倍_v01.png",
+      "bytes": 3977,
+      "sha256": "151954725a6fd50fa8ef827472728fe24d99f638d4553196b3b7219f297baa3b"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/down_left_播放预览_v01.gif",
+      "bytes": 13417,
+      "sha256": "e37624aacb545da44f2da8b269f3abe6115d37457f52b66c0b6cd6920d98f7e1"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/down_up_6倍_v01.png",
+      "bytes": 3553,
+      "sha256": "fb7b39b5c050597757c818d3fa7c3e2e5d83939883f23f9c4da8b191e73d8d25"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/down_up_播放预览_v01.gif",
+      "bytes": 11313,
+      "sha256": "2577379eb061985c51511db8d20d9126ffebe0e0d535847f6d3218e210f8af32"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/down_基础战斗逐帧_v01.png",
+      "bytes": 21737,
+      "sha256": "2ca1d2dd919d7d2c9d6b01ca6072cde7a1319184e518db52398eaae3402ff23c"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/finalize_and_validate.py",
+      "bytes": 6296,
+      "sha256": "73d923873f7911cd1521829149f1d730df1321a86c02ed4a2421cf0ced70be8c"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/four_compact_prompt.json",
+      "bytes": 1661,
+      "sha256": "4a3b87ee65a3ab6ba226d74fc0bb768311d94fe2148ed2232d34a0d0b41ac860"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/four_compact_reference_sources.json",
+      "bytes": 1118,
+      "sha256": "fecf8134cd92603371f2d046d995095d6c7777cf3c1b4a160b8be76270831694"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/frame_registration.json",
+      "bytes": 62052,
+      "sha256": "d7cb59f2a1404fcf4822b336e14ebbeacb0c433f77d62c03ef118f8b75085ff1"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/hit_down_6倍_v01.png",
+      "bytes": 2683,
+      "sha256": "6666bfffdb9bd0b18cdf6e937e8ccb0f5bab3524f80a23a153cb60df5703a9dc"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/hit_down_播放预览_v01.gif",
+      "bytes": 7621,
+      "sha256": "1e59e43b98f6e63395ff81ba139eb7916f4a1490fdabc114458035304eac21ef"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/hit_left_6倍_v01.png",
+      "bytes": 2787,
+      "sha256": "bc73a484c2b9a733b564cc583f8c1000246bbc65d09d9544764308bc3c64e569"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/hit_left_播放预览_v01.gif",
+      "bytes": 8291,
+      "sha256": "339e11df866e865f7368e962d23d9d037ac5a71830fc6b397e0a6eb3f7772d9c"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/hit_up_6倍_v01.png",
+      "bytes": 2530,
+      "sha256": "ff54d525b403406f9b44f064f3dfb901c99b8b2ca2deb75b48dd9ac293a076f1"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/hit_up_播放预览_v01.gif",
+      "bytes": 7127,
+      "sha256": "5eb10a02d6a66a1b1b4cc68c21267589f4f393ff2b18e95af92638a95513eeb4"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/left_基础战斗逐帧_v01.png",
+      "bytes": 23512,
+      "sha256": "f111a7e31c28648af304a638ee0ae1787da767f5903bf2ae9a15691fddf1c2ff"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/process_combat.py",
+      "bytes": 7316,
+      "sha256": "8f0e85c6461370ff94b44bbc88b5278fef6b96382df561106e6472790a209d49"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/roll_down_6倍_v01.png",
+      "bytes": 4585,
+      "sha256": "7c8237a536f9d45ae2ed5d1af824f1fab7d2113a7bdc9822c0cf02ce404e202c"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/roll_down_播放预览_v01.gif",
+      "bytes": 12989,
+      "sha256": "1e34173a2162a12dd1fd1065454cea8c7bd88e5bc9eb5cb44ba5768acaedd3dc"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/roll_left_6倍_v01.png",
+      "bytes": 4817,
+      "sha256": "95138bf4ec5faaa502cefe8d30283674bff7ff073e7d41c34fdb12d1ade349de"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/roll_left_播放预览_v01.gif",
+      "bytes": 15279,
+      "sha256": "98803cd2dd2e20da29a04c1377a8c48d672c5f1f3d0dc8f578497e396dfcde26"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/roll_up_6倍_v01.png",
+      "bytes": 4554,
+      "sha256": "4823dc8f19eab85c7d99f909568b8d8f8d4ab9aaba1b14ca95cd61664eb406e7"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/roll_up_播放预览_v01.gif",
+      "bytes": 13213,
+      "sha256": "6b2c48575d483bd94c6f61c3bcf916bb1f8ba73b8551d91d5b2ee0d19f2cc509"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/source_inputs/approved_xiepai_idle_down_6x.png",
+      "bytes": 5376,
+      "sha256": "2b12a8e1ca49cce56ef8f1aa17e76d3e19fa8d3cf211219cca5ea1c8eb1cbfed"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/source_inputs/approved_xiepai_idle_left_6x.png",
+      "bytes": 5494,
+      "sha256": "df9f3839df9f3dcb8cd6113c42c44f2e2f1f3804b5e6f4f49d29eb6ce45668e1"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/source_inputs/approved_xiepai_idle_up_6x.png",
+      "bytes": 5261,
+      "sha256": "d6c960bee65ae4dfde5e215e201522111c72eb49f7ada04a0cc6110a77cda973"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/source_inputs/compact_pose_0_reference.png",
+      "bytes": 33203,
+      "sha256": "e0a3466cebe44643b89e9db8c4032f300458fcebff25ef26220dd93799ad3052"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/source_inputs/compact_pose_1_reference.png",
+      "bytes": 32713,
+      "sha256": "0a5a96dfe8f37f2bea94e388a4d6589a9d63b1a229e2ad139e54242cadb1abe5"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/source_inputs/compact_pose_2_reference.png",
+      "bytes": 31694,
+      "sha256": "bb4247999ff4120a7151dac7313f74636b7b0d68fe05129e0448d051d4414fbd"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/source_inputs/compact_pose_3_reference.png",
+      "bytes": 27309,
+      "sha256": "41f290ad7792e50391427d897b08bf82b737819936724d3db1d44dd5d9510141"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/source_inputs/four_compact_reference.png",
+      "bytes": 122050,
+      "sha256": "6b8c28ad0947f83919ace5a79792ba62cc80f909be7bd5a86b0a2fc6183e88c3"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/source_inputs/shaolin_combat_down_edit_target.png",
+      "bytes": 22832,
+      "sha256": "ff3f6eae3a805edd51705803e9d4cc481616e02e350fe02b539b30d1972cfc54"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/source_inputs/shaolin_combat_left_edit_target.png",
+      "bytes": 22813,
+      "sha256": "ddcbe92c4ac59d5c749926bb42a845bf8fe9d46579c02e693a12cb12cdfbc80f"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/source_inputs/shaolin_combat_up_edit_target.png",
+      "bytes": 22354,
+      "sha256": "afce87ac8d72afc2b298c786ac52c68580da09ad0ecf05eabd35f85c9ce90bd9"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/source_inputs/up_cut_contact_reference.png",
+      "bytes": 30594,
+      "sha256": "c8bd052e6c43519054253be50ddbdf4fab7c4235ea3b776164d8ae6ba080e424"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/up_cut_contact_prompt.json",
+      "bytes": 1124,
+      "sha256": "030c37aebc28c6b4cb8d58f4f7fc50b447d6fa26aa189c69ab3d974de346b96b"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/up_基础战斗逐帧_v01.png",
+      "bytes": 21263,
+      "sha256": "9be274a23d585acc9f67ba02b316ff795c6f9a6edb4c9eb2a0e101a3d4d4ade8"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/weapon_fix_prompts.json",
+      "bytes": 2443,
+      "sha256": "a63cf0349a0c74e52bef54dd0566a22fe16c30484e8eee195a0ce52fb1b3e5a3"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/交付说明_v01.md",
+      "bytes": 4828,
+      "sha256": "c2d7d30622281624b09224f9237629992e20df0839417c2a8152d9ffa3d83661"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/基础战斗参数_v01.json",
+      "bytes": 81581,
+      "sha256": "4791cefbf80d9358c70f57a78cfea6a12df7c2e7b014155d391bbff4238e7b52"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/山门原比例基础战斗_v01.png",
+      "bytes": 831354,
+      "sha256": "d786cee60164a7bdc0abdf1491248e8f9f243d53fb673879ecef3d165efb50de"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/核验结果_v01.json",
+      "bytes": 11119,
+      "sha256": "e27ef652e327352852955957a50bf5f97c0c0887bf1b8dfc1d22bbce92d4a5e1"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/调色板_v01.json",
+      "bytes": 194,
+      "sha256": "3cb9121e15ad99329e866463e84a8ed0f52a60e4926933c8bc7cdb33f2cb7560"
+    },
+    {
+      "path": "UI设计/邪派基础战斗_20261024_2038/邪派基础87帧索引_v01.json",
+      "bytes": 7437,
+      "sha256": "d0da924f7f9705e819ce717cec925c8ffd18d948a22cba3a1286a9e1a317e192"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_atk1_down_v01.png",
+      "bytes": 3754,
+      "sha256": "664c198d08e1147c32ad42d2344a3d51dfcd76aa34478c92b63f02ac2f7e1ae8"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_atk1_left_v01.png",
+      "bytes": 3931,
+      "sha256": "bbe0513a44ff2ebe0a2ce60f1731b3240723a6f804eab326d3b07ceb8a7ed942"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_atk1_up_v01.png",
+      "bytes": 3030,
+      "sha256": "d9528715cd3c336d14ddb2c9afa3adf0ec29af0d6dfe4dcd4d4ca5e305de4823"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_atk2_down_v01.png",
+      "bytes": 3620,
+      "sha256": "376a408a0bcd15bd24b81af420e5bb76b1e8da405d19ed46a0002d1fef4aea38"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_atk2_left_v01.png",
+      "bytes": 4214,
+      "sha256": "9e7d8f4409446df108943b3998d9751ffc59340ea4f1a2394119059a88781b8a"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_atk2_up_v01.png",
+      "bytes": 2814,
+      "sha256": "a3c619965d9ecf7dd1928010fe8f6b2e694df1a04f1604fe341f9144337aa9f1"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_atk3_down_v01.png",
+      "bytes": 3697,
+      "sha256": "dce1bd8f05b9f0c1cccbff2e804000ea28d1aab41afabb1261d3c8dbc1931193"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_atk3_left_v01.png",
+      "bytes": 4057,
+      "sha256": "a95bd8b65f71af37192ab2a520124830cbb0f10f1fd2a2c1bfbe3f1124471c4d"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_atk3_up_v01.png",
+      "bytes": 2980,
+      "sha256": "648295187317a96a0756e6ffc7c1a826cb3649431e99bee6bcfc9f9d48974b99"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_down_down_v01.png",
+      "bytes": 3657,
+      "sha256": "0acbce717ba61fa724aa42306a3c6ac44d710288469da0046cf5c8db3c30ac82"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_down_left_v01.png",
+      "bytes": 3957,
+      "sha256": "7b0dd1415c4e4fe942549aa190145b3eb741934e61b62961b8545d84e311d71a"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_down_up_v01.png",
+      "bytes": 3228,
+      "sha256": "21338452d5a774979bdfa8641cfc984d0eff6824644abecd92d043d60b425ba4"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_hit_down_v01.png",
+      "bytes": 2748,
+      "sha256": "98bb7bc98df03383180eed4b18cdf66b9ae584889c0d95192140e3447165301f"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_hit_left_v01.png",
+      "bytes": 2918,
+      "sha256": "fe1a56fe2f49bb05e6bb04cda7bf23364bcb8a8c9d4af7656c714f9312f98707"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_hit_up_v01.png",
+      "bytes": 2341,
+      "sha256": "1bb0087a725c3d70ecba30ec8fbf9d17eef7b5b87f3e7e94b0f05beed706d556"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_roll_down_v01.png",
+      "bytes": 4129,
+      "sha256": "019e6ec7d274722023b932eae20a7062eb031a917efdf4f41838fb61523412e0"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_roll_left_v01.png",
+      "bytes": 4573,
+      "sha256": "af759e95212c952cf7252169789070b23c7d86c1f58c784a3055f530c3d1d8e5"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_roll_up_v01.png",
+      "bytes": 3890,
+      "sha256": "b8fddbc98e831db45807857c4d0dc8097a3ad4d7b5dcce422b74e4bd3e859847"
+    },
+    {
+      "path": "assets/ref/ref_chr_xiepai_combat_down_source_v01.png",
+      "bytes": 747819,
+      "sha256": "eac393e6908e27896a2197be9a4adac9376f265b247da04a79db67c549710dd9"
+    },
+    {
+      "path": "assets/ref/ref_chr_xiepai_combat_four_compact_source_v01.png",
+      "bytes": 488578,
+      "sha256": "b5e49f9adc1b22aa53913be6bc701ea34ef86f9144ee63746b5d98be5e406569"
+    },
+    {
+      "path": "assets/ref/ref_chr_xiepai_combat_left_source_v01.png",
+      "bytes": 860499,
+      "sha256": "3cbc53f2e1921e8d4a01232f6b35d7f97c0ef5577965559dbf7061b99173215b"
+    },
+    {
+      "path": "assets/ref/ref_chr_xiepai_combat_left_weaponfix_source_v01.png",
+      "bytes": 806961,
+      "sha256": "b4bab0f9995334f98d6965a6bf3eb0b459fc8594f961a33b73b27fa7527c6515"
+    },
+    {
+      "path": "assets/ref/ref_chr_xiepai_combat_up_cutfix_source_v01.png",
+      "bytes": 250564,
+      "sha256": "d758defef8b8aa3db1d1c2656d8a8df2e6ce94627a1d3a489027ad7a397f2e34"
+    },
+    {
+      "path": "assets/ref/ref_chr_xiepai_combat_up_source_v01.png",
+      "bytes": 774246,
+      "sha256": "a4e08ef7ae18ff2fd511bd9821e098942de7cf3ce7f1a8e395af5a6de8f710ab"
+    },
+    {
+      "path": "assets/ref/ref_chr_xiepai_combat_up_weaponfix_source_v01.png",
+      "bytes": 733454,
+      "sha256": "c6bd6616ae6b4b86d45a46e19f4c1527cbcc7999d824bbc7b717dcb579726894"
+    }
+  ],
+  "existing_dependencies": [
+    {
+      "path": "assets/chr/chr_xiepai_idle_down_v01.png",
+      "bytes": 1730,
+      "sha256": "a3f969cf854f8c0c96b073ca0b90ee4c24b33796e0815e509c37522500693730"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_idle_left_v01.png",
+      "bytes": 1640,
+      "sha256": "e478d043c5426b3e1ac4b573b3dd301aa60abebda4e218aa2ea87913fc42e2b2"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_idle_up_v01.png",
+      "bytes": 1553,
+      "sha256": "b5fa8d315624e18a8861bcbd050db2ef40cff33d5a4716ab1a492a4d49736a92"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_walk_down_v01.png",
+      "bytes": 2172,
+      "sha256": "a41a9538acbdf50e75a0c826d362dbb3ccf68cfc675f26772c07f6f3fcabb10d"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_walk_left_v01.png",
+      "bytes": 2327,
+      "sha256": "cef506a60057178a47493b28f825c68c0a42a5eb48c3e934607d3edaf3131173"
+    },
+    {
+      "path": "assets/chr/chr_xiepai_walk_up_v01.png",
+      "bytes": 1891,
+      "sha256": "d74f04127ec1f5bc494f37553b60ea7ef2d67779f5af4f691652f57653d40bc7"
+    },
+    {
+      "path": "assets/ref/ref_chr_xiepai_down_v01.png",
+      "bytes": 1546,
+      "sha256": "bf12414fb0e3cb0f702283be9ed6d75174abb9c088ffe97c37308d8ac192719b"
+    }
+  ]
+}

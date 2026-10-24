@@ -1,0 +1,199 @@
+{
+  "status": "passed",
+  "native_strips": 6,
+  "native_pose_frames": 30,
+  "combined_colors": 16,
+  "common_head_source_layer_colors": 7,
+  "head_delivery_rule": "latest request embeds head in bodies; no head overlay delivered to assets/chr",
+  "rows10_11_complete": false,
+  "visual_review": "all three direction comparisons and 1:1 scene inspected before upload",
+  "independent_runtime_test": false,
+  "checks": [
+    {
+      "file": "assets/chr/chr_xiepai_idle_down_v01.png",
+      "size": [
+        192,
+        64
+      ],
+      "frames": 4,
+      "colors": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "head_geometry_matches_source": true,
+      "lower_leg_geometry_matches_selected_source_components": true,
+      "layer_reconstruction": true,
+      "kept_blade_pixels_outside_head_and_leg_registration": true,
+      "preview_nearest_neighbor": true,
+      "gif_frames": 4,
+      "gif_durations_ms": [
+        80,
+        80,
+        90,
+        80
+      ]
+    },
+    {
+      "file": "assets/chr/chr_xiepai_walk_down_v01.png",
+      "size": [
+        288,
+        64
+      ],
+      "frames": 6,
+      "colors": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "head_geometry_matches_source": true,
+      "lower_leg_geometry_matches_selected_source_components": true,
+      "layer_reconstruction": true,
+      "kept_blade_pixels_outside_head_and_leg_registration": true,
+      "preview_nearest_neighbor": true,
+      "gif_frames": 6,
+      "gif_durations_ms": [
+        80,
+        80,
+        90,
+        80,
+        80,
+        90
+      ]
+    },
+    {
+      "file": "assets/chr/chr_xiepai_idle_left_v01.png",
+      "size": [
+        192,
+        64
+      ],
+      "frames": 4,
+      "colors": 15,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "head_geometry_matches_source": true,
+      "lower_leg_geometry_matches_selected_source_components": true,
+      "layer_reconstruction": true,
+      "kept_blade_pixels_outside_head_and_leg_registration": true,
+      "preview_nearest_neighbor": true,
+      "gif_frames": 4,
+      "gif_durations_ms": [
+        80,
+        80,
+        90,
+        80
+      ]
+    },
+    {
+      "file": "assets/chr/chr_xiepai_walk_left_v01.png",
+      "size": [
+        288,
+        64
+      ],
+      "frames": 6,
+      "colors": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "head_geometry_matches_source": true,
+      "lower_leg_geometry_matches_selected_source_components": true,
+      "layer_reconstruction": true,
+      "kept_blade_pixels_outside_head_and_leg_registration": true,
+      "preview_nearest_neighbor": true,
+      "gif_frames": 6,
+      "gif_durations_ms": [
+        80,
+        80,
+        90,
+        80,
+        80,
+        90
+      ]
+    },
+    {
+      "file": "assets/chr/chr_xiepai_idle_up_v01.png",
+      "size": [
+        192,
+        64
+      ],
+      "frames": 4,
+      "colors": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "head_geometry_matches_source": true,
+      "lower_leg_geometry_matches_selected_source_components": true,
+      "layer_reconstruction": true,
+      "kept_blade_pixels_outside_head_and_leg_registration": true,
+      "preview_nearest_neighbor": true,
+      "gif_frames": 4,
+      "gif_durations_ms": [
+        80,
+        80,
+        90,
+        80
+      ]
+    },
+    {
+      "file": "assets/chr/chr_xiepai_walk_up_v01.png",
+      "size": [
+        288,
+        64
+      ],
+      "frames": 6,
+      "colors": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "head_geometry_matches_source": true,
+      "lower_leg_geometry_matches_selected_source_components": true,
+      "layer_reconstruction": true,
+      "kept_blade_pixels_outside_head_and_leg_registration": true,
+      "preview_nearest_neighbor": true,
+      "gif_frames": 6,
+      "gif_durations_ms": [
+        80,
+        80,
+        90,
+        80,
+        80,
+        90
+      ]
+    }
+  ],
+  "notes": [
+    "Head and lower-leg alpha shapes/positions copied from same approved Shaolin native pose; colors normalized to a seven-color subset of old palette. Old Shaolin PNGs untouched.",
+    "Only head/feet registration is exact source geometry. Coat and dao are new AI artwork registered to those poses; no claim of pixel-identical torso/arm shapes.",
+    "No pixels below row60 in this new movement set. This does not mean two moving shoes both touch y60. World anchor remains24,60.",
+    "No standalone head asset is registered or shipped into game assets; editable source layers remain under UI design."
+  ]
+}
