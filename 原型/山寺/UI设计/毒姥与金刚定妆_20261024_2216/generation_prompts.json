@@ -1,0 +1,42 @@
+[
+  {
+    "id": "dulao",
+    "name": "毒姥",
+    "row": 61,
+    "frame": [
+      64,
+      80
+    ],
+    "anchor": [
+      32,
+      76
+    ],
+    "content_height": 52,
+    "prompt": "Use case: stylized-concept. Asset type: single definitive front-standing pixel-art boss reference for the same wuxia ARPG. First reference image is approved environment/style mother, second is approved current boss to match coarse pixel cluster size/proportions/dark outline. Create exactly ONE new boss full-body, 45degree orthographic 3/4 top-down camera, facing viewer DOWN. Same muted16-bit pixel art, simple flat two-step hard shading, upper-left light, one native pixel own-material dark outline, <=16 opaque colors. Deliberately low resolution enlarged in output, NOT a high-resolution painting. Genuine transparent alpha background, no ground shadow, scene, text, panels or watermark. Centered full figure with generous margin; no object/limb cropped. Two distinct feet/shoes visible planted on EXACT SAME horizontal groundline, root midway between soles, no perspective foot sitting lower than other. Static neutral boss stance only, no FX or charge motion.\nSubject: a hunched elderly CHINESE female poison master about75, slight crooked back and wide grounded robe silhouette, lined ordinary human Chinese face with sharp tired eyes, gray hair wound into a low old-fashioned bun, no pointed witch hat or Western hooked nose. Long ink-black robe #15121A with dark-purple simple cloth bands #4A2A6B and thin poison-green edging #7BE38A, wide dragging sleeves. Her visible thin fingers have small long pale-dark nails. She supports herself on ONE GNARLED WOOD STAFF carved with a coiled SNAKE near the top, staff grasped beside her body, stafftip on same footline. Belt holds three tiny brown clay jars and one small gourd. Simple straw or dark cloth shoes visible below robe. Compact53ish-pixel-tall character silhouette after native reduction (about1.2x the41pixel players), screen width <=53 native pixels including staff. No giant staff taller than needed, no skulls, hood, fangs, horror gore or shield. The poison shield is a separate later asset, do not draw it. Preserve full human silhouette and readable staff/jars in64x80 native canvas.",
+    "referenced_image_paths": [
+      "/Volumes/ML_models/游戏/开放武侠/output/art-boss-refs-20261024-2216/source/style_master_reference.png",
+      "/Volumes/ML_models/游戏/开放武侠/output/art-boss-refs-20261024-2216/source/style_boss_reference.png"
+    ],
+    "transparent_background": true
+  },
+  {
+    "id": "jingang",
+    "name": "铁甲金刚",
+    "row": 66,
+    "frame": [
+      96,
+      112
+    ],
+    "anchor": [
+      48,
+      108
+    ],
+    "content_height": 85,
+    "prompt": "Use case: stylized-concept. Asset type: single definitive front-standing pixel-art boss reference for the same wuxia ARPG. First reference image is approved environment/style mother, second is approved current boss to match coarse pixel cluster size/proportions/dark outline. Create exactly ONE new boss full-body, 45degree orthographic 3/4 top-down camera, facing viewer DOWN. Same muted16-bit pixel art, simple flat two-step hard shading, upper-left light, one native pixel own-material dark outline, <=16 opaque colors. Deliberately low resolution enlarged in output, NOT a high-resolution painting. Genuine transparent alpha background, no ground shadow, scene, text, panels or watermark. Centered full figure with generous margin; no object/limb cropped. Two distinct feet/shoes visible planted on EXACT SAME horizontal groundline, root midway between soles, no perspective foot sitting lower than other. Static neutral boss stance only, no FX or charge motion.\nSubject: massive CHINESE BRONZE MECHANICAL GUARDIAN, inspired by an animated armored temple guardian statue built with old wood/gears/ropes, NOT a Western robot or steampunk character. Squared broad shoulders, long powerful plate-covered arms hanging near knees, short sturdy legs, two heavy wide feet flat on SAME baseline. Weathered dark rust GREEN bronze body centered around #4E6B58 with desaturated copper highlights, distinct rust brown #8A4B2B patches. Exposed dark gears, wooden linkages and thick hemp rope at elbow/knee joints. A clearly readable ROUND slightly glowing COPPER MIRROR is embedded in the center of chest, warm amber copper face and brass rim; no purple crystal/core, no blue light. A SMALL VERMILION RED ring painted on its own LEFT shoulder is the blueprint weakpoint mark. Guardian mask-like bronze face, severe but no human skin, no horns, no deity halo. No open breach in intact reference; breaches/effects will be later overlays. Body about85nativepixels tall (~2.1x41pixel player), width <=76native including arms, will fit latest96x112 canvas, root48,108. Strong simple plate silhouettes, 16color maximum, coarse native pixels rather than dense metal microdetail. No weapon, scenery, smoke, explosions or floating FX. Latest spec COPPER MIRROR/RUSTGREEN overrides older purple-core art. No portrait requested.",
+    "referenced_image_paths": [
+      "/Volumes/ML_models/游戏/开放武侠/output/art-boss-refs-20261024-2216/source/style_master_reference.png",
+      "/Volumes/ML_models/游戏/开放武侠/output/art-boss-refs-20261024-2216/source/style_boss_reference.png"
+    ],
+    "transparent_background": true
+  }
+]
