@@ -182,3 +182,17 @@ func test_shaolin_skill_phases_follow_input() -> void:
 	x.swing_t = 0.3
 	x.swing_kind = "huagongsan"
 	check_eq(SpriteLib.frame_of(x, xs, "huagongsan", 5, 0.0), 2, "化功散掷出从第 2 帧开始")
+
+
+## 开场在场的人（第 76 条）与阿萝（第 64 条）：动画没交时拿正面定妆（still）当一帧待机、各朝向都画正面；头像接进对话框
+func test_opening_npcs_use_delivered_stills() -> void:
+	var w := _world()
+	var t := w.add_enemy("trainer", Vector2(300, 300), true)
+	t.name = "福伯"
+	check_eq(SpriteLib.prefix_for(t), "npc_fubo", "教闪避的福伯按名字找动作条")
+	check_eq(SpriteLib.resolve("npc_fubo", "idle", "down")[0], "still", "福伯动画没交：用正面定妆当待机")
+	check(SpriteLib.resolve("npc_fubo", "idle", "left").is_empty(), "侧面没有图（画的时候退回正面）")
+	for name in ["阿萝", "知客僧", "邪派管事", "师父", "黑衣人", "刘婶", "班主"]:
+		check(not SpriteLib.resolve(SpriteLib.NPC_BY_NAME[name], "idle", "down").is_empty(), "%s有正面图" % name)
+	for who in ["福伯", "刘婶", "班主", "师父", "阿萝"]:
+		check(UiKit.portrait(DialogueBox.PORTRAITS[who]) != null, "%s的头像已接进对话框" % who)

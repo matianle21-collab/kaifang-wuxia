@@ -9,6 +9,10 @@ const MAX_VERSION := 5   # 同名多个版本只用最高的（交付约定：�
 
 static var _data := {}
 static var _cache := {}   # "前缀|动作|方向" -> Texture2D 或 null
+## 剧情里按名字出场的人（开场教闪避的引导人、只站着的人）用哪套动作条
+const NPC_BY_NAME := {"福伯": "npc_fubo", "刘婶": "npc_liushen", "班主": "npc_banzhu", "黑衣人": "npc_heiyi",
+	"师父": "npc_langzhong", "老郎中": "npc_langzhong", "阿萝": "npc_aluo", "知客僧": "npc_zhikeseng",
+	"邪派管事": "npc_guanshi", "守门喽啰": "npc_louluo"}
 
 
 static func data() -> Dictionary:
@@ -28,6 +32,8 @@ static func prefix_for(f: SimFighter) -> String:
 			return "npc_hanqing"
 		"louluo", "xuancheng", "dulao", "jingang":
 			return ("npc_" if f.kind == "louluo" else "boss_") + f.kind
+		"trainer":
+			return NPC_BY_NAME.get(f.name, "")
 	return ""
 
 
@@ -119,6 +125,10 @@ static func draw(ci: CanvasItem, f: SimFighter, at: Vector2, clock: float, tint:
 	var dir := dir_for(f.facing)
 	var mirror := dir == "right"
 	var found := resolve(prefix, action_for(f), "left" if mirror else dir)
+	if found.is_empty() and dir != "down":
+		# 只交了正面的人（开场 NPC 定妆、只站着的人）：各个朝向都画正面
+		found = resolve(prefix, action_for(f), "down")
+		mirror = false
 	if found.is_empty():
 		return false
 	var set_: Dictionary = data().sets[prefix]
@@ -135,4 +145,18 @@ static func draw(ci: CanvasItem, f: SimFighter, at: Vector2, clock: float, tint:
 		ci.draw_set_transform(Vector2.ZERO, 0.0, Vector2.ONE)
 	else:
 		ci.draw_texture_rect_region(tex, Rect2(at - anchor, Vector2(fw, fh)), src, tint)
+	return true
+
+
+## 不在模拟世界里、只站着的人（开场的阿萝、山门前的知客僧等）：画正面待机。没有图返回 false
+static func draw_still(ci: CanvasItem, prefix: String, at: Vector2, clock: float, tint := Color.WHITE) -> bool:
+	var found := resolve(prefix, "idle", "down")
+	if prefix == "" or found.is_empty():
+		return false
+	var set_: Dictionary = data().sets[prefix]
+	var tex: Texture2D = found[1]
+	var fw: int = set_.frame[0]
+	var fh: int = set_.frame[1]
+	var i := int(clock * float(data().fps)) % maxi(1, tex.get_width() / fw)
+	ci.draw_texture_rect_region(tex, Rect2(at - Vector2(set_.anchor[0], set_.anchor[1]), Vector2(fw, fh)), Rect2(i * fw, 0, fw, fh), tint)
 	return true

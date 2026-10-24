@@ -1,0 +1,374 @@
+{
+  "delivery": "20261024-2137",
+  "rows": [
+    64,
+    76
+  ],
+  "status": {
+    "64": "delivered_standing_and_portrait",
+    "76": "partial_reference_only_await_character_approval"
+  },
+  "new_standing_sprites": 8,
+  "new_portraits": 5,
+  "generated_sources": 15,
+  "reference_inputs": 2,
+  "files": [
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/fix_prompts.json",
+      "bytes": 1901,
+      "sha256": "aa721fe845c9a99055399b74b481b558b5ec6821bebf640c88a9c1ff8b155d87"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/portrait_prompts.json",
+      "bytes": 8310,
+      "sha256": "3a5a8b88bd7832ace9ddb6db45f277b78e0c62e2720990ab20f28d77f5ad3625"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/process_refs.py",
+      "bytes": 6187,
+      "sha256": "d2fea72e19fdb8d1c937f5708cea50e638598d65d10e34b29967c7470bd98ad5"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/production_plan.md",
+      "bytes": 559,
+      "sha256": "8198063b6ccf296b65d4887daa9cb7ec2d6f88ba68ea76387c70de2a5817d66d"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/role_specs.json",
+      "bytes": 20407,
+      "sha256": "85c09c3704cda24a98520466ae409e360c5e304507fc56cbd6ca8b08a3044f05"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/source_inputs/style_character_reference.png",
+      "bytes": 1366,
+      "sha256": "9f5533c045a145ba066ec7b2be5e9ee4228bc5afbacab53abe203045a3b512f5"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/source_inputs/style_master_reference.png",
+      "bytes": 268651,
+      "sha256": "daee29b320413a75c615ba44defa121646fe04869748d144f5d24aaf84210d9e"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/validate_refs.py",
+      "bytes": 5555,
+      "sha256": "40c86e006a1686deabb55c8b0c5ace703e001f8db637374a71c06b846bcc89a8"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/五头像总览_v01.png",
+      "bytes": 17929,
+      "sha256": "a047d98cc1d231fd9842baa1f21fe7d1b3e51715e4e803d8bade5aad28411c7a"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/交付说明_v01.md",
+      "bytes": 5359,
+      "sha256": "575a934cf6367c3a453d37f40d9db28177168a003004c0015f618af503ce1b0b"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/八角色同尺度_v01.png",
+      "bytes": 10892,
+      "sha256": "50f993900d8f8b27a2fd3128f41166ba9c845698a113a89bacf83548fa26f121"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/刘婶_头像4倍_v01.png",
+      "bytes": 3669,
+      "sha256": "e0275cb934f60ca1c515e98d135a87ba7838d9dc1a3a0f7bc4ae6c8f62f5cc84"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/刘婶_头像灰底_v01.png",
+      "bytes": 3653,
+      "sha256": "bd28fc30b2ca9ec66ca3293f5ac029f9f34f8fb4f3dc6dd449eb06273a39aca4"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/刘婶_定妆8倍_v01.png",
+      "bytes": 1359,
+      "sha256": "4b07f45382c1dfcfc2f7f64d73a7470812ae3d8db28239eebb6a280652fb3285"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/刘婶_定妆灰底_v01.png",
+      "bytes": 1343,
+      "sha256": "3c9466c3e6ad747a45954e96e78be1dc38bbc968c57178d4b4d8d85514f0d779"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/定妆参数_v01.json",
+      "bytes": 12652,
+      "sha256": "02377ceac6479a8a4ab1fe134e0848832e36a6b0a4bc2864361b9a23cd1caa30"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/山门原比例八角色_v01.png",
+      "bytes": 830673,
+      "sha256": "73986f1649942659396ba89678977164c4fdc36e9567955040761adde167df80"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/核验结果_v01.json",
+      "bytes": 7032,
+      "sha256": "9c9331e5a9d22a617159820f09d65ea9cd788651fff63959c4570c46ed18e38e"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/班主_头像4倍_v01.png",
+      "bytes": 4043,
+      "sha256": "208cb7f79eb5d5b013ce4884dd45dad79940ba8b8a1d50f4b555c327b72c7f4e"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/班主_头像灰底_v01.png",
+      "bytes": 3415,
+      "sha256": "dac984ed3bc6fa597f2a2d508e467fd015e5570d34cbe46ff6eae7f6863befc3"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/班主_定妆8倍_v01.png",
+      "bytes": 1553,
+      "sha256": "1c9fb54930f18fd91b5cc38b58d8bc3493e2242197dd5830962734f5ca1ecf11"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/班主_定妆灰底_v01.png",
+      "bytes": 1537,
+      "sha256": "0d7910b7a279b3df1a9561b6c5c5c53ef7dc3a4ed4217969f229a82a935a33b2"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/知客僧_定妆8倍_v01.png",
+      "bytes": 1451,
+      "sha256": "b46dad7737cc592325f7d60c207209e308e3f729077b7bfeb9d9f1bbd5d01a3b"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/知客僧_定妆灰底_v01.png",
+      "bytes": 1435,
+      "sha256": "a8b12b8fd0ac23a089ad060e634e4b225992887c485d5002fc8f50d0e688c0ec"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/福伯_头像4倍_v01.png",
+      "bytes": 3528,
+      "sha256": "c5b4ac296a8cc67ae6bbff541c431eff9cafd4e785ca631d8c6a2c3971275676"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/福伯_头像灰底_v01.png",
+      "bytes": 3512,
+      "sha256": "aff35add0e035e884300ed53c629e896bd713ef8068fd995faa90535ba8b6e09"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/福伯_定妆8倍_v01.png",
+      "bytes": 1384,
+      "sha256": "15c31b1361d96c1271cc1e8c1edc4a343d2213e8058864ca17ed5378f2974a82"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/福伯_定妆灰底_v01.png",
+      "bytes": 1368,
+      "sha256": "0cd13785721272111f5563891830436f997b8a409f10149cf656a81a455d20d3"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/老郎中_头像4倍_v01.png",
+      "bytes": 4003,
+      "sha256": "74811892aaf573d6248f34916f50bfe340c08aae2ad43d1ec679883dabafd3ac"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/老郎中_头像灰底_v01.png",
+      "bytes": 3987,
+      "sha256": "4ce18345f50b77f9c863e43b1cac15b91aa687110152b5eaeb811cff5ae9fcc5"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/老郎中_定妆8倍_v01.png",
+      "bytes": 1817,
+      "sha256": "d56a7dfe204766d627dcd95f9014122cacbbd358ea19a1cc03910899abc5d0d9"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/老郎中_定妆灰底_v01.png",
+      "bytes": 1422,
+      "sha256": "01939aa2a3a6444204276cc86925012ee74532b6f331465629b54a44ea633051"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/调色板_v01.json",
+      "bytes": 1871,
+      "sha256": "b0fc22bb5a3c73d5216454ba7752ecc4011236f1f6c5d8a0cbb4447ff1bc60df"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/邪派管事_定妆8倍_v01.png",
+      "bytes": 1803,
+      "sha256": "303bdbc64b5c05e342b085d7ad4ecafdfed609d931d4be242d4ba58ce769ec8d"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/邪派管事_定妆灰底_v01.png",
+      "bytes": 1787,
+      "sha256": "762d1065fa7062579c7024d73361ab765b4f55dd864943e4801ad722c84a7402"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/阿萝_头像4倍_v01.png",
+      "bytes": 4102,
+      "sha256": "0cd8ed2ce27452ae232b0bdadcb2afb301220032aa144b2cf9abd2d247006c1c"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/阿萝_头像灰底_v01.png",
+      "bytes": 3392,
+      "sha256": "6b4ae7bbc265360672a0ad0295fa1b4adaf1f652fb9514451ebd9228c8442df3"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/阿萝_定妆8倍_v01.png",
+      "bytes": 1296,
+      "sha256": "f8f63283c8d611bbea1f99dbbfd13b5c5697c3b18eee5a92f31caebd1274eff8"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/阿萝_定妆灰底_v01.png",
+      "bytes": 1280,
+      "sha256": "a8e2ccf1291aacbf475baa48b86ed34b3aad15704e277904d529703d8c34a913"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/黑衣人_定妆8倍_v01.png",
+      "bytes": 1467,
+      "sha256": "a04dd8290b72bebf0e6eeafb3a33ef1328a5a40438fe53deae57546f073a0cbc"
+    },
+    {
+      "path": "UI设计/开场角色定妆_20261024_2137/黑衣人_定妆灰底_v01.png",
+      "bytes": 1451,
+      "sha256": "becf9d54e7d4651f6857939058fae7334be3aaa5209209750e745a6e7e38ec60"
+    },
+    {
+      "path": "assets/npc/npc_aluo_idle_down_v01.png",
+      "bytes": 1418,
+      "sha256": "7a6077de34a73c0a94d5cef9b514be243ef14bbd2ea13f80ec912749c554a201"
+    },
+    {
+      "path": "assets/npc/npc_guanshi_idle_down_v01.png",
+      "bytes": 1607,
+      "sha256": "fc00cced6bf0d5961f2b8e7ff53b1ace94d3884064147d03a0f1d0ad80157662"
+    },
+    {
+      "path": "assets/npc/npc_zhikeseng_idle_down_v01.png",
+      "bytes": 1585,
+      "sha256": "d6cdd8989d57ee3a1ebd6caa7757cc69873df857730f71bbfd9ca890fb70f869"
+    },
+    {
+      "path": "assets/por/por_aluo_v01.png",
+      "bytes": 5911,
+      "sha256": "9ee8eb0a92a82a106930a77454a6953c41bea9ff4467dd6e79dec2ffe479dd73"
+    },
+    {
+      "path": "assets/por/por_banzhu_v01.png",
+      "bytes": 5845,
+      "sha256": "e56562dabff0c9b95200a231660c7fbca957e88a20653ac4b56535910c3cf024"
+    },
+    {
+      "path": "assets/por/por_fubo_v01.png",
+      "bytes": 4990,
+      "sha256": "bca64dbee91dd13a75027eeef50d5498b659686036bde74c606b61c8644347ab"
+    },
+    {
+      "path": "assets/por/por_langzhong_v01.png",
+      "bytes": 6084,
+      "sha256": "66ea87d869a017ae7f6c24a479621da03a86b3cc06b1d25373c2b33ee7b74f90"
+    },
+    {
+      "path": "assets/por/por_liushen_v01.png",
+      "bytes": 5067,
+      "sha256": "ced1a2401128bacbc1b908aa6dc3d904f1c1ac5f4647b3c7e862d8db4084c940"
+    },
+    {
+      "path": "assets/ref/ref_npc_aluo_standing_source_v01.png",
+      "bytes": 297967,
+      "sha256": "4176cdf2a9538e9fbc4ac17a062d0a159427531b6060017a0f620b2e625954f1"
+    },
+    {
+      "path": "assets/ref/ref_npc_banzhu_down_v01.png",
+      "bytes": 2076,
+      "sha256": "cafee4324f0deecb37534ee89d3dff677ad455c115d471f2af2c119a5d8620cb"
+    },
+    {
+      "path": "assets/ref/ref_npc_banzhu_standing_source_v01.png",
+      "bytes": 425327,
+      "sha256": "2cc188c8f36f440f46f1cad2cf10bfaf041c913c4d4183728130e0ab7bc73f54"
+    },
+    {
+      "path": "assets/ref/ref_npc_fubo_down_v01.png",
+      "bytes": 1456,
+      "sha256": "8ba0c1634f481800e24ffae14763f94b41d1586b080355f742b0d570eb3d573c"
+    },
+    {
+      "path": "assets/ref/ref_npc_fubo_standing_source_v01.png",
+      "bytes": 349536,
+      "sha256": "4acce1631ba9236dfb8d3b5d38fd2a0db7f796886dc6fb5c6f02e527768be17a"
+    },
+    {
+      "path": "assets/ref/ref_npc_guanshi_standing_initial_source_v01.png",
+      "bytes": 331327,
+      "sha256": "b0cdcbe8f75697dd2059388acc28c86268d608e905054048e982f615d49b33d7"
+    },
+    {
+      "path": "assets/ref/ref_npc_guanshi_standing_source_v01.png",
+      "bytes": 331940,
+      "sha256": "46edc2cbd97244f76aeb571012829f9e2e1b372a232c1859e4c4e5fc20578005"
+    },
+    {
+      "path": "assets/ref/ref_npc_heiyi_down_v01.png",
+      "bytes": 1720,
+      "sha256": "439a7e88de5176027e85911f646b1a6d0662c501f9598bf240bf10af30090a42"
+    },
+    {
+      "path": "assets/ref/ref_npc_heiyi_standing_source_v01.png",
+      "bytes": 352590,
+      "sha256": "28eaf2172c66f1abedb394c86495907eafe5ed461a2a0563249822c7abf82a21"
+    },
+    {
+      "path": "assets/ref/ref_npc_langzhong_down_v01.png",
+      "bytes": 1712,
+      "sha256": "6019af76b3fc31d9a7c0eccf11e6411ed217e389159462aa5bb72d9ed4ef4266"
+    },
+    {
+      "path": "assets/ref/ref_npc_langzhong_standing_source_v01.png",
+      "bytes": 434345,
+      "sha256": "c396a127bea88beb68814e3a78f18dbfde43b373a2663a46d463ed5c26ca65a1"
+    },
+    {
+      "path": "assets/ref/ref_npc_liushen_down_v01.png",
+      "bytes": 1460,
+      "sha256": "b5e6d13d85fbf0a6330ee416262b64286ed002517a2c9db656b9a3b0e370ed9b"
+    },
+    {
+      "path": "assets/ref/ref_npc_liushen_standing_source_v01.png",
+      "bytes": 366857,
+      "sha256": "9b7c9745bfca912f98a20a202a4217a3275308d226257f0c3ff70d3ba27cf2ae"
+    },
+    {
+      "path": "assets/ref/ref_npc_zhikeseng_standing_source_v01.png",
+      "bytes": 316318,
+      "sha256": "535acaf2355bbd409ef39fc54cd2d390ebcc070b87559c7dea7531c1263e69eb"
+    },
+    {
+      "path": "assets/ref/ref_por_aluo_initial_source_v01.png",
+      "bytes": 930426,
+      "sha256": "f0dfe634d12a1c8b4d4e5b7fe46b69bbad448e1694e6b568b9569ff8fe476cb3"
+    },
+    {
+      "path": "assets/ref/ref_por_aluo_source_v01.png",
+      "bytes": 932085,
+      "sha256": "8a54c2711a644abcc66bacbb6dacf8bee7b830600b62a295ecbb201e98de94f8"
+    },
+    {
+      "path": "assets/ref/ref_por_banzhu_source_v01.png",
+      "bytes": 1009017,
+      "sha256": "b2e7150df4aa695ae0cdedf8e8fa53f14304fad74d58be5984ba92cfa8e02980"
+    },
+    {
+      "path": "assets/ref/ref_por_fubo_source_v01.png",
+      "bytes": 862084,
+      "sha256": "b287441039958c6dbc6f99f568f2f17232fbe3481fa67135580f40bb0f01853e"
+    },
+    {
+      "path": "assets/ref/ref_por_langzhong_source_v01.png",
+      "bytes": 979829,
+      "sha256": "68fedbbd62159470fdd154bfffaa9ba0d293aa6c1371bca999e244ba50288bff"
+    },
+    {
+      "path": "assets/ref/ref_por_liushen_source_v01.png",
+      "bytes": 942347,
+      "sha256": "5740b9654ddaab26af4f6c67bad67e0916008d2de9367cc40469c0b8785e8f36"
+    }
+  ],
+  "existing_dependencies": [
+    {
+      "path": "assets/ref/master_shanmen_v01.png",
+      "bytes": 268651,
+      "sha256": "daee29b320413a75c615ba44defa121646fe04869748d144f5d24aaf84210d9e"
+    },
+    {
+      "path": "UI设计/多角色定妆_20261024_1432/净心_8倍_v01.png",
+      "bytes": 1366,
+      "sha256": "9f5533c045a145ba066ec7b2be5e9ee4228bc5afbacab53abe203045a3b512f5"
+    }
+  ]
+}

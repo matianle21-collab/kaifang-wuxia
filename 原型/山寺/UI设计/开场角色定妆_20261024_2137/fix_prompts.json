@@ -1,0 +1,20 @@
+[
+  {
+    "id": "guanshi",
+    "kind": "standing",
+    "prompt": "Use case: precise-object-edit. Preserve this EXACT Chinese steward character identity, clothes, keys, face, pixel style, current full body standing pose and transparency. Only correct the shoe ground registration: both shoe soles must be flat on EXACT SAME horizontal line. The screen-right shoe currently sits higher; lower it slightly or flatten the two sole lines so both touch an identical baseline. Keep figure the SAME height and width, no tilted body or new pose, no extra objects, no ground shadow or text. Genuine transparent alpha, coarse low-resolution sprite. All other pixels/character parts should stay unchanged.",
+    "referenced_image_paths": [
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/guanshi_standing_generated.png"
+    ],
+    "transparent_background": true
+  },
+  {
+    "id": "aluo",
+    "kind": "portrait",
+    "prompt": "Use case: precise-object-edit. Preserve this exact frail teenage girl's same face, messy hair, pale faint gray-green skin, gray-brown coarse collar, pixel style and transparent background. Change ONLY the mouth: she is showing her tongue to a physician as a story medical symptom. Mouth should open just enough to show a small broad BLACK charcoal tongue surface visible inside mouth, naturally sitting over lower lip, dark gray-violet highlight but visibly black (not pink). Keep modest purple lips. No exaggerated protrusion, fangs, saliva, wounds, blood, horror expression or extra object. Eyes remain bright tired and composed. This is a clinical tongue inspection portrait. Same pixel clusters and limited palette, no extra background.",
+    "referenced_image_paths": [
+      "/Volumes/ML_models/游戏/开放武侠/output/art-opening-refs-20261024-2137/source/aluo_portrait_generated.png"
+    ],
+    "transparent_background": true
+  }
+]

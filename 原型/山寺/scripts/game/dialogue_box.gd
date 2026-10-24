@@ -11,7 +11,8 @@ signal finished
 const RECT := Rect2(16, 392, 928, 132)
 const MINI := Rect2(256, 176, 448, 60)   # 不阻塞时的小框：Boss 血条与提示条之下、人物头顶之上
 const MINI_READ := [2.2, 0.12]          # 不阻塞时每行停留：基础秒数 + 每字秒数
-const PORTRAITS := {"净心": "jingxin_normal", "净心·悲": "jingxin_sad", "玄诚": "xuancheng_cold", "玄诚·笑": "xuancheng_smile"}
+const PORTRAITS := {"净心": "jingxin_normal", "净心·悲": "jingxin_sad", "玄诚": "xuancheng_cold", "玄诚·笑": "xuancheng_smile",
+	"福伯": "fubo", "刘婶": "liushen", "班主": "banzhu", "师父": "langzhong", "阿萝": "aluo"}
 
 var lines: Array = []   # {who, text}；who 为空是旁白，"信" 是血书
 var index := 0

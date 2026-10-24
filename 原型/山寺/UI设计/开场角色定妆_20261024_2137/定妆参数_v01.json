@@ -1,0 +1,496 @@
+[
+  {
+    "role": "fubo",
+    "name": "福伯",
+    "row": 76,
+    "standing": "assets/ref/ref_npc_fubo_down_v01.png",
+    "source": "assets/ref/ref_npc_fubo_standing_source_v01.png",
+    "source_component": {
+      "id": 1,
+      "box": [
+        356,
+        432,
+        390,
+        936
+      ],
+      "area": 244242.0
+    },
+    "frame_size": [
+      48,
+      64
+    ],
+    "content_size": [
+      17,
+      41
+    ],
+    "uniform_scale_height": 41,
+    "registered_offset": [
+      16,
+      20
+    ],
+    "anchor": [
+      24,
+      60
+    ],
+    "actual_opaque_foot_points": [
+      [
+        19,
+        60
+      ],
+      [
+        29,
+        60
+      ]
+    ],
+    "single_frame": true,
+    "stage": "front_reference_only_await_own_approval_before_animation",
+    "portrait": {
+      "file": "assets/por/por_fubo_v01.png",
+      "frame_size": [
+        96,
+        96
+      ],
+      "source": "assets/ref/ref_por_fubo_source_v01.png",
+      "source_component": {
+        "id": 1,
+        "box": [
+          40,
+          195,
+          1165,
+          1049
+        ],
+        "area": 710439.0
+      },
+      "resized_size": [
+        92,
+        83
+      ],
+      "fit": "isotropic max92x92, centered horizontally, bottom-aligned; no source content clipped"
+    },
+    "design": "Elderly Chinese male household servant, about65, slim slightly stooped but able to walk, receding gray hair under simple charcoal cloth cap, short gray moustache and small pointed beard, lined worried face, plain modest gray long robe with overlapping collar and dark cloth belt, worn cloth shoes. Head slightly lowered, hands held together low inside sleeves. He serves the Shen merchant household; no noble crown or jewelry, no weapon, no walking cane."
+  },
+  {
+    "role": "liushen",
+    "name": "刘婶",
+    "row": 76,
+    "standing": "assets/ref/ref_npc_liushen_down_v01.png",
+    "source": "assets/ref/ref_npc_liushen_standing_source_v01.png",
+    "source_component": {
+      "id": 1,
+      "box": [
+        344,
+        441,
+        403,
+        926
+      ],
+      "area": 253327.0
+    },
+    "frame_size": [
+      48,
+      64
+    ],
+    "content_size": [
+      17,
+      40
+    ],
+    "uniform_scale_height": 40,
+    "registered_offset": [
+      15,
+      21
+    ],
+    "anchor": [
+      24,
+      60
+    ],
+    "actual_opaque_foot_points": [
+      [
+        19,
+        60
+      ],
+      [
+        29,
+        60
+      ]
+    ],
+    "single_frame": true,
+    "stage": "front_reference_only_await_own_approval_before_animation",
+    "portrait": {
+      "file": "assets/por/por_liushen_v01.png",
+      "frame_size": [
+        96,
+        96
+      ],
+      "source": "assets/ref/ref_por_liushen_source_v01.png",
+      "source_component": {
+        "id": 1,
+        "box": [
+          67,
+          99,
+          1127,
+          1108
+        ],
+        "area": 780991.0
+      },
+      "resized_size": [
+        92,
+        90
+      ],
+      "fit": "isotropic max92x92, centered horizontally, bottom-aligned; no source content clipped"
+    },
+    "design": "Middle-aged Chinese neighborhood aunt, about50, ordinary sturdy body, warm round lined face with anxious concern, dark hair mixed gray tied into low practical bun with plain brown cloth wrap, no makeup or jewels. Coarse faded blue-gray short jacket over muted brown ankle skirt/trousers and simple dark cloth apron, practical cloth shoes, sleeves modestly rolled at wrists, empty hands naturally together near waist. Working-class blacksmith-shop neighbor, not a warrior or courtesan, no weapon."
+  },
+  {
+    "role": "banzhu",
+    "name": "班主",
+    "row": 76,
+    "standing": "assets/ref/ref_npc_banzhu_down_v01.png",
+    "source": "assets/ref/ref_npc_banzhu_standing_source_v01.png",
+    "source_component": {
+      "id": 1,
+      "box": [
+        251,
+        453,
+        588,
+        881
+      ],
+      "area": 302756.0
+    },
+    "frame_size": [
+      48,
+      64
+    ],
+    "content_size": [
+      27,
+      41
+    ],
+    "uniform_scale_height": 41,
+    "registered_offset": [
+      11,
+      20
+    ],
+    "anchor": [
+      24,
+      60
+    ],
+    "actual_opaque_foot_points": [
+      [
+        17,
+        60
+      ],
+      [
+        31,
+        60
+      ]
+    ],
+    "single_frame": true,
+    "stage": "front_reference_only_await_own_approval_before_animation",
+    "portrait": {
+      "file": "assets/por/por_banzhu_v01.png",
+      "frame_size": [
+        96,
+        96
+      ],
+      "source": "assets/ref/ref_por_banzhu_source_v01.png",
+      "source_component": {
+        "id": 1,
+        "box": [
+          32,
+          89,
+          1214,
+          1156
+        ],
+        "area": 874912.0
+      },
+      "resized_size": [
+        92,
+        88
+      ],
+      "fit": "isotropic max92x92, centered horizontally, bottom-aligned; no source content clipped"
+    },
+    "design": "Portly Chinese male opera-troupe manager about50, clearly ROUND FAT torso and thick cheeks, slightly oily ruddy face, small moustache, expressive raised brows and firm loud speaking mouth, dark hair under small soft dark cap. Muted maroon-brown long coat over dark trousers with broad dark sash, cloth shoes, one hand raised lightly near chest directing rehearsal, other at waist. NOT a stage performer: no opera makeup, no theatrical crown, no weapon."
+  },
+  {
+    "role": "langzhong",
+    "name": "老郎中",
+    "row": 76,
+    "standing": "assets/ref/ref_npc_langzhong_down_v01.png",
+    "source": "assets/ref/ref_npc_langzhong_standing_source_v01.png",
+    "source_component": {
+      "id": 1,
+      "box": [
+        304,
+        385,
+        481,
+        977
+      ],
+      "area": 295124.0
+    },
+    "frame_size": [
+      48,
+      64
+    ],
+    "content_size": [
+      20,
+      41
+    ],
+    "uniform_scale_height": 41,
+    "registered_offset": [
+      14,
+      20
+    ],
+    "anchor": [
+      24,
+      60
+    ],
+    "actual_opaque_foot_points": [
+      [
+        17,
+        60
+      ],
+      [
+        31,
+        60
+      ]
+    ],
+    "single_frame": true,
+    "stage": "front_reference_only_await_own_approval_before_animation",
+    "portrait": {
+      "file": "assets/por/por_langzhong_v01.png",
+      "frame_size": [
+        96,
+        96
+      ],
+      "source": "assets/ref/ref_por_langzhong_source_v01.png",
+      "source_component": {
+        "id": 1,
+        "box": [
+          0,
+          63,
+          1254,
+          1143
+        ],
+        "area": 832138.0
+      },
+      "resized_size": [
+        92,
+        84
+      ],
+      "fit": "isotropic max92x92, centered horizontally, bottom-aligned; no source content clipped"
+    },
+    "design": "Elderly Chinese male traveling physician about70, WHITE BEARD and white eyebrows, gray-white hair under humble cloth cap, thin thoughtful squinting eyes and restrained grave expression. Plain faded sage-gray robe, muted brown cloth medicine strap and small closed medicine satchel at side, dark cloth shoes. Holds a small dark earthen teacup at chest height as if his hand has stopped midair. No Taoist whisk, religious hat, martial staff or magic."
+  },
+  {
+    "role": "heiyi",
+    "name": "黑衣人",
+    "row": 76,
+    "standing": "assets/ref/ref_npc_heiyi_down_v01.png",
+    "source": "assets/ref/ref_npc_heiyi_standing_source_v01.png",
+    "source_component": {
+      "id": 1,
+      "box": [
+        321,
+        442,
+        433,
+        898
+      ],
+      "area": 232036.0
+    },
+    "frame_size": [
+      48,
+      64
+    ],
+    "content_size": [
+      20,
+      42
+    ],
+    "uniform_scale_height": 42,
+    "registered_offset": [
+      14,
+      19
+    ],
+    "anchor": [
+      24,
+      60
+    ],
+    "actual_opaque_foot_points": [
+      [
+        17,
+        60
+      ],
+      [
+        31,
+        60
+      ]
+    ],
+    "single_frame": true,
+    "stage": "front_reference_only_await_own_approval_before_animation",
+    "portrait": null,
+    "design": "Silent adult Chinese black-clad escort about35, lean strong shoulders, broad dark traveling hat with low brim shading the eyes, lower stern human face partially visible, no mask or scarf hiding mouth. Plain ink-black short martial coat with desaturated slate inner layer and brown-black belt, cloth trousers, boots, one SHEATHED short Chinese dao at waist, hands lowered, watchful stern stance. No hood, no ninja gear, no purple-green faction embroidery, no exposed long blade."
+  },
+  {
+    "role": "zhikeseng",
+    "name": "知客僧",
+    "row": 76,
+    "standing": "assets/npc/npc_zhikeseng_idle_down_v01.png",
+    "source": "assets/ref/ref_npc_zhikeseng_standing_source_v01.png",
+    "source_component": {
+      "id": 1,
+      "box": [
+        368,
+        528,
+        370,
+        839
+      ],
+      "area": 209709.0
+    },
+    "frame_size": [
+      48,
+      64
+    ],
+    "content_size": [
+      18,
+      41
+    ],
+    "uniform_scale_height": 41,
+    "registered_offset": [
+      16,
+      20
+    ],
+    "anchor": [
+      24,
+      60
+    ],
+    "actual_opaque_foot_points": [
+      [
+        19,
+        60
+      ],
+      [
+        29,
+        60
+      ]
+    ],
+    "single_frame": true,
+    "stage": "standing_only_requested",
+    "portrait": null,
+    "design": "Adult Chinese male monastery reception monk about45, shaved round head without scars, composed polite ordinary face, lean average body. Plain faded warm gray full monk robe with a muted ochre-brown shoulder panel, brown cloth shoes, hands clasped in polite greeting. No weapon, no giant prayer beads, not the child novice Jingxin and not the black-robed boss."
+  },
+  {
+    "role": "guanshi",
+    "name": "邪派管事",
+    "row": 76,
+    "standing": "assets/npc/npc_guanshi_idle_down_v01.png",
+    "source": "assets/ref/ref_npc_guanshi_standing_source_v01.png",
+    "source_component": {
+      "id": 1,
+      "box": [
+        348,
+        409,
+        390,
+        889
+      ],
+      "area": 228549.0
+    },
+    "frame_size": [
+      48,
+      64
+    ],
+    "content_size": [
+      18,
+      41
+    ],
+    "uniform_scale_height": 41,
+    "registered_offset": [
+      15,
+      20
+    ],
+    "anchor": [
+      24,
+      60
+    ],
+    "actual_opaque_foot_points": [
+      [
+        18,
+        60
+      ],
+      [
+        30,
+        60
+      ]
+    ],
+    "single_frame": true,
+    "stage": "standing_only_requested",
+    "portrait": null,
+    "design": "Middle-aged Chinese male sect steward about45, narrow shrewd face, thin moustache, hair in modest dark cloth cap, unsmiling inspecting expression. Ink-charcoal long robe with restrained dull-purple collar and tiny dull-green edging, dark brown waist sash with a SMALL ring of brass keys at belt, brown cloth shoes. Hands behind back, authoritative noncombat standing pose, no drawn weapon, no hood or mask, ordinary steward not boss."
+  },
+  {
+    "role": "aluo",
+    "name": "阿萝",
+    "row": 64,
+    "standing": "assets/npc/npc_aluo_idle_down_v01.png",
+    "source": "assets/ref/ref_npc_aluo_standing_source_v01.png",
+    "source_component": {
+      "id": 1,
+      "box": [
+        397,
+        463,
+        302,
+        896
+      ],
+      "area": 193518.0
+    },
+    "frame_size": [
+      48,
+      64
+    ],
+    "content_size": [
+      13,
+      39
+    ],
+    "uniform_scale_height": 39,
+    "registered_offset": [
+      18,
+      22
+    ],
+    "anchor": [
+      24,
+      60
+    ],
+    "actual_opaque_foot_points": [
+      [
+        19,
+        60
+      ],
+      [
+        29,
+        60
+      ]
+    ],
+    "single_frame": true,
+    "stage": "standing_only_requested",
+    "portrait": {
+      "file": "assets/por/por_aluo_v01.png",
+      "frame_size": [
+        96,
+        96
+      ],
+      "source": "assets/ref/ref_por_aluo_source_v01.png",
+      "source_component": {
+        "id": 1,
+        "box": [
+          163,
+          50,
+          976,
+          1204
+        ],
+        "area": 769131.0
+      },
+      "resized_size": [
+        75,
+        92
+      ],
+      "fit": "isotropic max92x92, centered horizontally, bottom-aligned; no source content clipped"
+    },
+    "design": "Frail15-to16-year-old Chinese girl, notably thin narrow shoulders and delicate wrists, messy loose dark hair to shoulders, pale face faintly green-gray, muted purple lips, tired but BRIGHT attentive eyes, quiet obedient weakened posture with shoulders slightly drooped. Fully modest coarse old gray-brown long-sleeved dress/tunic and plain ankle-length lower garment, frayed cuffs, straw sandals, thin empty hands low together. NO blood, wounds, makeup, jewelry, glamorous beauty styling or exposed skin. Mouth CLOSED in small walking sprite; black tongue ONLY appears in the separate close-up dialogue portrait, not here."
+  }
+]

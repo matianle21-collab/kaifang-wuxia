@@ -1,0 +1,318 @@
+{
+  "status": "passed",
+  "new_standing_sprites": 8,
+  "new_portraits": 5,
+  "generated_sources": 15,
+  "reference_inputs": 2,
+  "single_frames_only": true,
+  "animation_not_started_for_unapproved_characters": true,
+  "rows": {
+    "64": "站姿+头像所列已交，待开发确认",
+    "76": "7角色正面定妆+前4头像已交，5角色动画待各自确认；整体出图中"
+  },
+  "checks": [
+    {
+      "role": "fubo",
+      "name": "福伯",
+      "standing": "assets/ref/ref_npc_fubo_down_v01.png",
+      "standing_size": [
+        48,
+        64
+      ],
+      "portrait": "assets/por/por_fubo_v01.png",
+      "portrait_size": [
+        96,
+        96
+      ],
+      "colors_shared": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "actual_foot_points": [
+        [
+          19,
+          60
+        ],
+        [
+          29,
+          60
+        ]
+      ],
+      "feet_exact_on60": true,
+      "below60_transparent": true,
+      "native_content_uncut": true,
+      "nearest_preview_exact": true,
+      "scope": "front_reference_only_await_own_approval_before_animation"
+    },
+    {
+      "role": "liushen",
+      "name": "刘婶",
+      "standing": "assets/ref/ref_npc_liushen_down_v01.png",
+      "standing_size": [
+        48,
+        64
+      ],
+      "portrait": "assets/por/por_liushen_v01.png",
+      "portrait_size": [
+        96,
+        96
+      ],
+      "colors_shared": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "actual_foot_points": [
+        [
+          19,
+          60
+        ],
+        [
+          29,
+          60
+        ]
+      ],
+      "feet_exact_on60": true,
+      "below60_transparent": true,
+      "native_content_uncut": true,
+      "nearest_preview_exact": true,
+      "scope": "front_reference_only_await_own_approval_before_animation"
+    },
+    {
+      "role": "banzhu",
+      "name": "班主",
+      "standing": "assets/ref/ref_npc_banzhu_down_v01.png",
+      "standing_size": [
+        48,
+        64
+      ],
+      "portrait": "assets/por/por_banzhu_v01.png",
+      "portrait_size": [
+        96,
+        96
+      ],
+      "colors_shared": 15,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "actual_foot_points": [
+        [
+          17,
+          60
+        ],
+        [
+          31,
+          60
+        ]
+      ],
+      "feet_exact_on60": true,
+      "below60_transparent": true,
+      "native_content_uncut": true,
+      "nearest_preview_exact": true,
+      "scope": "front_reference_only_await_own_approval_before_animation"
+    },
+    {
+      "role": "langzhong",
+      "name": "老郎中",
+      "standing": "assets/ref/ref_npc_langzhong_down_v01.png",
+      "standing_size": [
+        48,
+        64
+      ],
+      "portrait": "assets/por/por_langzhong_v01.png",
+      "portrait_size": [
+        96,
+        96
+      ],
+      "colors_shared": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "actual_foot_points": [
+        [
+          17,
+          60
+        ],
+        [
+          31,
+          60
+        ]
+      ],
+      "feet_exact_on60": true,
+      "below60_transparent": true,
+      "native_content_uncut": true,
+      "nearest_preview_exact": true,
+      "scope": "front_reference_only_await_own_approval_before_animation"
+    },
+    {
+      "role": "heiyi",
+      "name": "黑衣人",
+      "standing": "assets/ref/ref_npc_heiyi_down_v01.png",
+      "standing_size": [
+        48,
+        64
+      ],
+      "portrait": null,
+      "portrait_size": null,
+      "colors_shared": 14,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "actual_foot_points": [
+        [
+          17,
+          60
+        ],
+        [
+          31,
+          60
+        ]
+      ],
+      "feet_exact_on60": true,
+      "below60_transparent": true,
+      "native_content_uncut": true,
+      "nearest_preview_exact": true,
+      "scope": "front_reference_only_await_own_approval_before_animation"
+    },
+    {
+      "role": "zhikeseng",
+      "name": "知客僧",
+      "standing": "assets/npc/npc_zhikeseng_idle_down_v01.png",
+      "standing_size": [
+        48,
+        64
+      ],
+      "portrait": null,
+      "portrait_size": null,
+      "colors_shared": 14,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "actual_foot_points": [
+        [
+          19,
+          60
+        ],
+        [
+          29,
+          60
+        ]
+      ],
+      "feet_exact_on60": true,
+      "below60_transparent": true,
+      "native_content_uncut": true,
+      "nearest_preview_exact": true,
+      "scope": "standing_only_requested"
+    },
+    {
+      "role": "guanshi",
+      "name": "邪派管事",
+      "standing": "assets/npc/npc_guanshi_idle_down_v01.png",
+      "standing_size": [
+        48,
+        64
+      ],
+      "portrait": null,
+      "portrait_size": null,
+      "colors_shared": 16,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "actual_foot_points": [
+        [
+          18,
+          60
+        ],
+        [
+          30,
+          60
+        ]
+      ],
+      "feet_exact_on60": true,
+      "below60_transparent": true,
+      "native_content_uncut": true,
+      "nearest_preview_exact": true,
+      "scope": "standing_only_requested"
+    },
+    {
+      "role": "aluo",
+      "name": "阿萝",
+      "standing": "assets/npc/npc_aluo_idle_down_v01.png",
+      "standing_size": [
+        48,
+        64
+      ],
+      "portrait": "assets/por/por_aluo_v01.png",
+      "portrait_size": [
+        96,
+        96
+      ],
+      "colors_shared": 15,
+      "alpha": [
+        0,
+        255
+      ],
+      "anchor": [
+        24,
+        60
+      ],
+      "actual_foot_points": [
+        [
+          19,
+          60
+        ],
+        [
+          29,
+          60
+        ]
+      ],
+      "feet_exact_on60": true,
+      "below60_transparent": true,
+      "native_content_uncut": true,
+      "nearest_preview_exact": true,
+      "scope": "standing_only_requested"
+    }
+  ],
+  "visual_review": "eight native standing figures, five native portraits, enlarged comparison and static scene inspected before upload",
+  "independent_runtime_test": false,
+  "notes": [
+    "No program-drawn character pixels. ImageMagick technical crop, binaryalpha, uniform nearest resize, per-role16color palette and registration only; PIL read-only.",
+    "Selected guanshi standing shoe-baseline AI correction and aluo portrait black-tongue AI correction; both initials preserved.",
+    "Native standing root fixed24,60; each has two actual opaque sole pixels on row60 with exact midpoint24. No foot fragment moved by code.",
+    "Only Aluo, Zhikeseng, Guanshi have requested single idle_down runtime files. Five animated NPCs currently only ref images, not 1frame pretending idle4."
+  ]
+}
