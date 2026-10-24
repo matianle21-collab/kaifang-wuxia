@@ -115,7 +115,12 @@ var _fps_t := 0.0
 var _fps_min := 999.0
 
 
+var _sfx_warm := false
+
+
 func _process(dt: float) -> void:
+	if not _sfx_warm:
+		_sfx_warm = Sfx.warm_next()
 	if dev.has("fps"):
 		var real_dt := dt / maxf(Engine.time_scale, 0.001)
 		_fps_t += real_dt
@@ -199,7 +204,6 @@ func _panel(rect: Rect2, parent: Node = null) -> Panel:
 
 func _label(parent: Node, text: String, pos: Vector2, size := 12, color := UiKit.TEXT, width := 0.0) -> Label:
 	var l := Label.new()
-	l.text = text
 	l.position = pos
 	l.add_theme_font_size_override("font_size", size)
 	l.add_theme_color_override("font_color", color)
@@ -208,6 +212,8 @@ func _label(parent: Node, text: String, pos: Vector2, size := 12, color := UiKit
 		l.size = Vector2(width, size + 6)
 		l.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		l.autowrap_mode = TextServer.AUTOWRAP_ARBITRARY
+	# 文字最后填：先填字再定位置，Label 会按整行字宽撑开，之后再开换行、定宽都缩不回来，出身介绍就挤成一行越出卡片（#35）
+	l.text = text
 	parent.add_child(l)
 	return l
 
@@ -231,10 +237,11 @@ func _title() -> void:
 	p.add_child(wipe)
 	if profile.exists:
 		var inv := SimInventory.from_dict(profile.inventory)
-		_label(p, "存档：金钱 %d · 物品 %d 件 · 已装备 %d 件" % [inv.coins, inv.entries.size(), inv.equipped_items().size()], Vector2(0, 306), 12, UiKit.MUTED, 336)
+		# 清空存档按钮占到 y=298，存档信息排在它下面（#35：原先「上次出身」压在按钮上）
 		if profile.origin in Story.ORIGINS:
-			_label(p, "上次出身：%s" % Story.origin_name(profile.origin), Vector2(0, 280), 12, UiKit.MUTED, 336)
-	_label(p, "第一里程碑试玩 · 角色与场景为占位图", Vector2(0, 336), 12, UiKit.MUTED, 336)
+			_label(p, "上次出身：%s" % Story.origin_name(profile.origin), Vector2(0, 310), 12, UiKit.MUTED, 336)
+		_label(p, "存档：金钱 %d · 物品 %d 件 · 已装备 %d 件" % [inv.coins, inv.entries.size(), inv.equipped_items().size()], Vector2(0, 332), 12, UiKit.MUTED, 336)
+	_label(p, "第一里程碑试玩 · 角色与场景为占位图", Vector2(0, 364), 12, UiKit.MUTED, 336)
 	_label(p, "确认：Enter / A / 点按", Vector2(0, 400), 12, UiKit.MUTED, 336)
 	start.grab_focus()
 
@@ -282,6 +289,7 @@ func _origin_select() -> void:
 		var desc: Label = c.get_child(c.get_child_count() - 2)
 		desc.position.y = 96
 		desc.size.y = 200
+		desc.horizontal_alignment = HORIZONTAL_ALIGNMENT_LEFT
 		if o == (profile.origin if profile.origin in Story.ORIGINS else "langzhong"):
 			first = c
 	confirm.pressed.connect(func():

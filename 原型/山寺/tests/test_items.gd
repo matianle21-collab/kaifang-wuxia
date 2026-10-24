@@ -167,3 +167,35 @@ func test_inventory_save_roundtrip() -> void:
 	check(back.entries.has(7), "格子里的刀读回")
 	check_eq(back.entries[7].pos, inv.entries[7].pos, "位置读回")
 	check(back.equipped.acc1 != null and int(back.equipped.acc1.uid) == 8, "装备栏读回")
+
+
+## #35 网页上触屏的 index 是浏览器的 touch.identifier，不从 0 起：点「关闭」照样能关上；别的手指不抢
+func test_inventory_touch_any_finger_index() -> void:
+	var w := SimWorld.new(8)
+	var p := w.add_hero("player", "shaolin", "jiemai", Vector2(100, 100))
+	var ui := InventoryUi.new()
+	ui.world = w
+	ui.me = p
+	ui.profile = Profile.new()
+	ui.mobile = true
+	tree.root.add_child(ui)
+	for round in 3:
+		ui.open()
+		var close_r: Rect2 = ui._close_rect()
+		var other := InputEventScreenTouch.new()
+		other.index = 40 + round
+		other.position = Vector2(300, 200)
+		other.pressed = true
+		ui._input(other)  # 第一根手指按在格子上
+		var tap := InputEventScreenTouch.new()
+		tap.index = 41 + round
+		tap.position = close_r.get_center()
+		tap.pressed = true
+		ui._input(tap)
+		check(ui.visible, "第二根手指不抢第一根的操作")
+		other.pressed = false
+		ui._input(other)
+		tap.index = 7 + round * 13
+		ui._input(tap)
+		check(not ui.visible, "第 %d 次：index=%d 的手指点关闭能关上" % [round + 1, tap.index])
+	ui.free()

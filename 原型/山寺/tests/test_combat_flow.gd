@@ -106,3 +106,46 @@ func test_freeze_setting_saved() -> void:
 	var p := Profile.new()
 	check(p.settings.get("freeze", false), "合击定格默认开")
 	check(not LevelBase.freeze_skip_pressed(), "没按键时不跳过")
+
+
+## #36 命中停顿冻的是整个画面：只给玩家打出 / 挨到的重击，且有冷却；队友、敌人之间和轻击都不停；打断照常停
+func test_hitstop_only_player_heavy_hits() -> void:
+	var lv := _shanmen()
+	var v := lv.view
+	var foe: SimFighter = null
+	for f in lv.world.fighters:
+		if not f.is_hero():
+			foe = f
+			break
+	var hit := func(src: int, target: int, heavy: bool) -> Dictionary:
+		return {"type": "hit", "id": target, "src": src, "pos": Vector2.ZERO, "amount": 10, "heavy": heavy, "dot": false, "guarded": false}
+	v._on_event(hit.call(lv.jingxin.id, foe.id, true))
+	check_eq(v.hitstop, 0.0, "队友的重击不停顿")
+	v._on_event(hit.call(foe.id, lv.jingxin.id, true))
+	check_eq(v.hitstop, 0.0, "敌人打队友不停顿")
+	v._on_event(hit.call(lv.me.id, foe.id, false))
+	check_eq(v.hitstop, 0.0, "玩家的轻击不停顿")
+	v._on_event(hit.call(lv.me.id, foe.id, true))
+	check(v.hitstop > 0.0, "玩家的重击停顿")
+	v.hitstop = 0.0
+	v._on_event(hit.call(foe.id, lv.me.id, true))
+	check_eq(v.hitstop, 0.0, "冷却内的第二下重击不再停")
+	v._on_event({"type": "interrupt", "id": foe.id, "pos": Vector2.ZERO})
+	check(v.hitstop > 0.0, "打断不受冷却限制")
+	lv.free()
+
+
+## #36 停顿那几帧里按的键不丢：停顿一过就出手
+func test_hitstop_keeps_presses() -> void:
+	var lv := _shanmen()
+	for i in 10:
+		lv._physics_process(DT)
+	lv.view.hitstop = 0.05
+	lv.next = SimCommand.new().press("attack")
+	lv._physics_process(DT)
+	lv.next = SimCommand.new()  # 键盘的「刚按下」只在按下那一帧为真，过了这一帧就没了
+	check(lv.me.state != "attack", "停顿中世界不走")
+	for i in 5:
+		lv._physics_process(DT)
+	check_eq(lv.me.state, "attack", "停顿中按的普攻在停顿后打出")
+	lv.free()
