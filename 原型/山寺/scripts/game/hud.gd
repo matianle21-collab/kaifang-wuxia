@@ -92,6 +92,11 @@ func _input(event: InputEvent) -> void:
 	UiKit.detect(event)
 	if event is InputEventScreenTouch or event is InputEventScreenDrag:
 		mobile = true
+	# 松手不管界面显没显示都要处理：开场醒来的阻塞对话、物品栏会把战斗界面收起，原先这时松开摇杆的事件被丢掉，
+	# 摇杆一直记着最后的方向（#39：上推后角色一直往上顶墙），之后再按也接管不了
+	if event is InputEventScreenTouch and not event.pressed:
+		_release(event.index)
+		return
 	if not visible or me == null:
 		return
 	if event is InputEventScreenTouch:
@@ -117,16 +122,6 @@ func _input(event: InputEvent) -> void:
 				touch_held[a] = true
 				_touch_pressed[a] = true
 				get_viewport().set_input_as_handled()
-		else:
-			if event.index == _stick_index:
-				_stick_index = -1
-				touch_move = Vector2.ZERO
-			if _button_touch.has(event.index):
-				var a: String = _button_touch[event.index]
-				_button_touch.erase(event.index)
-				touch_held.erase(a)
-				_touch_released[a] = true
-				touch_aim = Vector2.ZERO
 	elif event is InputEventScreenDrag:
 		if event.index == _stick_index:
 			_update_stick(event.position)
@@ -134,6 +129,31 @@ func _input(event: InputEvent) -> void:
 			var a: String = _button_touch[event.index]
 			var off: Vector2 = event.position - _button_origin[a]
 			touch_aim = (off / 60.0).limit_length(1.0) if off.length() > 10.0 else Vector2.ZERO
+
+
+func _release(index: int) -> void:
+	if index == _stick_index:
+		_stick_index = -1
+		touch_move = Vector2.ZERO
+	if _button_touch.has(index):
+		var a: String = _button_touch[index]
+		_button_touch.erase(index)
+		touch_held.erase(a)
+		_touch_released[a] = true
+		touch_aim = Vector2.ZERO
+
+
+## 界面收起时清掉所有按住的触点：收起期间手指还按着、或松手事件没送到，都不能留下锁死的方向和按住的键
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_VISIBILITY_CHANGED and not visible:
+		if _stick_index >= 0 or not _button_touch.is_empty():
+			_stick_index = -1
+			touch_move = Vector2.ZERO
+			for a in _button_touch.values():
+				_touch_released[a] = true
+			_button_touch.clear()
+			touch_held.clear()
+			touch_aim = Vector2.ZERO
 
 
 func _update_stick(pos: Vector2) -> void:
