@@ -10,7 +10,7 @@ var sect := "shaolin"
 var utility := "jiemai"
 var origin := "langzhong"
 var profile: Profile
-var _layer: CanvasLayer
+var _layer: Control   # 界面根节点（挂在 CanvasLayer 下的全屏 Control），所有页面元素都放这里
 
 
 ## 开发用开关：命令行 `-- skip auto quit xiepai yungong`，网页 `?skip&auto`。
@@ -168,11 +168,17 @@ func _dev_flags() -> Dictionary:
 	return out
 
 
-func _reset() -> CanvasLayer:
+## 页面元素必须同在一个 Control 根节点下：Godot 只在同一棵 Control 树里找方向键 / 十字键的焦点邻居，
+## 原先卡片直接挂在 CanvasLayer 下，选出身、门派、通用技时方向键和手柄都切换不了
+func _reset() -> Control:
 	for c in get_children():
 		c.queue_free()
-	_layer = CanvasLayer.new()
-	add_child(_layer)
+	var layer := CanvasLayer.new()
+	add_child(layer)
+	_layer = Control.new()
+	_layer.set_anchors_preset(Control.PRESET_FULL_RECT)
+	_layer.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	layer.add_child(_layer)
 	return _layer
 
 
@@ -299,6 +305,7 @@ func _origin_select() -> void:
 		profile.save()
 		_sect_select())
 	_layer.add_child(confirm)
+	_link_cards(confirm)
 	first.pressed.emit()
 	first.grab_focus()
 
@@ -326,8 +333,37 @@ func _card(rect: Rect2, title: String, title_color: Color, img: Texture2D, img_s
 	t.position = Vector2((rect.size.x - img_size.x) / 2.0, 60)
 	t.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	b.add_child(t)
-	_label(b, desc, Vector2(12, rect.size.y - 44), 12, UiKit.TEXT, rect.size.x - 24)
+	var d := _label(b, "", Vector2(12, rect.size.y - 44), 12, UiKit.TEXT, rect.size.x - 24)
+	d.autowrap_mode = TextServer.AUTOWRAP_OFF
+	d.text = UiKit.wrap_cjk(desc, rect.size.x - 24)  # 自己断行：标点不落到行首
 	return b
+
+
+## 一排卡片：左右键只在卡片之间走（门派页两张卡片中间正下方是确认键，按几何找邻居会跳到确认键上），下键到确认
+func _link_cards(confirm: Button) -> void:
+	var cards := _layer.get_children().filter(func(c): return c is Button and c != confirm)
+	cards.sort_custom(func(a, b): return a.position.x < b.position.x)
+	for i in cards.size():
+		var c: Button = cards[i]
+		c.focus_neighbor_left = c.get_path_to(cards[maxi(i - 1, 0)])
+		c.focus_neighbor_right = c.get_path_to(cards[mini(i + 1, cards.size() - 1)])
+		# 方向键移到哪张就选哪张（确认键上的字跟着变）；选中时会把焦点交给确认键，这里再拿回来，接着用方向键挑
+		c.focus_entered.connect(func():
+			if _previewing:
+				return
+			_previewing = true
+			c.pressed.emit()
+			c.grab_focus()
+			_previewing = false
+			# 下键先到改名框（戏班小旦才有），再到确认；确认键上键回到选中的卡片
+			var box := _layer.get_children().filter(func(n): return n is LineEdit and n.visible)
+			c.focus_neighbor_bottom = c.get_path_to(box[0] if box else confirm)
+			confirm.focus_neighbor_top = confirm.get_path_to(box[0] if box else c)
+			if box:
+				box[0].focus_neighbor_top = box[0].get_path_to(c))
+
+
+var _previewing := false
 
 
 func _sect_select() -> void:
@@ -346,6 +382,7 @@ func _sect_select() -> void:
 		"刀 · 中距施毒，控场牵制", pick.bind("xiepai"))
 	confirm.pressed.connect(_prologue)
 	_layer.add_child(confirm)
+	_link_cards(confirm)
 	confirm.text = "确认 · 少林"
 	a.grab_focus()
 
@@ -413,6 +450,7 @@ func _utility_select() -> void:
 	utility = "jiemai"
 	confirm.pressed.connect(_shanmen)
 	_layer.add_child(confirm)
+	_link_cards(confirm)
 	first.grab_focus()
 
 

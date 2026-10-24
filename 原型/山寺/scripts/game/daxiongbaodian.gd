@@ -153,12 +153,12 @@ func _hints() -> void:
 func _objectives() -> void:
 	var b := world.ballista
 	if me.state == "mounted":
-		hud.objectives = ["按住%s蓄力、松开发射（三档）" % ("攻击键" if hud.mobile else "左键 / J"), "%s下车" % ("交谈键" if hud.mobile else "E ")]
+		hud.objectives = ["按住%s蓄力、松开发射（三档）" % ("攻击键" if hud.mobile else "左键 / J"), ("点「下车」键" if hud.mobile else "E 下车")]
 	elif not b.built:
 		var carrying := SimBallista.carried(world, me)
 		var line := "弩车零件 %d / 3%s" % [b.installed.size() + world.parts.filter(func(p): return p.carrier != -1).size(),
 			("（背着%s，送到中央）" % SimData.BALLISTA.part_names[carrying.part]) if not carrying.is_empty() else ""]
-		hud.objectives = [line if b.installed.size() < 3 else "在中央拼装弩车（%s，3 秒）" % ("交谈键" if hud.mobile else "E"), "打碎两侧的零件堆"]
+		hud.objectives = [line if b.installed.size() < 3 else "在中央拼装弩车（%s，3 秒）" % ("点「拼装弩车」键" if hud.mobile else "E"), "打碎两侧的零件堆"]
 	else:
 		hud.objectives = ["弩车耐久 %d / 3" % b.hp, "上弩车射出裂口，从裂口那一侧打", "冲撞预警时摆阵撞偏"]
 
@@ -201,13 +201,13 @@ func level_events(events: Array) -> void:
 			"part_install":
 				hud.toast("装上%s（%d / 3）" % [SimData.BALLISTA.part_names[e.part], e.have], 2.0)
 				if e.have == 3:
-					tip("build", "零件齐了：在中央%s拼装，读条 3 秒，别走动、别挨打" % ("点「交谈」" if hud.mobile else "按 E"), 4.0)
+					tip("build", "零件齐了：在中央%s拼装，读条 3 秒，别走动、别挨打" % ("点「拼装弩车」键" if hud.mobile else "按 E"), 4.0)
 			"build_broken":
 				if e.id == me.id:
 					hud.toast("拼装被打断了", 1.5)
 			"ballista_built":
 				hud.toast("弩车拼好了！", 2.0)
-				tip("ride", "上车（%s）后按住攻击蓄力，松开发射；蓄得越久裂口越大" % ("交谈键" if hud.mobile else "E"), 4.0)
+				tip("ride", "上车（%s）后按住攻击蓄力，松开发射；蓄得越久裂口越大" % ("点「上弩车」键" if hud.mobile else "E"), 4.0)
 			"bolt_fire":
 				_stats.bolts += 1
 			"breach":
@@ -272,7 +272,7 @@ func _teach() -> void:
 		return
 	var b := world.ballista
 	if b.built and b.rider == -1 and me.pos.distance_to(b.center) < 120.0:
-		tip("ride_hint", "弩车空着：%s上车" % ("点「交谈」" if hud.mobile else "按 E "), 3.0)
+		tip("ride_hint", "弩车空着：%s上车" % ("点「上弩车」键" if hud.mobile else "按 E "), 3.0)
 
 
 func _watch_down(dt: float) -> void:

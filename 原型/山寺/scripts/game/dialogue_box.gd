@@ -21,6 +21,7 @@ var auto := false       # 开发用：自动翻页
 var blocking := true    # 当前这段对话是否暂停世界
 var _line_t := 0.0      # 不阻塞时这一行已经显示了多久
 var _last_tap := 0
+var mobile := false     # 关卡每帧同步：手机上只提示「点按」，不写键盘手柄键位
 
 
 func _ready() -> void:
@@ -128,21 +129,36 @@ func _draw() -> void:
 		draw_rect(paper.grow(-0.5), Color("#8C3B2E"), false, 1.0)
 		UiKit.text(self, paper.position + Vector2(24, 18), "（一块撕下来的衣襟，血字歪歪扭扭，有几处已经糊了）", 12, Color("#5A4A40"))
 		_wrap(shown, paper.position + Vector2(24, 52), 432, 34, Color("#8C1F1A"), 24)
-		UiKit.text(self, paper.end - Vector2(150, 30), "点按 / E 继续", 12, Color("#5A4A40"))
+		UiKit.text_r(self, paper.end - Vector2(24, 30), _continue_hint(), 12, Color("#5A4A40"))
 		return
 	var frame := UiKit.ui("dialog")
-	draw_texture(frame, RECT.position)
 	var text_x := 152.0
 	if PORTRAITS.has(who):
+		draw_texture(frame, RECT.position)
 		draw_texture(UiKit.portrait(PORTRAITS[who]), Vector2(32, 408))
 	else:
-		# 旁白、没有头像的人：用框图自身的空白底盖掉头像框，文字顶到左边（#30）
-		draw_texture_rect_region(frame, Rect2(RECT.position + Vector2(12, 12), Vector2(104, 104)), Rect2(200, 12, 104, 104))
+		# 旁白、没有头像的人：不画头像框，文字顶到左边（#30）。框图是半透明的，先画整张再盖一块空白底
+		# 会叠出一个更深的方块（实测还看得见空头像框），所以分三段画：左边框、一段空白拉宽、右边其余部分
+		draw_texture_rect_region(frame, Rect2(RECT.position, Vector2(12, 132)), Rect2(0, 0, 12, 132))
+		draw_texture_rect_region(frame, Rect2(RECT.position + Vector2(12, 0), Vector2(108, 132)), Rect2(200, 0, 1, 132))
+		draw_texture_rect_region(frame, Rect2(RECT.position + Vector2(120, 0), Vector2(808, 132)), Rect2(120, 0, 808, 132))
 		text_x = 32.0
 	if who != "":
 		UiKit.text(self, Vector2(text_x, 404), who.get_slice("·", 0), 24, UiKit.QI)
 	_wrap(shown, Vector2(text_x, 438 if who != "" else 418), 920.0 - text_x, 18, UiKit.TEXT if who != "" else UiKit.MUTED)
-	UiKit.text_r(self, Vector2(928, 500), "E / A / 点按 继续", 12, UiKit.MUTED)
+	UiKit.text_r(self, Vector2(928, 500), _continue_hint(), 12, UiKit.MUTED)
+
+
+## 翻页提示跟着设备走：手机只写点按，手柄写 A，键鼠写 E 和点击
+func _continue_hint() -> String:
+	if mobile:
+		return "点按继续"
+	match UiKit.device:
+		"xbox":
+			return "A 继续"
+		"ps":
+			return "× 继续"
+	return "E / 点击 继续"
 
 
 ## 不阻塞的小框：48×48 小头像（有的话）+ 说话人 + 两行字，右下角一条细进度表示这一行还剩多久

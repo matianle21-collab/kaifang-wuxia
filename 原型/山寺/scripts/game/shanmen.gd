@@ -29,7 +29,7 @@ const START := Vector2(960, 1030)
 const ENTRY := {
 	"shenjia": {"at": Vector2(960, 1030), "npc": ["知客僧", Vector2(1010, 960), Color("#8C3B2E"), Color("#E0C8B0")]},
 	"tiejiang": {"at": Vector2(760, 1010), "npc": ["邪派管事", Vector2(820, 960), Color("#2B2328"), Color("#2B2320")]},
-	"xiban": {"at": Vector2(1160, 1010), "npc": ["守门喽啰", Vector2(1100, 960), Color("#2B2328"), Color("#2B2320")]},
+	"xiban": {"at": Vector2(1160, 1010), "npc": ["收香钱的", Vector2(1100, 960), Color("#2B2328"), Color("#2B2320")]},
 	"langzhong": {"at": Vector2(960, 1030), "npc": []},
 }
 const BOSS_WAIT := Vector2(960, 300)
@@ -57,7 +57,7 @@ func _ready() -> void:
 	for p in TORCHES:
 		world.add_interactable("torch", p)
 	for p in LOULUO:
-		world.add_enemy("louluo", p)
+		world.add_enemy("louluo", p, true)  # 进门对话放完才动手：原先对话还在播，四个喽啰已经扑上来
 	boss = world.add_enemy("xuancheng", BOSS_WAIT, true)
 	var entry: Dictionary = ENTRY.get(origin, {})
 	if not entry.is_empty():
@@ -176,6 +176,9 @@ func _on_dialogue_done() -> void:
 	match stage:
 		"intro":
 			stage = "gate"
+			for f in world.fighters:
+				if f.kind == "louluo" and f.state == "wait":
+					f.state = "idle"
 			_stats.start = world.time
 			tip("move", "WASD 移动，J 普攻（按住连击），空格闪避，E 熄火把" if not hud.mobile else "左摇杆移动，按住普攻连击，点闪避躲开红区", 5.0)
 		"boss_talk":
@@ -226,7 +229,7 @@ func _finish() -> void:
 
 func _objectives() -> void:
 	var left := world.interactables.filter(func(it): return it.on).size()
-	var foes := world.foes().filter(func(f): return f.kind == "louluo").size()
+	var foes := world.fighters.filter(func(f): return f.kind == "louluo" and f.alive and f.state != "sit").size()  # 还在等对话的也算没击退
 	hud.objectives = ["熄灭火把 %d / 3" % (3 - left), "击退守卫 %d / 4" % (4 - foes)]
 
 
