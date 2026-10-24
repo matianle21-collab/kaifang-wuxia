@@ -684,7 +684,13 @@ func _prop(f: SimFighter, at: Vector2, tint: Color) -> void:
 		if part != "":
 			draw_rect(Rect2(at + Vector2(-4, -30), Vector2(10, 6)), PART_COLORS[part] * tint)
 		return
-	if f.kind == "crate":
+	if art_name == "obj_muzhuang":
+		# 沈家练功木桩（图未交）：一根立桩加两根横木，台词说的是「木桩」，别画成木箱
+		draw_rect(Rect2(at + Vector2(-5, -34), Vector2(10, 34)), c)
+		draw_rect(Rect2(at + Vector2(-13, -26), Vector2(26, 4)), Color("#5A3F29") * tint)
+		draw_rect(Rect2(at + Vector2(-11, -16), Vector2(22, 4)), Color("#5A3F29") * tint)
+		draw_rect(Rect2(at + Vector2(-5, -34), Vector2(10, 34)), Color("#3B2A20") * tint, false, 1.0)
+	elif f.kind == "crate":
 		draw_rect(Rect2(at + Vector2(-11, -20), Vector2(22, 20)), c)
 		draw_rect(Rect2(at + Vector2(-11, -20), Vector2(22, 20)), Color("#3B2A20") * tint, false, 1.0)
 		draw_line(at + Vector2(-11, -20), at + Vector2(11, 0), Color("#3B2A20") * tint, 1.0)

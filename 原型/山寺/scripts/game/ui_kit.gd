@@ -139,6 +139,20 @@ static func text_width(s: String, size := 12) -> float:
 	return FONT.get_string_size(s, HORIZONTAL_ALIGNMENT_LEFT, -1, size).x
 
 
+## 中文按宽度断行，标点不落到行首（避头）：放不下的标点留在上一行末尾，宁可多出一个字宽。
+## Label 自带的换行在这套像素字体上会把句号挤到下一行开头
+static func wrap_cjk(s: String, width: float, size := 12) -> String:
+	const NO_START := "，。、；：！？」』）…—"
+	var out := ""
+	var line := ""
+	for ch in s:
+		if line != "" and text_width(line + ch, size) > width and not NO_START.contains(ch):
+			out += line + "\n"
+			line = ""
+		line += ch
+	return out + line
+
+
 ## 按比例填一条槽：trough 是槽外框（含 1px 边），填色画在框内
 static func fill(c: CanvasItem, trough: Rect2, ratio: float, color: Color) -> void:
 	var inner := trough.grow(-1)

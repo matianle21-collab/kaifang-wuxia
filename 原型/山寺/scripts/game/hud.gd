@@ -30,6 +30,10 @@ var objectives: Array = []      # 当前目标，每行一条
 var mobile := false
 var force_mobile := false      # 开发开关 mobile：电脑上也显示手机界面
 var can_talk := false           # 关卡每帧设置：身边有可互动的东西
+var talk_label := ""           # 互动键上的字（熄灭火把、上弩车…），空就写「交谈」
+var hide_utility := false       # 出身开场还没选通用技：通用技那一格不显示、不响应
+var _fade := 1.0                # 手机按键当前的不透明度：底下压着敌人、火把时调淡，让它们透出来
+const FADE := 0.4
 var toasts: Array = []          # {text, t}
 
 # 触屏状态，PlayerInput 读取
@@ -88,6 +92,11 @@ func _input(event: InputEvent) -> void:
 	UiKit.detect(event)
 	if event is InputEventScreenTouch or event is InputEventScreenDrag:
 		mobile = true
+	# 松手不管界面显没显示都要处理：开场醒来的阻塞对话、物品栏会把战斗界面收起，原先这时松开摇杆的事件被丢掉，
+	# 摇杆一直记着最后的方向（#39：上推后角色一直往上顶墙），之后再按也接管不了
+	if event is InputEventScreenTouch and not event.pressed:
+		_release(event.index)
+		return
 	if not visible or me == null:
 		return
 	if event is InputEventScreenTouch:
@@ -113,16 +122,6 @@ func _input(event: InputEvent) -> void:
 				touch_held[a] = true
 				_touch_pressed[a] = true
 				get_viewport().set_input_as_handled()
-		else:
-			if event.index == _stick_index:
-				_stick_index = -1
-				touch_move = Vector2.ZERO
-			if _button_touch.has(event.index):
-				var a: String = _button_touch[event.index]
-				_button_touch.erase(event.index)
-				touch_held.erase(a)
-				_touch_released[a] = true
-				touch_aim = Vector2.ZERO
 	elif event is InputEventScreenDrag:
 		if event.index == _stick_index:
 			_update_stick(event.position)
@@ -130,6 +129,31 @@ func _input(event: InputEvent) -> void:
 			var a: String = _button_touch[event.index]
 			var off: Vector2 = event.position - _button_origin[a]
 			touch_aim = (off / 60.0).limit_length(1.0) if off.length() > 10.0 else Vector2.ZERO
+
+
+func _release(index: int) -> void:
+	if index == _stick_index:
+		_stick_index = -1
+		touch_move = Vector2.ZERO
+	if _button_touch.has(index):
+		var a: String = _button_touch[index]
+		_button_touch.erase(index)
+		touch_held.erase(a)
+		_touch_released[a] = true
+		touch_aim = Vector2.ZERO
+
+
+## 界面收起时清掉所有按住的触点：收起期间手指还按着、或松手事件没送到，都不能留下锁死的方向和按住的键
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_VISIBILITY_CHANGED and not visible:
+		if _stick_index >= 0 or not _button_touch.is_empty():
+			_stick_index = -1
+			touch_move = Vector2.ZERO
+			for a in _button_touch.values():
+				_touch_released[a] = true
+			_button_touch.clear()
+			touch_held.clear()
+			touch_aim = Vector2.ZERO
 
 
 func _update_stick(pos: Vector2) -> void:
@@ -144,6 +168,8 @@ func _button_at(pos: Vector2) -> String:
 		return "interact"
 	for i in ACTIONS.size():
 		var b: Array = MOBILE[i]
+		if hide_utility and ACTIONS[i] == "utility":
+			continue
 		if pos.distance_to(Vector2(b[0], b[1])) <= b[2] * 0.5 + 6.0:
 			return ACTIONS[i]
 	return ""
@@ -335,7 +361,15 @@ func _draw_objectives() -> void:
 	if objectives.is_empty():
 		return
 	var at := Vector2(760, 112) if not mobile else Vector2(752, 112)
-	draw_texture(UiKit.ui("taskbar"), at)
+	# 目标写得长时任务栏往左加宽、右边对齐，文字不越出面板（原先固定 184 宽，长目标被截掉一截）
+	var w := 184.0
+	for i in mini(objectives.size(), 2):
+		w = maxf(w, UiKit.text_width("◆ " + objectives[i]) + 24.0)
+	if w > 184.0:
+		at.x -= w - 184.0
+		UiKit.panel(self, Rect2(at, Vector2(w, 80)))
+	else:
+		draw_texture(UiKit.ui("taskbar"), at)
 	UiKit.text(self, at + Vector2(12, 8), "当前目标")
 	for i in mini(objectives.size(), 2):
 		UiKit.text(self, at + Vector2(12, 32 + i * 20), "◆ " + objectives[i], 12, UiKit.TEXT)
@@ -428,10 +462,11 @@ func _draw_slot(action: String, center: Vector2, size: float) -> void:
 	var pressed: bool = touch_held.has(action) or Input.is_action_pressed(action)
 	var base := UiKit.ui("btn_pressed" if pressed else ("btn_base" if st[1] else "btn_disabled"))
 	var r := Rect2(center - Vector2(size, size) / 2.0, Vector2(size, size))
-	draw_texture_rect(base, r, false)
-	draw_texture_rect(_slot_icon(action), r, false, Color(1, 1, 1, 1.0 if st[1] else 0.45))
+	var a := Color(1, 1, 1, _fade)
+	draw_texture_rect(base, r, false, a)
+	draw_texture_rect(_slot_icon(action), r, false, Color(1, 1, 1, (1.0 if st[1] else 0.45) * _fade))
 	if not st[1]:
-		draw_texture_rect(UiKit.ui("skill_disabled"), r, false)
+		draw_texture_rect(UiKit.ui("skill_disabled"), r, false, a)
 	UiKit.cooldown_pie(self, center, size * 0.47, st[0])
 	var active_skill: bool = (me.state == "charge" or me.state == "aim") and action.begins_with("skill") \
 		and me.skills[int(action.right(1)) - 1] == me.active_skill
@@ -441,6 +476,8 @@ func _draw_slot(action: String, center: Vector2, size: float) -> void:
 
 func _draw_skill_bar() -> void:
 	for i in ACTIONS.size():
+		if hide_utility and ACTIONS[i] == "utility":
+			continue
 		var c := Vector2(DESK_X[i], DESK_Y)
 		_draw_slot(ACTIONS[i], c, 64.0)
 		var pad := UiKit.pad_icon(ACTIONS[i])
@@ -456,18 +493,38 @@ func _draw_skill_bar() -> void:
 		UiKit.text(self, c + Vector2(-42, 35), nm, 12, UiKit.TEXT, HORIZONTAL_ALIGNMENT_CENTER, 84)
 
 
+## 手机按键群、摇杆底下压着敌人、Boss、亮着的火把时，把那一块调淡，下面的东西透出来（镜头跟着人走，
+## 关键物迟早会经过右下角，光挪摆放躲不全；按键照常能按）
+func _zone_busy(zone: Rect2) -> bool:
+	if world == null:
+		return false
+	var xf := get_viewport().get_canvas_transform()
+	for f in world.fighters:
+		if f.alive and not f.is_hero() and f.state != "sit" and zone.has_point(xf * f.pos):
+			return true
+	for it in world.interactables:
+		if it.on and zone.has_point(xf * it.pos):
+			return true
+	return false
+
+
 func _draw_mobile_controls() -> void:
-	draw_texture(UiKit.ui("stick_base"), STICK_CENTER - Vector2(64, 64))
+	_fade = FADE if _zone_busy(MOBILE_ZONES[1]) else 1.0
+	draw_texture(UiKit.ui("stick_base"), STICK_CENTER - Vector2(64, 64), Color(1, 1, 1, _fade))
 	var knob := UiKit.ui("stick_knob_pressed" if _stick_index >= 0 else "stick_knob")
-	draw_texture(knob, STICK_CENTER + touch_move * STICK_R * 0.7 - Vector2(28, 28))
+	draw_texture(knob, STICK_CENTER + touch_move * STICK_R * 0.7 - Vector2(28, 28), Color(1, 1, 1, _fade))
+	_fade = FADE if _zone_busy(MOBILE_ZONES[0]) else 1.0
 	for i in ACTIONS.size():
+		if hide_utility and ACTIONS[i] == "utility":
+			continue
 		var b: Array = MOBILE[i]
 		var c := Vector2(b[0], b[1])
 		_draw_slot(ACTIONS[i], c, b[2])
-		UiKit.text(self, c + Vector2(-40, b[2] * 0.5 + 1), _slot_name(ACTIONS[i]), 12, UiKit.TEXT, HORIZONTAL_ALIGNMENT_CENTER, 80)
+		UiKit.text(self, c + Vector2(-40, b[2] * 0.5 + 1), _slot_name(ACTIONS[i]), 12, UiKit.TEXT * Color(1, 1, 1, _fade), HORIZONTAL_ALIGNMENT_CENTER, 80)
 	if can_talk:
 		var c := Vector2(TALK[0], TALK[1])
 		var r := Rect2(c - Vector2(TALK[2], TALK[2]) / 2.0, Vector2(TALK[2], TALK[2]))
 		draw_texture_rect(UiKit.ui("btn_pressed" if touch_held.has("interact") else "btn_base"), r, false)
 		draw_texture_rect(UiKit.icon("btn_talk"), r, false)
-		UiKit.text(self, c + Vector2(-40, TALK[2] * 0.5 + 1), "交谈", 12, UiKit.TEXT, HORIZONTAL_ALIGNMENT_CENTER, 80)
+		UiKit.text(self, c + Vector2(-40, TALK[2] * 0.5 + 1), talk_label if talk_label != "" else "交谈", 12, UiKit.TEXT, HORIZONTAL_ALIGNMENT_CENTER, 80)
+	_fade = 1.0

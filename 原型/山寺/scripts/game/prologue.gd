@@ -24,7 +24,7 @@ const ROOM_FLOOR := [Vector2(150, 170), Vector2(810, 170), Vector2(810, 470), Ve
 ## 每条出身：start 出生点；move 教学走到的位置；prop 教学打碎的东西；trainer 教闪避的在场 NPC 站位；
 ## info 线索（交互）的位置；exit 出口；npcs 只站着的人 [名字, 位置, 衣色]；trainer_look 引导人的衣色
 const LAYOUTS := {
-	"shenjia": {"start": Vector2(300, 300), "move": Vector2(660, 240), "prop": ["crate", Vector2(470, 220)],
+	"shenjia": {"start": Vector2(300, 300), "move": Vector2(660, 240), "prop": ["crate", Vector2(780, 190)],
 		"trainer": Vector2(720, 260), "trainer_look": Color("#6B5A48"), "info": Vector2(230, 220), "exit": Vector2(480, 455),
 		"npcs": []},
 	"tiejiang": {"start": Vector2(300, 300), "move": Vector2(660, 240), "prop": ["crate", Vector2(470, 220)],
@@ -62,15 +62,10 @@ func _ready() -> void:
 		# 郎中线：净心从开场就在棚外蹲着，说上话之后同行（规格书第九节）
 		jingxin = world.add_hero("partner", "shaolin", "", JINGXIN_AT)
 		jingxin.facing = Vector2.DOWN
-	prop = world.add_enemy(layout.prop[0], layout.prop[1], true)
-	# 开场教学打碎的东西各有各的图（交换清单第 77 条）：沈家练功木桩、铁匠铺 / 茶馆道具箱、茶棚一捆柴
-	prop.set_meta("art", {"shenjia": "obj_muzhuang", "langzhong": "obj_chaihuo"}.get(origin, "obj_daojuxiang"))
-	trainer = world.add_enemy("trainer", layout.trainer, true)
-	trainer.name = Story.tutorial(origin, "dodge").who
-	trainer.facing = Vector2.LEFT
 	skippable = true
 	build_scene(SceneLib.background("workshop"))
 	partner_active = false
+	hud.hide_utility = true  # 通用技要出门后才选，开场先不摆截脉
 	if hud.mobile:
 		world.bounds = mobile_bounds(floor_of(origin))  # 单屏：人不走到摇杆、按键底下（#28）
 	view.trainer_look = layout.trainer_look
@@ -88,6 +83,13 @@ func _wake() -> void:
 	view.foreground = SceneLib.foreground(scene_of(origin))
 	view.flash = 0.6
 	view.npcs = layout.npcs.map(func(n): return {"name": n[0], "pos": n[1], "robe": n[2], "hair": Color("#2B2320")})
+	# 教学道具和引导人醒来才放进屋：原先现代车间那十秒里，班主、福伯和道具箱就已经站在车间里
+	prop = world.add_enemy(layout.prop[0], layout.prop[1], true)
+	# 开场教学打碎的东西各有各的图（交换清单第 77 条）：沈家练功木桩、铁匠铺 / 茶馆道具箱、茶棚一捆柴
+	prop.set_meta("art", {"shenjia": "obj_muzhuang", "langzhong": "obj_chaihuo"}.get(origin, "obj_daojuxiang"))
+	trainer = world.add_enemy("trainer", layout.trainer, true)
+	trainer.name = Story.tutorial(origin, "dodge").who
+	trainer.facing = Vector2.LEFT
 	me.pos = layout.start
 	camera.reset_smoothing()
 	say(Story.wake(origin))
@@ -134,7 +136,7 @@ func _step(s: String) -> void:
 			trainer.atk = {}
 			trainer.atk_id = ""
 			view.markers = [{"pos": layout.info}]
-			hud.objectives = ["%s（%s）" % [Story.origin(origin).info_hint, "点「交谈」" if hud.mobile else "E"]]
+			hud.objectives = ["%s（%s）" % [Story.origin(origin).info_hint, "走近后点右侧按键" if hud.mobile else "E"]]
 			hud.toast("躲得好！", 1.5)
 		"info":
 			view.markers = []
@@ -199,6 +201,14 @@ func level_events(events: Array) -> void:
 		if (e.type == "evade" and e.id == me.id) or (e.type == "dodge" and e.id == me.id and trainer.state == "windup"):
 			_step("t_info")
 			return
+
+
+## 开场还没选通用技：通用技键不起作用（技能栏那一格也不显示）
+func player_command() -> SimCommand:
+	var c := super.player_command()
+	for d in [c.pressed, c.held, c.released]:
+		d.erase("utility")
+	return c
 
 
 ## 代玩：每一步直奔目标；教闪避时等红区快落下再翻滚
