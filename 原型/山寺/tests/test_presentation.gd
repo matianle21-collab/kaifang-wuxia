@@ -19,7 +19,7 @@ func test_sprite_lib_reads_delivered_strips() -> void:
 	check_eq(SpriteLib.resolve("chr_shaolin", "atk2", "down")[0], "atk2", "少林普攻二段已入库")
 	check_eq(SpriteLib.resolve("chr_shaolin", "luohanquan", "left")[0], "luohanquan", "罗汉拳已交：用自己的动作条")
 	check_eq(SpriteLib.resolve("chr_shaolin", "jinzhongzhao", "up")[0], "jinzhongzhao", "金钟罩已交：用自己的动作条")
-	check_eq(SpriteLib.resolve("chr_xiepai", "dushazhang", "left")[0], "atk3", "邪派毒砂掌还没交：借普攻第三段")
+	check_eq(SpriteLib.resolve("chr_xiepai", "dushazhang", "left")[0], "dushazhang", "邪派毒砂掌已交：用自己的动作条")
 	check_eq(SpriteLib.resolve("chr_xiepai", "roll", "up")[0], "roll", "邪派翻滚已交：用自己的动作条")
 	check_eq(SpriteLib.resolve("chr_shaolin", "no_such_action", "up")[0], "idle", "替代链都没有：回落到待机")
 	check_eq(SpriteLib.resolve("npc_jingxin", "atk2", "up")[0], "atk", "净心普攻二段用他的一段式普攻")
@@ -143,7 +143,7 @@ func test_xuancheng_phases_follow_telegraph() -> void:
 
 
 
-## 少林三招（第 9 条）：金钟罩按住时循环 0–3、松开播 4–5；大力金刚掌瞄准停在第 1 帧、确认后播 2–5；罗汉拳单次播完
+## 少林三招（第 9 条）、邪派三招（第 10 条）：金钟罩按住时循环 0–3、松开播 4–5；大力金刚掌瞄准停在第 1 帧、确认后播 2–5；罗汉拳单次播完
 func test_shaolin_skill_phases_follow_input() -> void:
 	var w := _world()
 	var p := w.add_hero("player", "shaolin", "jiemai", Vector2(500, 500))
@@ -170,6 +170,15 @@ func test_shaolin_skill_phases_follow_input() -> void:
 	check_eq(SpriteLib.frame_of(p, set_, "dalijingangzhang", 6, 0.0), 2, "确认后从推掌第 2 帧开始")
 	check_eq(SpriteLib.frame_of(p, set_, "luohanquan", 4, 0.1), 1, "罗汉拳单次照常播")
 	var x := w.add_hero("player", "xiepai", "jiemai", Vector2(600, 500))
+	var xs: Dictionary = SpriteLib.data().sets.chr_xiepai
 	x.state = "charge"
 	x.active_skill = "shehunshu"
-	check(SpriteLib.action_for(x) != "shehunshu", "邪派摄魂术没登记起手帧时照常站立，不借普攻姿势")
+	check_eq(SpriteLib.action_for(x), "shehunshu", "按住摄魂术时播蓄力起手")
+	check(SpriteLib.frame_of(x, xs, "shehunshu", 6, 3.0) < 4, "摄魂术蓄力期间循环 0–3")
+	x.state = "aim"
+	x.active_skill = "huagongsan"
+	check_eq(SpriteLib.frame_of(x, xs, "huagongsan", 5, 2.0), 1, "化功散瞄准停在第 1 帧")
+	x.state = "idle"
+	x.swing_t = 0.3
+	x.swing_kind = "huagongsan"
+	check_eq(SpriteLib.frame_of(x, xs, "huagongsan", 5, 0.0), 2, "化功散掷出从第 2 帧开始")
