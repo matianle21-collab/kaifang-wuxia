@@ -1,0 +1,437 @@
+{
+  "delivery": "20261024-2008",
+  "rows": [
+    9
+  ],
+  "status": "已交待开发回执",
+  "new_strips": 9,
+  "new_frames": 48,
+  "complete_character_strips": 33,
+  "complete_character_frames": 135,
+  "generated_sources": 8,
+  "derived_references": 5,
+  "files": [
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/dalijingangzhang_down_6倍_v01.png",
+      "bytes": 5788,
+      "sha256": "c39c25db905b1ee7c5cf3c4b23edefc6c9fd0e434ea0c69dbbaa67923b24bf85"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/dalijingangzhang_down_相位预览_v01.gif",
+      "bytes": 23665,
+      "sha256": "725e575722c822fa2b74a8ec0e49594b99156571a788bb628c6357813c836886"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/dalijingangzhang_left_6倍_v01.png",
+      "bytes": 7919,
+      "sha256": "82dcdc0d35b2eeee958478e5e39da48d9bde294ad065bb4acbf095eb5978d21c"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/dalijingangzhang_left_相位预览_v01.gif",
+      "bytes": 23212,
+      "sha256": "71fa46587653d148af2bb9ae4dda910af87183d4fc2dbefb029b8e70619fb895"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/dalijingangzhang_up_6倍_v01.png",
+      "bytes": 8018,
+      "sha256": "a70e28638d8cedd1d6797d96d6050ffd6ef72744806b7069a293195d8ae78894"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/dalijingangzhang_up_相位预览_v01.gif",
+      "bytes": 23656,
+      "sha256": "44564df7fd8e2564b77e9eecb19c65dfd8bbe5acefaac9d6093f5d8da07c556f"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/down_三招逐帧_v01.png",
+      "bytes": 21321,
+      "sha256": "c0940e65c93ad5975155b2c78e1984e655a4d4b0bd018d0e37d462a6cff820bc"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/finalize_and_validate.py",
+      "bytes": 6843,
+      "sha256": "ad23af4751607a4a6b0a43cfaf512b6d97e7ea70e28a4fc813b430fbc51d74f8"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/frame_registration.json",
+      "bytes": 44297,
+      "sha256": "e2b3ac5cccf1800d3a94cf21bbd6d42e06b950df1f06eab6e4fdbe6fab0063d5"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/jinzhongzhao_down_6倍_v01.png",
+      "bytes": 8167,
+      "sha256": "91cdab6a7553daa9f9f80ec8b8c9fa8e7f98a864435e0d9974106a382ba2ad9c"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/jinzhongzhao_down_相位预览_v01.gif",
+      "bytes": 40377,
+      "sha256": "88a2302752dd617d95bbd9964acc1e056453f7f9d5a54635f8be2f20ccf9c866"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/jinzhongzhao_left_6倍_v01.png",
+      "bytes": 5658,
+      "sha256": "a48a3f371a1929c3531f6eac16441c2d930991918d4219648a94b4678deeb0e0"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/jinzhongzhao_left_相位预览_v01.gif",
+      "bytes": 38618,
+      "sha256": "572ea63c8cd350882c75aefae59e5ec77ead6058d52550d73629b72f5ab595da"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/jinzhongzhao_up_6倍_v01.png",
+      "bytes": 8186,
+      "sha256": "e21336bfaf3451199461551b62daea95dab12810b00ebe6926bdec7e422ed4f2"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/jinzhongzhao_up_相位预览_v01.gif",
+      "bytes": 39768,
+      "sha256": "719b1a4a54950350dfa892cb40b7d024b60a8ab44a0a7bb689691748d9e8489a"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/left_compact_identity_prompt.json",
+      "bytes": 1250,
+      "sha256": "7d0f46a1e2f1a4bc46be0c20f449da7c9c75dbadcbaf8393755c0405bd6d34fc"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/left_compact_prompt.json",
+      "bytes": 1599,
+      "sha256": "2fb5c9d066311dc0a57e5d898d62f6fa2ec759147e1a633abae27333eea55ade"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/left_三招逐帧_v01.png",
+      "bytes": 21070,
+      "sha256": "d8ad194b8d9cae83ef2b04a92ee6d03bc83298c400be249d80aa82e56ddbc2b4"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/luohanquan_down_6倍_v01.png",
+      "bytes": 4057,
+      "sha256": "ae2f2f649d088554ccf7358ff24bf08fb1c40f2d866df38871f0d7cac7427bb3"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/luohanquan_down_相位预览_v01.gif",
+      "bytes": 15639,
+      "sha256": "6f5340e34f48b76c0d33388e877dfcb0eae95fad335ccebf97b53d333da4a32a"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/luohanquan_left_6倍_v01.png",
+      "bytes": 5396,
+      "sha256": "fadde9d1302bd0eb140dfd5ed68cec7fa6d8f25e6b36de2794ef701d3e65a339"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/luohanquan_left_相位预览_v01.gif",
+      "bytes": 15145,
+      "sha256": "da36f0998f1d1bb30eeb6d5d6290f18c878ccc87b1737dad8b81ed179a83ffd0"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/luohanquan_up_6倍_v01.png",
+      "bytes": 5473,
+      "sha256": "28aaf2ed81cf84f304197dce88534fd41e3f14762b3e5c235028ecff7d66e223"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/luohanquan_up_相位预览_v01.gif",
+      "bytes": 15289,
+      "sha256": "76b622302866ec287546636b3fc02cd1b3bd8f299c6c05e75baeca2b08b6900e"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/process_skills.py",
+      "bytes": 6819,
+      "sha256": "1dc8bba823dcd70dbc0f7fcf3f48f43905a8773c046753b863496fafd79154e1"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/skill_fix_prompts.json",
+      "bytes": 4528,
+      "sha256": "e92bb913f38b7fefe7ff86c01e2b57615a5972064baa7e1fd33f6d7d9d95a446"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/skill_prompts.json",
+      "bytes": 8302,
+      "sha256": "2c8d7b19f5180669134a9de2617feee5433a5e09f0ae524b891155a2b82da327"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/source_inputs/approved_idle_down_6x.png",
+      "bytes": 5416,
+      "sha256": "6b0c6844a2f8f7e42e2198f9afff142254b95a2d27ec1e32363d574b1bf00b37"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/source_inputs/approved_idle_left_6x.png",
+      "bytes": 3777,
+      "sha256": "6695adfcfa61b86de5e2f17e27f657f698a70d4679e8acb55155153e3cfb590e"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/source_inputs/approved_idle_up_6x.png",
+      "bytes": 3842,
+      "sha256": "580382efed93969e7d250a742a6eb95fe244b8250ab5447d080512161bf853b6"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/source_inputs/left_pose_0_original_crop.png",
+      "bytes": 50047,
+      "sha256": "32231401f3690982849ddf0d45beecdd59b70d1169b27fa1523a01f937f5c028"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/source_inputs/left_pose_1_original_crop.png",
+      "bytes": 53736,
+      "sha256": "0972b435f19aaa5a5dd0d250a2229f9637612ce8aae4f47a768f463d55bc4deb"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/source_inputs/left_pose_2_original_crop.png",
+      "bytes": 51748,
+      "sha256": "00afd63ac779280372643829875133ec4eb9755253df54192c64961520a3d41e"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/source_inputs/left_three_compact_reference.png",
+      "bytes": 6553,
+      "sha256": "2afb1e6af239d48b5a7a4fe58e864d9b2a0189d0d46a5dbd8538d72bf1a0b51e"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/source_inputs/left_three_original_reference.png",
+      "bytes": 152868,
+      "sha256": "b1c08fd115855d454d7d547f074b1604f55cf9684d785349304075fb62d1f5ca"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/up_三招逐帧_v01.png",
+      "bytes": 21180,
+      "sha256": "bbf249aa2537fdedb1ab36ee2aef62b61e08213cd6871fcce7a6655300668d90"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/三招动画参数_v01.json",
+      "bytes": 57787,
+      "sha256": "b7930e85f45d89e4bae44e90aa17b0048526ea48731072be29d177a34c22791d"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/交付说明_v01.md",
+      "bytes": 4806,
+      "sha256": "4bf45fbd5a3d2298794e6ec6462db9d6f9a897f92cb1c8fd2269ddb18b814e73"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/少林完整135帧索引_v01.json",
+      "bytes": 11571,
+      "sha256": "871a3f67cf899cd076b3eed25fe19b95ff89a2f5f6fea1e3a0445455b9758de9"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/山门原比例三招_v01.png",
+      "bytes": 831701,
+      "sha256": "8a03c77b88123546b44c3a3d073438a1d35b7daaffc01e8583767c3b5abf09d7"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/核验结果_v01.json",
+      "bytes": 7874,
+      "sha256": "2acc035c7f32ac3b560b8fa36f2bd831853f8ca2443eac29e22031f0cf714747"
+    },
+    {
+      "path": "UI设计/少林三招动画_20261024_2008/调色板_v01.json",
+      "bytes": 210,
+      "sha256": "2c29439423882e40dc5cef07757fb669e640aaa2de7db0883ba2f63d91ad5ce8"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_dalijingangzhang_down_v01.png",
+      "bytes": 6397,
+      "sha256": "d0781b66cb97b129cef10dff47273c48f4b26fb2a5d887834fb82c03378d7deb"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_dalijingangzhang_left_v01.png",
+      "bytes": 6204,
+      "sha256": "bd425b566d262cd0910cc34ef22f7f7d71694997dfc54e6d3c40b73ed7f45828"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_dalijingangzhang_up_v01.png",
+      "bytes": 6097,
+      "sha256": "244af32078d7886072b76394496cab6fc209bd2e07f0e56c5d6eb07aa5f65dd8"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_jinzhongzhao_down_v01.png",
+      "bytes": 6624,
+      "sha256": "4486ccf99ed7b3dc698810e564119ac24ded1210ced6ade5c0fa88cc831e6e15"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_jinzhongzhao_left_v01.png",
+      "bytes": 6167,
+      "sha256": "57a883366c8a610c27d6b86ba71081ae93315e8f069105b8b6e43c2cf2956fe0"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_jinzhongzhao_up_v01.png",
+      "bytes": 6021,
+      "sha256": "c5b2d0a07e8ad7f97036403333d6787d2073a76f695647bfbf49bab41de718c3"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_luohanquan_down_v01.png",
+      "bytes": 4665,
+      "sha256": "cf88ce190bd70b32d78a1c5a9268303b9e0d38fe088a570e6d2742a036c8ed83"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_luohanquan_left_v01.png",
+      "bytes": 4413,
+      "sha256": "41d016e7d661a88f6fcfd3edfa79a7129cbbae786c6373a0c78ca76629e6ea38"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_luohanquan_up_v01.png",
+      "bytes": 4232,
+      "sha256": "25065bd045bb9312ca87c0caa2330191c807a27ba9079cf25dc93444d263325a"
+    },
+    {
+      "path": "assets/ref/ref_chr_shaolin_skills_down_fix_source_v01.png",
+      "bytes": 1928333,
+      "sha256": "5e43840abed4701ada67c64f8737e672ac1c0ffa455d954077e02963afa69c82"
+    },
+    {
+      "path": "assets/ref/ref_chr_shaolin_skills_down_source_v01.png",
+      "bytes": 1892667,
+      "sha256": "3f598b2bbe0e6cfb4cb6a6b56e29bf570e46993d3a2eea57bb93a8b29f493ff5"
+    },
+    {
+      "path": "assets/ref/ref_chr_shaolin_skills_left_compact_source_v01.png",
+      "bytes": 645854,
+      "sha256": "e2bbac83b9498b1bee86ed7535c0656b7727c22d3d0d2bbbbcfc3a2772050244"
+    },
+    {
+      "path": "assets/ref/ref_chr_shaolin_skills_left_compact_trial_source_v01.png",
+      "bytes": 556309,
+      "sha256": "739c0b91abdb5b21bddd4cb67f95b0b25adaf4edcd2b88e78beabba85e06bb64"
+    },
+    {
+      "path": "assets/ref/ref_chr_shaolin_skills_left_fix_source_v01.png",
+      "bytes": 1840362,
+      "sha256": "b5fac1f93c631e506bb24704edcea63ad4d6a181b29a6fc51b602181697930db"
+    },
+    {
+      "path": "assets/ref/ref_chr_shaolin_skills_left_source_v01.png",
+      "bytes": 1801353,
+      "sha256": "99ced82973e6f884601941f5c51e191dffe8b39cd85105458981e7b86fbede48"
+    },
+    {
+      "path": "assets/ref/ref_chr_shaolin_skills_up_fix_source_v01.png",
+      "bytes": 1932775,
+      "sha256": "676be2e037c8505e27a95eaaac67e5f672d68eb2df48473b470284f7831d239a"
+    },
+    {
+      "path": "assets/ref/ref_chr_shaolin_skills_up_source_v01.png",
+      "bytes": 1845616,
+      "sha256": "ce75ba404e05015b83ce2a2e707bb931e0b931540ce17ca20b1a21d075ca75d4"
+    }
+  ],
+  "existing_dependencies": [
+    {
+      "path": "assets/chr/chr_shaolin_idle_down_v01.png",
+      "bytes": 4358,
+      "sha256": "cc1a94ed72048531b5a0ee87e5354291d3c603cbc39b0e83d2f56346d7e50231"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_idle_left_v01.png",
+      "bytes": 4274,
+      "sha256": "a22bf03e452c1d511cee88cf657a7b91f866ddfc7acb5300d66e9b8378345820"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_idle_up_v01.png",
+      "bytes": 4039,
+      "sha256": "aaf611495cf065fded813f994af07e2b4355ab913da31c8b54acbe584e22846c"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_walk_down_v01.png",
+      "bytes": 5677,
+      "sha256": "c8ecfc1c7afd3ca08cbf30fc4f4a27d9c446bf76831dc7c9e532aa5216193afd"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_walk_left_v01.png",
+      "bytes": 5608,
+      "sha256": "d1bd42620d25594c1f58897ee7dcd8f2d732710ebb644c511f42c9839cb64c37"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_walk_up_v01.png",
+      "bytes": 5647,
+      "sha256": "cb5a85160beb8b47ec2f7ce881cb6b77f302b8f275a90458330f05ecb2d77668"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_atk1_down_v01.png",
+      "bytes": 3558,
+      "sha256": "d9bae91afe524a66514bc4c20ec5dd48028b89dae4a9d176501bc4c2719c7a85"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_atk1_left_v01.png",
+      "bytes": 3338,
+      "sha256": "fee7c298945cdbb92d51c365bf6aa9b87f6d3541241df48e1f33e31f0331b2ee"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_atk1_up_v01.png",
+      "bytes": 3405,
+      "sha256": "443c14f74ca76e19bde86a58c0dd1667355e017d088074aa0281c50c668b6c46"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_atk2_down_v01.png",
+      "bytes": 3407,
+      "sha256": "65d685749d5da26982f99cff48e25a2ad8738fff0ca3bcf095ba05017168e722"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_atk2_left_v01.png",
+      "bytes": 3533,
+      "sha256": "dc04127157e342ac72c3f4ea492a296afadc03703f951ca95428a82d85bd86b3"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_atk2_up_v01.png",
+      "bytes": 3177,
+      "sha256": "c0aed55262b00ebb1eea5564c541cb9b2618900a6fc72e645f7d0403cbe8b77e"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_atk3_down_v01.png",
+      "bytes": 3529,
+      "sha256": "13e87770f956cba2f577f61f9daa89ba331f49a3fb4c5361b3581045804a814b"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_atk3_left_v01.png",
+      "bytes": 3879,
+      "sha256": "ee341e9f5d2b07eaa09fca250062e497bb02ea9a9a5fdf810952b956ee5cbe11"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_atk3_up_v01.png",
+      "bytes": 3354,
+      "sha256": "2e70a91c410b9905d8c10e7c2814bf39e84127e17250a77fd023b8e7d4a742e7"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_down_down_v01.png",
+      "bytes": 3632,
+      "sha256": "53ebd0aee22f23562a938899b89c4fe77211db0700ff16bfaf02f00788526ab0"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_down_left_v01.png",
+      "bytes": 2926,
+      "sha256": "e18ffe2ca31f2822397c7e5d9d68d011d47563728c2de71ca5ad54eb42765d75"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_down_up_v01.png",
+      "bytes": 3426,
+      "sha256": "7401c009fc51a4a1d1b3143b060cd012c27d77428fd0420e6a8ca5feeb2d6be1"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_hit_down_v01.png",
+      "bytes": 2533,
+      "sha256": "940b3e8d9a60dac9c12c48a066e50b3fde28834cc08ce3ce78b0d7ce927ee726"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_hit_left_v01.png",
+      "bytes": 2601,
+      "sha256": "e238652d00aa9d8a6a020cf503edb2f0de6cd3bdf7143a518797f85d82657186"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_hit_up_v01.png",
+      "bytes": 2527,
+      "sha256": "35c9e169aa7d13b454ec969336d7bdd2a8527caef2fa964ecae8c1f7ef3f8a5a"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_roll_down_v01.png",
+      "bytes": 3982,
+      "sha256": "ebe9042bbc6f163674b8501859a6dadc8097e25a203e9e714c714de5e3bbf814"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_roll_left_v01.png",
+      "bytes": 4192,
+      "sha256": "a39b74ffa2a6b0ea8b957a700e2f90ab156dc4d1f1722aaaa4197eaf71d76c0e"
+    },
+    {
+      "path": "assets/chr/chr_shaolin_roll_up_v01.png",
+      "bytes": 3966,
+      "sha256": "42ef54dc2ace832c524810b4fef9bfe3f2a285efab7906500fcdda25fea3d2f3"
+    },
+    {
+      "path": "assets/ref/ref_chr_shaolin_down_v01.png",
+      "bytes": 1396,
+      "sha256": "11cdf6747553404c0b8d9a9b4cb2526ee12b1f801b77e398fa053cbbc05aa071"
+    }
+  ]
+}

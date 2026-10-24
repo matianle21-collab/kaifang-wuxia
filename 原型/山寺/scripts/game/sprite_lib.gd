@@ -71,6 +71,11 @@ static func action_for(f: SimFighter) -> String:
 				return f.atk_id
 			if f.state != "recover":
 				return "atk"
+		"charge", "aim":
+			# 主角蓄力 / 瞄准：这套动作条登记了起手帧才播招式起手，否则照常站立 / 行走
+			var set_: Dictionary = data().sets.get(prefix_for(f), {})
+			if set_.get("windup", {}).has(f.active_skill):
+				return f.active_skill
 		"stagger":
 			return "stagger"
 		"flinch":
@@ -92,13 +97,13 @@ static func dir_for(facing: Vector2) -> String:
 
 
 ## 这一刻该画第几帧。起手 + 出手分开的动作条（sets.windup）：预警 / 读条期间停在起手末帧（windup_loop 里的循环起手帧），
-## 出手（收招、冲刺）后从出手第一帧接着播；其余按 actions 的 loop / hold
+## 出手（收招、冲刺）后从出手第一帧接着播；主角的蓄力 / 瞄准（charge / aim）同理；其余按 actions 的 loop / hold
 static func frame_of(f: SimFighter, set_: Dictionary, action: String, count: int, clock: float) -> int:
 	var act: Dictionary = data().actions.get(action, {})
 	var i := int(clock * float(data().fps))
 	var wind := int(set_.get("windup", {}).get(action, 0))
-	if wind > 0 and wind < count and not f.is_hero():
-		if f.state == "windup" or f.state == "cast":
+	if wind > 0 and wind < count:
+		if f.state in ["windup", "cast", "charge", "aim"]:
 			return i % wind if action in set_.get("windup_loop", []) else mini(i, wind - 1)
 		return mini(wind + i, count - 1)
 	if act.get("loop", false):

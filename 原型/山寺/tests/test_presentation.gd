@@ -17,8 +17,9 @@ func test_sprite_lib_reads_delivered_strips() -> void:
 	check_eq(idle.get_width() / 48, 4, "少林待机 4 帧")
 	check_eq(SpriteLib.strip("chr_shaolin", "walk", "left").get_width() / 48, 6, "少林行走 6 帧")
 	check_eq(SpriteLib.resolve("chr_shaolin", "atk2", "down")[0], "atk2", "少林普攻二段已入库")
-	check_eq(SpriteLib.resolve("chr_shaolin", "luohanquan", "left")[0], "atk3", "罗汉拳还没交：用普攻第三段代替")
-	check_eq(SpriteLib.resolve("chr_shaolin", "jinzhongzhao", "up")[0], "atk1", "金钟罩还没交：用普攻一段代替")
+	check_eq(SpriteLib.resolve("chr_shaolin", "luohanquan", "left")[0], "luohanquan", "罗汉拳已交：用自己的动作条")
+	check_eq(SpriteLib.resolve("chr_shaolin", "jinzhongzhao", "up")[0], "jinzhongzhao", "金钟罩已交：用自己的动作条")
+	check_eq(SpriteLib.resolve("chr_xiepai", "dushazhang", "left")[0], "idle", "邪派毒砂掌和普攻都还没交：停在待机")
 	check_eq(SpriteLib.resolve("chr_shaolin", "dushazhang", "up")[0], "idle", "替代链都没有：回落到待机")
 	check_eq(SpriteLib.resolve("npc_jingxin", "atk2", "up")[0], "atk", "净心普攻二段用他的一段式普攻")
 	check_eq(SpriteLib.resolve("npc_jingxin", "roll", "left")[0], "roll", "净心翻滚已入库")
@@ -139,3 +140,35 @@ func test_xuancheng_phases_follow_telegraph() -> void:
 	x.state = "recover"
 	check_eq(SpriteLib.frame_of(x, set_, "heavy", 9, 0.0), 4, "砸地从第 4 帧开始")
 
+
+
+## 少林三招（第 9 条）：金钟罩按住时循环 0–3、松开播 4–5；大力金刚掌瞄准停在第 1 帧、确认后播 2–5；罗汉拳单次播完
+func test_shaolin_skill_phases_follow_input() -> void:
+	var w := _world()
+	var p := w.add_hero("player", "shaolin", "jiemai", Vector2(500, 500))
+	var set_: Dictionary = SpriteLib.data().sets.chr_shaolin
+	check(SpriteLib.strip("chr_shaolin", "jinzhongzhao", "down") != null, "金钟罩动作条已入库")
+	p.state = "charge"
+	p.active_skill = "jinzhongzhao"
+	check_eq(SpriteLib.action_for(p), "jinzhongzhao", "按住金钟罩时播金钟罩起手")
+	check_eq(SpriteLib.frame_of(p, set_, "jinzhongzhao", 6, 0.5), 2, "蓄力循环 0–3（0.5 秒 = 第 6 帧 → 第 2 帧）")
+	check(SpriteLib.frame_of(p, set_, "jinzhongzhao", 6, 3.0) < 4, "蓄满前一直在蓄力帧里")
+	p.state = "idle"
+	p.swing_t = 0.3
+	p.swing_kind = "jinzhongzhao"
+	check_eq(SpriteLib.action_for(p), "jinzhongzhao", "松开后接着播金钟罩")
+	check_eq(SpriteLib.frame_of(p, set_, "jinzhongzhao", 6, 0.0), 4, "释放从第 4 帧开始")
+	p.swing_t = 0.0
+	p.state = "aim"
+	p.active_skill = "dalijingangzhang"
+	check_eq(SpriteLib.action_for(p), "dalijingangzhang", "瞄准大力金刚掌时播起势")
+	check_eq(SpriteLib.frame_of(p, set_, "dalijingangzhang", 6, 2.0), 1, "瞄准期间停在起势第 1 帧")
+	p.state = "skill"
+	p.swing_t = 0.3
+	p.swing_kind = "dalijingangzhang"
+	check_eq(SpriteLib.frame_of(p, set_, "dalijingangzhang", 6, 0.0), 2, "确认后从推掌第 2 帧开始")
+	check_eq(SpriteLib.frame_of(p, set_, "luohanquan", 4, 0.1), 1, "罗汉拳单次照常播")
+	var x := w.add_hero("player", "xiepai", "jiemai", Vector2(600, 500))
+	x.state = "charge"
+	x.active_skill = "shehunshu"
+	check(SpriteLib.action_for(x) != "shehunshu", "邪派摄魂术没登记起手帧时照常站立，不借普攻姿势")
