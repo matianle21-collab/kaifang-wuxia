@@ -1,0 +1,242 @@
+[
+  {
+    "file": "assets/chr/chr_xiepai_idle_down_v01.png",
+    "action": "idle",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "loop": true,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "hold_frames": [],
+    "head_embedded": true,
+    "weapon_embedded": "dao",
+    "source_pose": "chr_shaolin_idle_down_v01.png",
+    "remaining_actions": [
+      "atk1",
+      "atk2",
+      "atk3",
+      "hit",
+      "roll",
+      "down",
+      "dushazhang",
+      "huagongsan",
+      "shehunshu"
+    ],
+    "source_layers_are_editable_only": true
+  },
+  {
+    "file": "assets/chr/chr_xiepai_walk_down_v01.png",
+    "action": "walk",
+    "direction": "down",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 6,
+    "fps": 12,
+    "loop": true,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "hold_frames": [],
+    "head_embedded": true,
+    "weapon_embedded": "dao",
+    "source_pose": "chr_shaolin_walk_down_v01.png",
+    "remaining_actions": [
+      "atk1",
+      "atk2",
+      "atk3",
+      "hit",
+      "roll",
+      "down",
+      "dushazhang",
+      "huagongsan",
+      "shehunshu"
+    ],
+    "source_layers_are_editable_only": true
+  },
+  {
+    "file": "assets/chr/chr_xiepai_idle_left_v01.png",
+    "action": "idle",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "loop": true,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "hold_frames": [],
+    "head_embedded": true,
+    "weapon_embedded": "dao",
+    "source_pose": "chr_shaolin_idle_left_v01.png",
+    "remaining_actions": [
+      "atk1",
+      "atk2",
+      "atk3",
+      "hit",
+      "roll",
+      "down",
+      "dushazhang",
+      "huagongsan",
+      "shehunshu"
+    ],
+    "source_layers_are_editable_only": true
+  },
+  {
+    "file": "assets/chr/chr_xiepai_walk_left_v01.png",
+    "action": "walk",
+    "direction": "left",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 6,
+    "fps": 12,
+    "loop": true,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "hold_frames": [],
+    "head_embedded": true,
+    "weapon_embedded": "dao",
+    "source_pose": "chr_shaolin_walk_left_v01.png",
+    "remaining_actions": [
+      "atk1",
+      "atk2",
+      "atk3",
+      "hit",
+      "roll",
+      "down",
+      "dushazhang",
+      "huagongsan",
+      "shehunshu"
+    ],
+    "source_layers_are_editable_only": true
+  },
+  {
+    "file": "assets/chr/chr_xiepai_idle_up_v01.png",
+    "action": "idle",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 4,
+    "fps": 12,
+    "loop": true,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "hold_frames": [],
+    "head_embedded": true,
+    "weapon_embedded": "dao",
+    "source_pose": "chr_shaolin_idle_up_v01.png",
+    "remaining_actions": [
+      "atk1",
+      "atk2",
+      "atk3",
+      "hit",
+      "roll",
+      "down",
+      "dushazhang",
+      "huagongsan",
+      "shehunshu"
+    ],
+    "source_layers_are_editable_only": true
+  },
+  {
+    "file": "assets/chr/chr_xiepai_walk_up_v01.png",
+    "action": "walk",
+    "direction": "up",
+    "frame_size": [
+      48,
+      64
+    ],
+    "frame_count": 6,
+    "fps": 12,
+    "loop": true,
+    "anchor": [
+      24,
+      60
+    ],
+    "gap": 0,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "hold_frames": [],
+    "head_embedded": true,
+    "weapon_embedded": "dao",
+    "source_pose": "chr_shaolin_walk_up_v01.png",
+    "remaining_actions": [
+      "atk1",
+      "atk2",
+      "atk3",
+      "hit",
+      "roll",
+      "down",
+      "dushazhang",
+      "huagongsan",
+      "shehunshu"
+    ],
+    "source_layers_are_editable_only": true
+  }
+]

@@ -1,0 +1,1915 @@
+[
+  {
+    "action": "idle",
+    "direction": "down",
+    "index": 0,
+    "source": "source/imagegen_move_down_v01.png",
+    "component": {
+      "id": 1,
+      "box": [
+        25,
+        123,
+        198,
+        255
+      ],
+      "center": [
+        146.4,
+        263.3
+      ],
+      "area": 20654.0
+    },
+    "scaled_size": [
+      32,
+      41
+    ],
+    "registered_offset": [
+      4,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_idle_down_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/00_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/00_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/00_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/00_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/00_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      3,
+      2
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "idle",
+    "direction": "down",
+    "index": 1,
+    "source": "source/imagegen_move_down_v01.png",
+    "component": {
+      "id": 3,
+      "box": [
+        333,
+        124,
+        202,
+        255
+      ],
+      "center": [
+        457.8,
+        264.0
+      ],
+      "area": 20935.0
+    },
+    "scaled_size": [
+      32,
+      41
+    ],
+    "registered_offset": [
+      3,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_idle_down_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/01_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/01_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/01_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/01_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/01_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      3,
+      2
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "idle",
+    "direction": "down",
+    "index": 2,
+    "source": "source/imagegen_move_down_v01.png",
+    "component": {
+      "id": 2,
+      "box": [
+        647,
+        123,
+        202,
+        257
+      ],
+      "center": [
+        771.6,
+        265.1
+      ],
+      "area": 20932.0
+    },
+    "scaled_size": [
+      32,
+      41
+    ],
+    "registered_offset": [
+      3,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_idle_down_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/02_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/02_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/02_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/02_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/02_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      3,
+      2
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "idle",
+    "direction": "down",
+    "index": 3,
+    "source": "source/imagegen_move_down_v01.png",
+    "component": {
+      "id": 4,
+      "box": [
+        960,
+        124,
+        203,
+        255
+      ],
+      "center": [
+        1085.5,
+        265.0
+      ],
+      "area": 21087.0
+    },
+    "scaled_size": [
+      33,
+      41
+    ],
+    "registered_offset": [
+      3,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_idle_down_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/03_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/03_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/03_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/03_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/idle/03_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      2,
+      3
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "walk",
+    "direction": "down",
+    "index": 0,
+    "source": "source/imagegen_move_down_v01.png",
+    "component": {
+      "id": 14,
+      "box": [
+        22,
+        518,
+        200,
+        272
+      ],
+      "center": [
+        142.2,
+        657.5
+      ],
+      "area": 20275.0
+    },
+    "scaled_size": [
+      30,
+      41
+    ],
+    "registered_offset": [
+      4,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_walk_down_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/00_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/00_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/00_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/00_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/00_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      2,
+      3
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "walk",
+    "direction": "down",
+    "index": 1,
+    "source": "source/imagegen_move_down_v01.png",
+    "component": {
+      "id": 15,
+      "box": [
+        346,
+        518,
+        188,
+        273
+      ],
+      "center": [
+        460.1,
+        657.8
+      ],
+      "area": 20943.0
+    },
+    "scaled_size": [
+      28,
+      41
+    ],
+    "registered_offset": [
+      6,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_walk_down_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/01_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/01_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/01_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/01_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/01_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      3,
+      2
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "walk",
+    "direction": "down",
+    "index": 2,
+    "source": "source/imagegen_move_down_v01.png",
+    "component": {
+      "id": 16,
+      "box": [
+        661,
+        518,
+        181,
+        272
+      ],
+      "center": [
+        768.3,
+        653.0
+      ],
+      "area": 19157.0
+    },
+    "scaled_size": [
+      27,
+      41
+    ],
+    "registered_offset": [
+      6,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_walk_down_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/02_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/02_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/02_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/02_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/02_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      2,
+      3
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "walk",
+    "direction": "down",
+    "index": 3,
+    "source": "source/imagegen_move_down_v01.png",
+    "component": {
+      "id": 12,
+      "box": [
+        968,
+        517,
+        192,
+        273
+      ],
+      "center": [
+        1086.0,
+        655.7
+      ],
+      "area": 20620.0
+    },
+    "scaled_size": [
+      29,
+      41
+    ],
+    "registered_offset": [
+      5,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_walk_down_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/03_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/03_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/03_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/03_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/03_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      2,
+      1
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "walk",
+    "direction": "down",
+    "index": 4,
+    "source": "source/imagegen_move_down_v01.png",
+    "component": {
+      "id": 11,
+      "box": [
+        1287,
+        516,
+        188,
+        275
+      ],
+      "center": [
+        1400.6,
+        657.4
+      ],
+      "area": 21325.0
+    },
+    "scaled_size": [
+      28,
+      41
+    ],
+    "registered_offset": [
+      7,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_walk_down_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/04_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/04_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/04_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/04_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/04_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      3,
+      2
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "walk",
+    "direction": "down",
+    "index": 5,
+    "source": "source/imagegen_move_down_v01.png",
+    "component": {
+      "id": 13,
+      "box": [
+        1599,
+        517,
+        189,
+        273
+      ],
+      "center": [
+        1711.9,
+        654.5
+      ],
+      "area": 20208.0
+    },
+    "scaled_size": [
+      28,
+      41
+    ],
+    "registered_offset": [
+      6,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_walk_down_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/05_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/05_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/05_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/05_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/down/walk/05_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      2,
+      3
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "idle",
+    "direction": "left",
+    "index": 0,
+    "source": "source/imagegen_move_left_v01.png",
+    "component": {
+      "id": 2,
+      "box": [
+        42,
+        129,
+        207,
+        260
+      ],
+      "center": [
+        158.4,
+        264.7
+      ],
+      "area": 23790.0
+    },
+    "scaled_size": [
+      33,
+      41
+    ],
+    "registered_offset": [
+      5,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_idle_left_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/00_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/00_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/00_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/00_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/00_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      1,
+      2
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "idle",
+    "direction": "left",
+    "index": 1,
+    "source": "source/imagegen_move_left_v01.png",
+    "component": {
+      "id": 3,
+      "box": [
+        348,
+        129,
+        223,
+        260
+      ],
+      "center": [
+        469.2,
+        266.4
+      ],
+      "area": 24805.0
+    },
+    "scaled_size": [
+      35,
+      41
+    ],
+    "registered_offset": [
+      5,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_idle_left_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/01_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/01_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/01_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/01_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/01_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      1,
+      2
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "idle",
+    "direction": "left",
+    "index": 2,
+    "source": "source/imagegen_move_left_v01.png",
+    "component": {
+      "id": 4,
+      "box": [
+        670,
+        129,
+        220,
+        260
+      ],
+      "center": [
+        790.4,
+        266.1
+      ],
+      "area": 24604.0
+    },
+    "scaled_size": [
+      35,
+      41
+    ],
+    "registered_offset": [
+      6,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_idle_left_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/02_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/02_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/02_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/02_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/02_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      1,
+      2
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "idle",
+    "direction": "left",
+    "index": 3,
+    "source": "source/imagegen_move_left_v01.png",
+    "component": {
+      "id": 1,
+      "box": [
+        977,
+        128,
+        225,
+        261
+      ],
+      "center": [
+        1099.3,
+        266.1
+      ],
+      "area": 24551.0
+    },
+    "scaled_size": [
+      35,
+      41
+    ],
+    "registered_offset": [
+      6,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_idle_left_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/03_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/03_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/03_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/03_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/idle/03_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      1,
+      2
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "walk",
+    "direction": "left",
+    "index": 0,
+    "source": "source/imagegen_move_left_v01.png",
+    "component": {
+      "id": 5,
+      "box": [
+        42,
+        501,
+        227,
+        263
+      ],
+      "center": [
+        161.5,
+        640.5
+      ],
+      "area": 25778.0
+    },
+    "scaled_size": [
+      35,
+      41
+    ],
+    "registered_offset": [
+      7,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_walk_left_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/00_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/00_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/00_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/00_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/00_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      1,
+      2
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "walk",
+    "direction": "left",
+    "index": 1,
+    "source": "source/imagegen_move_left_v01.png",
+    "component": {
+      "id": 6,
+      "box": [
+        339,
+        501,
+        227,
+        263
+      ],
+      "center": [
+        463.6,
+        638.4
+      ],
+      "area": 24941.0
+    },
+    "scaled_size": [
+      35,
+      41
+    ],
+    "registered_offset": [
+      5,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_walk_left_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/01_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/01_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/01_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/01_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/01_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      1
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "walk",
+    "direction": "left",
+    "index": 2,
+    "source": "source/imagegen_move_left_v01.png",
+    "component": {
+      "id": 7,
+      "box": [
+        659,
+        501,
+        231,
+        263
+      ],
+      "center": [
+        784.9,
+        633.5
+      ],
+      "area": 24383.0
+    },
+    "scaled_size": [
+      36,
+      41
+    ],
+    "registered_offset": [
+      5,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_walk_left_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/02_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/02_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/02_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/02_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/02_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      2,
+      1
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "walk",
+    "direction": "left",
+    "index": 3,
+    "source": "source/imagegen_move_left_v01.png",
+    "component": {
+      "id": 8,
+      "box": [
+        982,
+        501,
+        225,
+        263
+      ],
+      "center": [
+        1102.5,
+        639.2
+      ],
+      "area": 25558.0
+    },
+    "scaled_size": [
+      35,
+      41
+    ],
+    "registered_offset": [
+      5,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_walk_left_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/03_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/03_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/03_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/03_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/03_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      1,
+      2
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "walk",
+    "direction": "left",
+    "index": 4,
+    "source": "source/imagegen_move_left_v01.png",
+    "component": {
+      "id": 9,
+      "box": [
+        1287,
+        501,
+        232,
+        263
+      ],
+      "center": [
+        1414.6,
+        638.1
+      ],
+      "area": 25488.0
+    },
+    "scaled_size": [
+      36,
+      41
+    ],
+    "registered_offset": [
+      4,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_walk_left_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/04_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/04_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/04_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/04_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/04_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      1,
+      2
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "walk",
+    "direction": "left",
+    "index": 5,
+    "source": "source/imagegen_move_left_v01.png",
+    "component": {
+      "id": 10,
+      "box": [
+        1608,
+        501,
+        234,
+        263
+      ],
+      "center": [
+        1735.8,
+        634.6
+      ],
+      "area": 24734.0
+    },
+    "scaled_size": [
+      36,
+      41
+    ],
+    "registered_offset": [
+      5,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_walk_left_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/05_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/05_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/05_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/05_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/left/walk/05_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      2,
+      1
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "idle",
+    "direction": "up",
+    "index": 0,
+    "source": "source/imagegen_move_up_fix_v01.png",
+    "component": {
+      "id": 2,
+      "box": [
+        91,
+        132,
+        179,
+        259
+      ],
+      "center": [
+        164.8,
+        262.1
+      ],
+      "area": 24617.0
+    },
+    "scaled_size": [
+      28,
+      41
+    ],
+    "registered_offset": [
+      14,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_idle_up_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/00_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/00_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/00_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/00_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/00_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      2,
+      3
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "idle",
+    "direction": "up",
+    "index": 1,
+    "source": "source/imagegen_move_up_fix_v01.png",
+    "component": {
+      "id": 1,
+      "box": [
+        404,
+        131,
+        178,
+        259
+      ],
+      "center": [
+        478.8,
+        261.2
+      ],
+      "area": 24482.0
+    },
+    "scaled_size": [
+      28,
+      41
+    ],
+    "registered_offset": [
+      14,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_idle_up_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/01_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/01_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/01_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/01_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/01_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      2,
+      3
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "idle",
+    "direction": "up",
+    "index": 2,
+    "source": "source/imagegen_move_up_fix_v01.png",
+    "component": {
+      "id": 3,
+      "box": [
+        718,
+        132,
+        181,
+        258
+      ],
+      "center": [
+        792.1,
+        261.6
+      ],
+      "area": 24667.0
+    },
+    "scaled_size": [
+      29,
+      41
+    ],
+    "registered_offset": [
+      15,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_idle_up_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/02_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/02_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/02_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/02_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/02_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      2,
+      3
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "idle",
+    "direction": "up",
+    "index": 3,
+    "source": "source/imagegen_move_up_fix_v01.png",
+    "component": {
+      "id": 4,
+      "box": [
+        1029,
+        132,
+        181,
+        258
+      ],
+      "center": [
+        1103.4,
+        261.8
+      ],
+      "area": 24753.0
+    },
+    "scaled_size": [
+      29,
+      41
+    ],
+    "registered_offset": [
+      13,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_idle_up_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/03_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/03_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/03_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/03_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/idle/03_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      2,
+      3
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "walk",
+    "direction": "up",
+    "index": 0,
+    "source": "source/imagegen_move_up_fix_v01.png",
+    "component": {
+      "id": 5,
+      "box": [
+        91,
+        497,
+        180,
+        267
+      ],
+      "center": [
+        163.6,
+        628.3
+      ],
+      "area": 25031.0
+    },
+    "scaled_size": [
+      28,
+      41
+    ],
+    "registered_offset": [
+      14,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_walk_up_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/00_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/00_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/00_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/00_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/00_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      2
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "walk",
+    "direction": "up",
+    "index": 1,
+    "source": "source/imagegen_move_up_fix_v01.png",
+    "component": {
+      "id": 6,
+      "box": [
+        404,
+        497,
+        182,
+        267
+      ],
+      "center": [
+        476.8,
+        627.6
+      ],
+      "area": 24786.0
+    },
+    "scaled_size": [
+      28,
+      41
+    ],
+    "registered_offset": [
+      14,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_walk_up_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/01_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/01_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/01_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/01_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/01_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      2
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "walk",
+    "direction": "up",
+    "index": 2,
+    "source": "source/imagegen_move_up_fix_v01.png",
+    "component": {
+      "id": 7,
+      "box": [
+        718,
+        497,
+        181,
+        268
+      ],
+      "center": [
+        791.8,
+        629.5
+      ],
+      "area": 25248.0
+    },
+    "scaled_size": [
+      28,
+      41
+    ],
+    "registered_offset": [
+      14,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_walk_up_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/02_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/02_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/02_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/02_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/02_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      2
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "walk",
+    "direction": "up",
+    "index": 3,
+    "source": "source/imagegen_move_up_fix_v01.png",
+    "component": {
+      "id": 8,
+      "box": [
+        1029,
+        497,
+        181,
+        267
+      ],
+      "center": [
+        1101.5,
+        627.7
+      ],
+      "area": 24922.0
+    },
+    "scaled_size": [
+      28,
+      41
+    ],
+    "registered_offset": [
+      14,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_walk_up_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/03_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/03_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/03_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/03_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/03_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      2
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "walk",
+    "direction": "up",
+    "index": 4,
+    "source": "source/imagegen_move_up_fix_v01.png",
+    "component": {
+      "id": 9,
+      "box": [
+        1347,
+        497,
+        181,
+        268
+      ],
+      "center": [
+        1419.1,
+        628.8
+      ],
+      "area": 25100.0
+    },
+    "scaled_size": [
+      28,
+      41
+    ],
+    "registered_offset": [
+      14,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_walk_up_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/04_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/04_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/04_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/04_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/04_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      2
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  },
+  {
+    "action": "walk",
+    "direction": "up",
+    "index": 5,
+    "source": "source/imagegen_move_up_fix_v01.png",
+    "component": {
+      "id": 10,
+      "box": [
+        1657,
+        497,
+        184,
+        268
+      ],
+      "center": [
+        1734.5,
+        630.0
+      ],
+      "area": 25587.0
+    },
+    "scaled_size": [
+      28,
+      41
+    ],
+    "registered_offset": [
+      14,
+      20
+    ],
+    "root_anchor": [
+      24,
+      60
+    ],
+    "head_region": [
+      16,
+      0,
+      16,
+      31
+    ],
+    "lower_leg_region": [
+      0,
+      53,
+      48,
+      11
+    ],
+    "source_pose": "/Volumes/ML_models/游戏/开放武侠/output/art-shaolin-move-20261024-1501/delivery/assets/chr/chr_shaolin_walk_up_v01.png",
+    "head_and_leg_geometry": "copied from same approved Shaolin native pose; palette normalized to 7 existing colors; original PNG unchanged",
+    "frame_files": {
+      "runtime": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/05_runtime.png",
+      "head": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/05_head.png",
+      "body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/05_body.png",
+      "shaolin_body": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/05_shaolin_body.png",
+      "shaolin_normalized": "/Volumes/ML_models/游戏/开放武侠/output/art-xiepai-head-move-20261024-1935/work/up/walk/05_shaolin_normalized.png"
+    },
+    "lower_leg_component_ids": [
+      2
+    ],
+    "lower_leg_registration": "keep leg components area>=15 or centroid x18..31, remove only detached source staff tips; original pixel positions unchanged",
+    "lower_limb_clear_region": [
+      11,
+      53,
+      27,
+      11
+    ]
+  }
+]
